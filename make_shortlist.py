@@ -41,24 +41,54 @@ EXCLUDE_TITLE_RE = [
     # 코인·주식 종목
     r"\bsolana\b", r"\bbitcoin\b", r"\bcrypto\b", r"암호화폐",
     r"trading at its lowest", r"\bdividend\s+etf\b", r"\bonly buy one.*etf\b",
-    # 일반 월드컵 경기 결과 (동포 연결 없는 스코어/결과 기사)
+    # 일반 월드컵·스포츠 경기 결과 (교민·한국 무관)
     r"무승부에\s*환호", r"빈\s*좌석", r"\d+대\d+\s*무승부",
     r"키\s*오프", r"선행\s*逃切",  # 일본어 경기 기사
+    # 특정국 vs 특정국 경기 스코어 (한국 없는 경우)
+    r"(체코|남아공|에콰도르|코트디부아르|네덜란드|독일|스페인|브라질|아르헨티나).*(전으로|생존전|대결|8강|16강)",
     # 일반 일본 내정·일왕·자위대 (교민 무관)
     r"両陛下", r"天皇", r"自衛隊",
     # 쇼핑몰·광고 한국어 키워드
     r"고국배송", r"파더스데이\s*선물.*끝판왕",
     # 기업 홍보성
     r"welcomes the launches?\b", r"\bIPO\b", r"listing.*new\s*york",
+    # PC·전자제품 판매 광고 (영문 제목)
+    r"\b(gaming|editing)\s+pc\b", r"\bpowerful\s+gaming\b",
+    r"안마의자.*(단\s*\$|\₩|\d+만원)", r"끝판왕.*\$",
+    # 여행 광고성
+    r"인생\s*라운드", r"절벽과\s*바다.*라운드", r"리조트.*특가", r"골프.*투어.*홍보",
+    # 교민 무관 일반 국제뉴스 (갱단, 이란 속보 등 단순 속보)
+    r"갱단에\s*사실상\s*국가\s*마비",
+    r"호르무즈\s*(통행료|해협\s*개방)",  # 이란 종전 단순 속보
+    # K팝·연예 순수 가십 (동포 연결 없음)
+    r"숏폼\]", r"\[O!\s*STAR\s*숏폼\]",
+    r"핫피플\].*감량", r"근황.*PT다녀",
+    r"순간포착\].*결혼\s*생각",
+    r"카더정원\]",
+    r"\[사진\]\s*'하느님의\s*품'",
 ]
 
 # ── 동포 관련 가중 키워드 ─────────────────────────────────────────────────────
-# 제목에 포함될수록 리스트 우선도 증가
+# 제목에 포함될수록 리스트 우선도 증가 (한국어 + 일본어)
 DONGPO_KEYWORDS = [
+    # 한국어
     "동포", "교민", "재외국민", "재외동포", "영사", "비자", "시민권",
     "이민", "영주권", "귀화", "유학생", "한인", "재일", "재미", "재캐",
     "재호", "재베", "한국인", "동포청", "이달의 재외동포", "한인회",
     "한인 사회", "한인 커뮤니티", "한인 행사", "교포", "이민자",
+    # 일본어 동포·한국 관련 (일본 소스 기사 가중)
+    "在日", "在韓", "韓国人", "韓国系", "コリアン", "朝鮮人",
+    "領事", "永住", "移民", "ビザ", "帰化",
+    # 일본어 한국 키워드 (재일동포 관련 맥락 포착)
+    "在日韓国", "在日朝鮮", "韓国籍",
+]
+
+# ── 홍보성·자사 실적 감산 키워드 ─────────────────────────────────────────────
+# 이 패턴이 있으면 score -2 (리스트 상위 방지, 이관/제외로 밀림)
+PROMO_TITLE_RE = [
+    r"독보적\s*존재감", r"순익\s*달성", r"\d+억\s*순익",
+    r"1분기.*순익", r"해외서.*존재감",
+    r"\brecord\b.*\bfirst\s+half\b", r"\bstrong\s+membership\b",
 ]
 
 # 주제별 가중 (정책·법률·사건)
@@ -145,7 +175,8 @@ def supplement(shortlist: list[dict], all_items: list[dict], target: int) -> lis
 
 # ── 제외 판정 ─────────────────────────────────────────────────────────────────
 
-_COMPILED_TITLE_RE = [re.compile(p, re.IGNORECASE) for p in EXCLUDE_TITLE_RE]
+_COMPILED_TITLE_RE  = [re.compile(p, re.IGNORECASE) for p in EXCLUDE_TITLE_RE]
+_COMPILED_PROMO_RE  = [re.compile(p, re.IGNORECASE) for p in PROMO_TITLE_RE]
 
 
 def is_excluded(item: dict) -> tuple[bool, str]:
@@ -173,14 +204,19 @@ def score_item(item: dict) -> tuple[int, bool, bool]:
     is_kpop_ent: K팝·연예 감지 여부.
     kpop_local: 동포 현지 연결 여부 (is_kpop_ent=True일 때만 의미).
     """
-    title_lower = (item.get("title") or "").lower()
+    title = item.get("title") or ""
+    title_lower = title.lower()
     score = 0
 
-    # 동포 키워드 가중
+    # 동포 키워드 가중 (한국어·일본어 통합)
+    # 일본어는 대소문자 구분 없이 원문 그대로 검색
+    dongpo_hit = False
     for kw in DONGPO_KEYWORDS:
-        if kw.lower() in title_lower:
-            score += 3
-            break  # 1회만 가산 (과도한 누적 방지)
+        if kw in title or kw.lower() in title_lower:
+            dongpo_hit = True
+            break
+    if dongpo_hit:
+        score += 3
 
     # 정책·법률·생활 키워드 추가 가중
     for kw in POLICY_KEYWORDS:
@@ -188,10 +224,15 @@ def score_item(item: dict) -> tuple[int, bool, bool]:
             score += 2
             break
 
+    # 홍보성·자사 실적 감산
+    for rx in _COMPILED_PROMO_RE:
+        if rx.search(title):
+            score -= 2
+            break
+
     # 한국 발 기사는 교민 직접 관련도 낮으면 소폭 감점
-    if item.get("country") == "한국":
-        if score == 0:
-            score -= 1
+    if item.get("country") == "한국" and score == 0:
+        score -= 1
 
     # K팝·연예 여부
     is_kpop = any(kw.lower() in title_lower for kw in KPOP_ENT_KEYWORDS)
@@ -205,6 +246,7 @@ def score_item(item: dict) -> tuple[int, bool, bool]:
 # ── 데스크 분류 ───────────────────────────────────────────────────────────────
 
 LIST_SCORE_THRESHOLD = 3   # 이 이상이면 리스트
+TRAN_SCORE_MIN       = -1  # 이 미만이면 이관 아니라 제외 (잡음 방지)
 LIST_CAP  = 18
 TRAN_CAP  = 12
 
@@ -245,12 +287,17 @@ def classify(shortlist: list[dict]) -> list[dict]:
             e["desk"] = "리스트"
             list_count += 1
         elif is_kpop and not e["kpop_local"]:
-            # 순수 K팝·연예 (현지 연결 없음) → 이관
-            if tran_count < TRAN_CAP:
+            # 순수 K팝·연예 (현지 연결 없음) — score 충분히 낮으면 제외
+            if s < TRAN_SCORE_MIN:
+                e["desk"] = "제외"
+            elif tran_count < TRAN_CAP:
                 e["desk"] = "이관"
                 tran_count += 1
             else:
                 e["desk"] = "제외"
+        elif s < TRAN_SCORE_MIN:
+            # 점수 너무 낮은 일반 기사 → 이관 아니라 제외
+            e["desk"] = "제외"
         elif tran_count < TRAN_CAP:
             e["desk"] = "이관"
             tran_count += 1
