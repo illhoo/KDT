@@ -34,6 +34,7 @@ TODAY = datetime.datetime.now(KST).date()
 DATE_STR = TODAY.isoformat()   # "2026-06-15"
 
 CANDIDATES_PATH = "candidates.json"
+SHORTLIST_PATH  = "shortlist.json"
 CURATION_PATH   = "curation.json"
 REPORT_DIR      = "reports"
 REPORT_PATH     = f"{REPORT_DIR}/{DATE_STR}.md"
@@ -43,6 +44,11 @@ REPORT_PATH     = f"{REPORT_DIR}/{DATE_STR}.md"
 
 def load_candidates() -> list[dict]:
     with open(CANDIDATES_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_shortlist() -> list[dict]:
+    with open(SHORTLIST_PATH, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -123,7 +129,7 @@ def build_markdown(candidates: list[dict], curation: list[dict]) -> str:
     lines.append("")
     lines.append(f"> 수집 범위: 한국·미국·일본·캐나다·호주·베트남 / 실행일: {DATE_STR}")
     lines.append(f"> 링크 정책: candidates.json의 link 필드 그대로 사용 (모델 생성 링크 없음)")
-    lines.append(f"> RSS 피드 수: {len(set(c['media'] for c in candidates))}개 매체")
+    lines.append(f"> RSS 피드 수: {len(set(c['media'] for c in candidates))}개 매체 / shortlist: {len(candidates)}건 큐레이션")
     lines.append("")
 
     # ── 오늘의 주목 ──────────────────────────────────────────────────────────
@@ -347,7 +353,7 @@ def git_push(report_path: str) -> str:
     cmds = [
         ["git", "checkout", "main"],
         ["git", "pull", "origin", "main"],
-        ["git", "add", report_path, CANDIDATES_PATH],
+        ["git", "add", report_path, CANDIDATES_PATH, SHORTLIST_PATH],
         ["git", "commit", "-m", f"야간 모니터링 리포트 {DATE_STR}"],
         ["git", "push", "-u", "origin", "main"],
     ]
@@ -381,11 +387,14 @@ def main():
     candidates = load_candidates()
     print(f"  candidates: {len(candidates)}건")
 
+    shortlist = load_shortlist()
+    print(f"  shortlist:  {len(shortlist)}건")
+
     curation = load_curation()
     print(f"  curation:   {len(curation)}건")
 
-    # 1. Markdown 조립
-    md = build_markdown(candidates, curation)
+    # 1. Markdown 조립 — curation id는 shortlist 인덱스 기준
+    md = build_markdown(shortlist, curation)
 
     # 2. 발송 결과 placeholder — 실제 발송 후 추가
     subject = f"교민일보 야간 모니터링 — {DATE_STR}"
