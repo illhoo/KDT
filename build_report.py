@@ -349,13 +349,11 @@ def send_email(html_body: str, subject: str) -> str:
 # ── Git push ─────────────────────────────────────────────────────────────────
 
 def git_push(report_path: str) -> str:
-    """main 브랜치에 커밋하고 push. 결과 문자열 반환."""
+    """현재 브랜치에서 커밋 후 HEAD:main 으로 직접 push. 결과 문자열 반환."""
     cmds = [
-        ["git", "checkout", "main"],
-        ["git", "pull", "origin", "main"],
-        ["git", "add", report_path, CANDIDATES_PATH, SHORTLIST_PATH],
+        ["git", "add", report_path, CANDIDATES_PATH, SHORTLIST_PATH, CURATION_PATH],
         ["git", "commit", "-m", f"야간 모니터링 리포트 {DATE_STR}"],
-        ["git", "push", "-u", "origin", "main"],
+        ["git", "push", "origin", "HEAD:main", "--force-with-lease"],
     ]
     log = []
     for cmd in cmds:
@@ -371,10 +369,6 @@ def git_push(report_path: str) -> str:
             if "commit" in cmd and ("nothing to commit" in result.stdout + result.stderr):
                 log.append("(변경사항 없음 — push 생략)")
                 return "\n".join(log)
-            # pull 실패는 경고만
-            if "pull" in cmd:
-                log.append(f"[WARN] pull 실패 — 계속 진행")
-                continue
             log.append(f"[ERROR] 종료코드 {result.returncode}")
     return "\n".join(log)
 
