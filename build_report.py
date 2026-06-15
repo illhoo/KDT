@@ -375,17 +375,36 @@ def git_push(report_path: str) -> str:
 
 # ── 메인 ─────────────────────────────────────────────────────────────────────
 
+def send_failure_alert(reason: str) -> None:
+    """수집 실패 시 빈 리포트 대신 알림 메일 발송."""
+    subject = f"[수집 실패] 교민일보 야간 모니터링 — {DATE_STR}"
+    body = f"<h2>수집 실패 알림</h2><p>{reason}</p><p>날짜: {DATE_STR}</p>"
+    result = send_email(body, subject)
+    print(f"  실패 알림 메일: {result}")
+    sys.exit(1)
+
+
 def main():
     print(f"build_report.py 실행 — {DATE_STR}")
 
     candidates = load_candidates()
     print(f"  candidates: {len(candidates)}건")
 
+    # 안전 가드: 수집 0건이면 알림 메일 후 종료
+    if len(candidates) == 0:
+        send_failure_alert("candidates.json이 비어 있습니다 — RSS 수집 전체 실패")
+
     shortlist = load_shortlist()
     print(f"  shortlist:  {len(shortlist)}건")
 
+    if len(shortlist) == 0:
+        send_failure_alert("shortlist.json이 비어 있습니다 — 전처리 실패")
+
     curation = load_curation()
     print(f"  curation:   {len(curation)}건")
+
+    if len(curation) == 0:
+        send_failure_alert("curation.json이 비어 있습니다 — 분류 실패")
 
     # 1. Markdown 조립 — curation id는 shortlist 인덱스 기준
     md = build_markdown(shortlist, curation)

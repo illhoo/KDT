@@ -3,7 +3,7 @@
     "SessionStart": [
       {
         "type": "command",
-        "command": "cd /home/user/KDT && python fetch_candidates.py"
+        "command": "cd /home/user/KDT && python fetch_candidates.py && python make_shortlist.py && python build_report.py"
       }
     ]
   }

@@ -4,27 +4,21 @@
 
 | 담당 | 내용 |
 |------|------|
-| **코드** | RSS 수집, 링크 결정, shortlist 생성, markdown 조립, HTML 변환, Resend 발송, git push |
-| **모델** | shortlist.json을 읽고 3축 기준으로 큐레이션 판단 JSON(curation.json)만 출력 |
-
-**모델이 절대 하지 않는 것:**
-- RSS 직접 수집
-- 링크 생성·변경 (shortlist.json의 link 필드 외 다른 URL 절대 만들지 않음)
-- 메일 직접 호출
-- 수동 git 명령 (checkout·commit·push)
-- grep으로 기사를 임의 필터링 (shortlist 전체를 판단 대상으로)
+| **코드** | RSS 수집, 링크 결정, shortlist 생성, **규칙 기반 curation 자동 생성**, markdown 조립, HTML 변환, Resend 발송, git push |
+| **모델** | 개입하지 않음 (진단·디버깅 요청 시에만) |
 
 ---
 
-## 실행 순서 (매 세션)
+## 실행 순서 (완전 무인 자동화 — SessionStart 훅)
 
 ```
-1. python fetch_candidates.py         ← 코드: RSS 수집·링크 결정 → candidates.json
-2. python make_shortlist.py           ← 코드: 전처리 → shortlist.json (80~100건)
-3. shortlist.json 읽기                ← 모델: 기사 목록 파악 (전체 순람 필수)
-4. 큐레이션 판단 → curation.json 작성 ← 모델만 담당 (아래 형식)
-5. python build_report.py             ← 코드: 리포트·메일·push 전부 처리
+1. python fetch_candidates.py   ← RSS 수집·링크 결정 → candidates.json
+2. python make_shortlist.py     ← shortlist.json + curation.json 자동 생성 (규칙 기반)
+3. python build_report.py       ← 리포트·메일·main push 전부 처리
 ```
+
+**모델 개입 없음.** 세 스크립트가 SessionStart 훅에서 순차 실행된다.
+모델이 curation.json을 수동으로 편집하는 워크플로는 폐지됐다.
 
 ---
 
