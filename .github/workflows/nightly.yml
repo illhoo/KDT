@@ -1,0 +1,38 @@
+name: 교민일보 야간 모니터링
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # UTC 21:00 = KST 06:00
+  workflow_dispatch:        # 수동 실행 (테스트·오늘치 건지기)
+
+permissions:
+  contents: write           # main push 필수
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: git 사용자 설정
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: 스크립트 순차 실행
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          python fetch_candidates.py
+          python make_shortlist.py
+          python build_report.py
