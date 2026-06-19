@@ -2,7 +2,7 @@ name: 교민일보 야간 모니터링
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # UTC 21:00 = KST 06:00
+    - cron: '5 21 * * *'   # UTC 21:05 = KST 06:05 (정각 혼잡 회피)
   workflow_dispatch:        # 수동 실행 (테스트·오늘치 건지기)
 
 permissions:
