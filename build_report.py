@@ -36,6 +36,7 @@ DATE_STR = TODAY.isoformat()   # "2026-06-15"
 CANDIDATES_PATH = "candidates.json"
 SHORTLIST_PATH  = "shortlist.json"
 CURATION_PATH   = "curation.json"
+SEEN_PATH       = "seen.json"
 REPORT_DIR      = "reports"
 REPORT_PATH     = f"{REPORT_DIR}/{DATE_STR}.md"
 
@@ -351,7 +352,7 @@ def send_email(html_body: str, subject: str) -> str:
 def git_push(report_path: str) -> str:
     """현재 브랜치에서 커밋 후 HEAD:main 으로 직접 push. 결과 문자열 반환."""
     cmds = [
-        ["git", "add", report_path, CANDIDATES_PATH, SHORTLIST_PATH, CURATION_PATH],
+        ["git", "add", report_path, CANDIDATES_PATH, SHORTLIST_PATH, CURATION_PATH, SEEN_PATH],
         ["git", "commit", "-m", f"야간 모니터링 리포트 {DATE_STR}"],
         ["git", "push", "origin", "HEAD:main", "--force-with-lease"],
     ]
