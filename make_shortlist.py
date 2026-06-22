@@ -5,8 +5,13 @@ KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성
 candidates.json
   → shortlist.json  (신규 우선 + 중복 제거 + 국가 캡, 80~100건)
   → curation.json   (규칙 기반 자동 분류 — 모델 개입 없음)
+
+[v2 신규성 감쇠]
+  seen.json 누적 → 최근 리스트/주목에 올린 제목은 점수 감점(소프트 강등)
+  완전 차단 아님. 7일 선형 감쇠. 새 기사 없으면 다시 올라올 수 있음.
 """
 
+import datetime
 import json
 import re
 import unicodedata
@@ -15,10 +20,20 @@ from collections import defaultdict
 CANDIDATES_PATH = "candidates.json"
 SHORTLIST_PATH  = "shortlist.json"
 CURATION_PATH   = "curation.json"
+SEEN_PATH       = "seen.json"
 
 COUNTRY_CAP = 30   # 국가당 최대 건수
 TARGET_MAX  = 100  # shortlist 목표 상한
 FRESH_MIN   = 30   # 신규가 이 미만이면 old=true 보충
+
+# ── 신규성 감쇠 설정 ──────────────────────────────────────────────────────────
+SEEN_WINDOW   = 7   # 최근 N일 내 노출 항목만 감점 대상
+SEEN_MAX_PEN  = 5   # 최대 감점폭(노출 직후). 날짜 지날수록 선형 감소.
+
+# KST 기준 오늘
+_KST = datetime.timezone(datetime.timedelta(hours=9))
+TODAY = datetime.datetime.now(_KST).date()
+TODAY_STR = TODAY.isoformat()
 
 # ── 제외 규칙 ─────────────────────────────────────────────────────────────────
 # 매체명에 이 문자열이 포함되면 무조건 제외
@@ -197,6 +212,47 @@ def supplement(shortlist: list[dict], all_items: list[dict], target: int) -> lis
     return shortlist
 
 
+# ── 신규성 감쇠 (seen ledger) ────────────────────────────────────────────────
+
+def load_seen() -> dict:
+    """seen.json 로드. 없거나 깨졌으면 빈 dict. {정규화제목: 'YYYY-MM-DD'}"""
+    try:
+        with open(SEEN_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def seen_penalty(last_date_str: str) -> int:
+    """
+    마지막 노출일 기준 감점값(음수) 반환.
+    노출 직후 -SEEN_MAX_PEN, 날짜 지날수록 선형 감소, SEEN_WINDOW일 이후 0.
+    """
+    try:
+        last = datetime.date.fromisoformat(last_date_str)
+    except (ValueError, TypeError):
+        return 0
+    days_since = (TODAY - last).days
+    if days_since < 0 or days_since >= SEEN_WINDOW:
+        return 0
+    frac = (SEEN_WINDOW - days_since) / SEEN_WINDOW
+    return -round(SEEN_MAX_PEN * frac)
+
+
+def prune_seen(seen: dict) -> dict:
+    """SEEN_WINDOW 넘은 항목 제거 — 파일 무한 증식 방지."""
+    out = {}
+    for key, date_str in seen.items():
+        try:
+            last = datetime.date.fromisoformat(date_str)
+        except (ValueError, TypeError):
+            continue
+        if (TODAY - last).days < SEEN_WINDOW:
+            out[key] = date_str
+    return out
+
+
 # ── 제외 판정 ─────────────────────────────────────────────────────────────────
 
 _COMPILED_TITLE_RE  = [re.compile(p, re.IGNORECASE) for p in EXCLUDE_TITLE_RE]
@@ -272,10 +328,11 @@ LIST_CAP  = 18
 TRAN_CAP  = 12
 
 
-def classify(shortlist: list[dict]) -> list[dict]:
+def classify(shortlist: list[dict], seen: dict) -> list[dict]:
     """
     shortlist → curation 항목 리스트 반환.
     desk: 주목 / 리스트 / 이관 / 제외
+    seen: 신규성 감쇠 ledger. 이 함수가 오늘 리스트/주목 항목을 seen에 기록(in-place).
     """
     entries = []
     for idx, item in enumerate(shortlist):
@@ -289,10 +346,17 @@ def classify(shortlist: list[dict]) -> list[dict]:
             continue
 
         s, is_kpop, kpop_local, is_korea_pol = score_item(item)
+
+        # ── 신규성 감쇠: 최근 리스트/주목에 올린 제목이면 소프트 강등 ──
+        seen_key = _normalize(item.get("title", ""))
+        pen = seen_penalty(seen.get(seen_key, ""))
+        s += pen
+
         entries.append({
             "idx": idx, "score": s, "desk": None,
             "is_kpop": is_kpop, "kpop_local": kpop_local,
             "is_korea_pol": is_korea_pol,
+            "seen_pen": pen,
             "reason": "",
         })
 
@@ -346,6 +410,13 @@ def classify(shortlist: list[dict]) -> list[dict]:
     if list_entries:
         top = max(list_entries, key=lambda e: e["score"])
         top["desk"] = "주목"
+
+    # ── seen 갱신: 오늘 리스트/주목에 오른 항목을 오늘 날짜로 기록 ──
+    for e in entries:
+        if e["desk"] in ("주목", "리스트"):
+            key = _normalize(shortlist[e["idx"]].get("title", ""))
+            if key:
+                seen[key] = TODAY_STR
 
     return entries
 
@@ -422,12 +493,22 @@ def main():
     for country, cnt in sorted(cc.items(), key=lambda x: -x[1]):
         print(f"  {country}: {cnt}건")
 
+    # ── 신규성 감쇠 ledger 로드 ─────────────────────────────────────────────
+    seen = load_seen()
+    print(f"\nseen.json: {len(seen)}건 로드 (최근 {SEEN_WINDOW}일 노출 기억)")
+
     # ── 규칙 기반 curation 생성 ─────────────────────────────────────────────
-    entries = classify(fresh)
+    entries = classify(fresh, seen)
     curation = build_curation(fresh, entries)
 
     with open(CURATION_PATH, "w", encoding="utf-8") as f:
         json.dump(curation, f, ensure_ascii=False, indent=2)
+
+    # ── seen ledger 저장 (오래된 항목 정리 후) ──────────────────────────────
+    seen = prune_seen(seen)
+    with open(SEEN_PATH, "w", encoding="utf-8") as f:
+        json.dump(seen, f, ensure_ascii=False, indent=2)
+    print(f"seen.json: {len(seen)}건 저장")
 
     # 분류 요약
     from collections import Counter as Cnt
@@ -442,7 +523,9 @@ def main():
     print(f"\n── 리스트 항목 ({len(list_items)}건) ──")
     for e, item in list_items:
         flag = "⭐" if e["desk"] == "주목" else "  "
-        print(f"  {flag} [{item['country']}] {item['title'][:55]} (점수:{e['score']})")
+        pen = e.get("seen_pen", 0)
+        pen_str = f" [신규성{pen}]" if pen else ""
+        print(f"  {flag} [{item['country']}] {item['title'][:55]} (점수:{e['score']}{pen_str})")
 
     tran_items = [(e, fresh[e["idx"]]) for e in entries if e["desk"] == "이관"]
     tran_items.sort(key=lambda x: x[0]["score"], reverse=True)
