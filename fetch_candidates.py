@@ -33,7 +33,19 @@ RSS_FEEDS = [
     {
         "country": "미국",
         "media": "미주한국일보",
-        "url": "https://news.google.com/rss/search?q=site:koreatimes.com&hl=ko&gl=US&ceid=US:ko",
+        # site:koreatimes.com 단독은 구글뉴스 색인이 약함 → 동포 키워드 병행으로 색인 강화
+        # (연합뉴스 활성 피드와 동일한 키워드+site 패턴 차용)
+        "url": (
+            "https://news.google.com/rss/search"
+            "?q=(%ED%95%9C%EC%9D%B8+OR+%EB%8F%99%ED%8F%AC+OR+%EA%B5%90%EB%AF%BC)+site:koreatimes.com"
+            "&hl=ko&gl=US&ceid=US:ko"
+        ),
+    },
+    {
+        "country": "미국",
+        "media": "한국일보 애틀랜타",
+        # 동남부 한인 커버 — LA 편중 완화 (신규 추가, 내일 RSS 실측으로 검증 필요)
+        "url": "https://news.google.com/rss/search?q=site:higoodday.com&hl=ko&gl=US&ceid=US:ko",
     },
     {
         "country": "미국",
