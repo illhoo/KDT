@@ -88,6 +88,28 @@ EXCLUDE_TITLE_RE = [
     r"\[사진\]\s*'하느님의\s*품'",
     # 연예 가십 일반 패턴 (결혼·연애·체중 등 사생활)
     r"결혼\s*생각\s*없었다", r"♥.*결혼", r"kg\s*쪘",
+
+    # ── v2 추가: 영문 증시·환율 와이어 (Globe and Mail 노이즈) ──
+    # 주의: 영문 패턴만 사용 → 한국어 유가·물가·환율 기사는 안 걸림
+    r"\bUS stocks\b", r"\bAsian shares\b", r"\bWorld shares\b",
+    r"\bWall Street\b", r"\bpremarket\b", r"\bin (mixed|thin) (trading|holiday)\b",
+    r"\bGrowth Stocks?\b", r"\bTrillion Club\b", r"\$\d+\s*Billion Valuation",
+    r"\bBuy (the Dip|in Right Now|on the Dip)\b", r"\bStock Investors?\b",
+    r"\bReceives? (a |an )?(Buy|Sell|Hold)\b", r"\bRemains a (Buy|Sell|Hold)\b",
+    r"\bNew Buy Recommendation\b", r"\bNAV Price History\b",
+    r"\bFOREX:\s", r"\bKRW[A-Z]{3}\b", r"\b[A-Z]{3}KRW\b",
+    r"\bETFs? (Let You|to Buy)\b", r"\bonce-?in-?a-?decade opportunity\b",
+    r"\bPublic Equity Offering\b", r"\breceives new orders\b",
+
+    # ── v2 추가: 외신 비(非)동포 스포츠 (영문 — 캐나다 CBC/Globe) ──
+    # 주의: 한국어 '응원·교민·동포' 스포츠는 score_item에서 별도 보호
+    r"\bVolleyball Nations League\b", r"\bPentathlon World Cup\b",
+    r"\bWorld Boxing Cup\b", r"\bSoftball World Cup\b",
+    r"\bNations Cup\b", r"\bChampionship Tour\b",
+
+    # ── v2 추가: 상품 광고 화법 (가격·숫자 아님, '파는 말투'만) ──
+    r"한\s*통이면", r"오래오래", r"단\s*한\s*번에", r"이거\s*하나면",
+    r"스피드\s*염색", r"한\s*병으로", r"평생\s*무료", r"무료\s*체험",
 ]
 
 # ── 동포 관련 가중 키워드 ─────────────────────────────────────────────────────
@@ -150,6 +172,26 @@ KPOP_ENT_KEYWORDS = [
 KPOP_LOCAL_KEYWORDS = [
     "공연", "내한", "월드투어", "투어", "현지", "교포", "해외 팬",
     "동포 커뮤니티", "한인 팬", "팬 행사",
+]
+
+# ── v2 추가: 스포츠 감점 키워드 (경기 결과·선수 개인 기록) ──
+# 단, 아래 SPORTS_DONGPO_GUARD 키워드가 있으면 감점 면제 (교민 응원 등 보호)
+SPORTS_KEYWORDS = [
+    # 한국어
+    "야구", "축구", "골프", "배구", "농구", "수영", "펜싱", "체조",
+    "올스타", "MVP", "홈런", "타율", "완봉", "선발", "결승", "예선",
+    "리그", "월드컵", "경기", "감독", "구단", "프로", "우승", "출장",
+    # 일본어
+    "野球", "サッカー", "ゴルフ", "リーグ", "完封", "本塁打", "勝目",
+    "W杯", "選手権", "ホッケー", "サーフィン", "スイミング", "フェンシング",
+    # 영문
+    "World Cup", "League", "Cup Final", "Semifinal", "knockout stage",
+]
+
+# 스포츠라도 이 키워드가 있으면 동포 콘텐츠로 보고 감점 면제
+SPORTS_DONGPO_GUARD = [
+    "교민", "동포", "한인", "응원", "재외", "한마음", "교포",
+    "한인회", "한인 사회", "현지 동포", "대표팀 환영",
 ]
 
 
@@ -313,6 +355,12 @@ def score_item(item: dict) -> tuple[int, bool, bool, bool]:
     kpop_local = is_kpop and any(kw.lower() in title_lower for kw in KPOP_LOCAL_KEYWORDS)
     if kpop_local:
         score += 2
+
+    # ── v2 추가: 스포츠 감점 (단, 동포 가드 키워드 있으면 면제) ──
+    sports_hit = any(kw in title or kw.lower() in title_lower for kw in SPORTS_KEYWORDS)
+    dongpo_guard = any(kw in title or kw.lower() in title_lower for kw in SPORTS_DONGPO_GUARD)
+    if sports_hit and not dongpo_guard:
+        score -= 2
 
     # 한반도·고국 정치 → 이관 강제 (점수에 관계없이)
     is_korea_pol = any(kw.lower() in title_lower for kw in KOREA_POL_KEYWORDS)
