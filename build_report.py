@@ -188,14 +188,18 @@ def build_markdown(candidates: list[dict], curation: list[dict]) -> str:
     lines.append("")
 
     # ── 제외 ──────────────────────────────────────────────────────────────────
-    lines.append("## 🗑️ 제외")
-    lines.append("")
-    for e, c in excluded:
-        reason = e.get("one_liner", "기준 미달")
-        lines.append(f"- [{c['country']}] {c['title']} — {reason}")
-    if not excluded:
-        lines.append("(해당 없음)")
-    lines.append("")
+    # v2: 기자 발송용으로 제외 섹션 숨김. (증시·일왕·광고 등 노이즈 비노출)
+    #     디버깅이 필요하면 SHOW_EXCLUDED = True 로 전환.
+    SHOW_EXCLUDED = False
+    if SHOW_EXCLUDED:
+        lines.append("## 🗑️ 제외")
+        lines.append("")
+        for e, c in excluded:
+            reason = e.get("one_liner", "기준 미달")
+            lines.append(f"- [{c['country']}] {c['title']} — {reason}")
+        if not excluded:
+            lines.append("(해당 없음)")
+        lines.append("")
 
     # ── 묶음 아이디어 ─────────────────────────────────────────────────────────
     lines.append("## 💡 묶음 아이디어")
