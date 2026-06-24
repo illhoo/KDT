@@ -100,6 +100,15 @@ EXCLUDE_TITLE_RE = [
     r"\bFOREX:\s", r"\bKRW[A-Z]{3}\b", r"\b[A-Z]{3}KRW\b",
     r"\bETFs? (Let You|to Buy)\b", r"\bonce-?in-?a-?decade opportunity\b",
     r"\bPublic Equity Offering\b", r"\breceives new orders\b",
+    # ── v2.1 보강: Korea 포함 증시 기사 차단 (디아스포라 가중 전에 제외) ──
+    r"\bStock Market Today\b", r"\bJitters\b", r"\b(Global |Tech )?Pullback\b",
+    r"\b(tech|big tech)[- ]?(sell-?off|selloff)\b", r"\bsell-?off\b",
+    r"\bStock (Suddenly )?Crashed\b", r"\bShares? (Crashed|Plummet|Obliterated)\b",
+    r"\bStock Is (Trading Lower|Nosediving)\b", r"\bStocks? Trade Down\b",
+    r"\bShares Are Falling\b", r"\bStock Slide\b", r"\bMemory Selloff\b",
+    r"\bWatch These \d+ Things\b", r"\bWhen It Reports Earnings\b",
+    r"\bDow (Green|Jones)\b", r"\bNasdaq\b", r"\bS&P 500\b",
+    r"\([A-Z]{2,5}\)\s+(Stock|Shares)\b",  # 종목코드 (AMD)/(MU) 등 + Stock/Shares
 
     # ── v2 추가: 외신 비(非)동포 스포츠 (영문 — 캐나다 CBC/Globe) ──
     # 주의: 한국어 '응원·교민·동포' 스포츠는 score_item에서 별도 보호
@@ -192,6 +201,20 @@ SPORTS_KEYWORDS = [
 SPORTS_DONGPO_GUARD = [
     "교민", "동포", "한인", "응원", "재외", "한마음", "교포",
     "한인회", "한인 사회", "현지 동포", "대표팀 환영",
+]
+
+# ── v2 추가: 외신 디아스포라 가중 ──
+# 제외(증시·스포츠·광고) 통과 후에만 적용되므로 증시 기사는 되살아나지 않음.
+# 한인 직결(+3) vs 디아스포라 일반(+1) 차등.
+DIASPORA_KR_KEYWORDS = [  # 한인 직결 — 동포 키워드와 동급 가중(+3)
+    "korea", "korean", "overseas korean", "korean american",
+    "korean canadian", "korean australian", "ethnic korean",
+    "한국", "한인", "재외", "교민", "재미", "재일", "재캐", "재호",
+]
+DIASPORA_GENERAL_KEYWORDS = [  # 타국 디아스포라·이민 일반 — 약한 가중(+1)
+    "diaspora", "immigrant community", "overseas community",
+    "expatriate", "migrant community", "디아스포라", "이민 사회",
+    "이민자 공동체", "동포사회",
 ]
 
 
@@ -362,6 +385,14 @@ def score_item(item: dict) -> tuple[int, bool, bool, bool]:
     if sports_hit and not dongpo_guard:
         score -= 2
 
+    # ── v2 추가: 외신 디아스포라 가중 (제외 통과분에만 적용) ──
+    # 동포 키워드(DONGPO)에서 이미 +3 받은 경우 중복 가중 방지.
+    if not dongpo_hit:
+        if any(kw in title or kw.lower() in title_lower for kw in DIASPORA_KR_KEYWORDS):
+            score += 3   # 한인 직결 외신
+        elif any(kw in title or kw.lower() in title_lower for kw in DIASPORA_GENERAL_KEYWORDS):
+            score += 1   # 타국 디아스포라·이민 일반
+
     # 한반도·고국 정치 → 이관 강제 (점수에 관계없이)
     is_korea_pol = any(kw.lower() in title_lower for kw in KOREA_POL_KEYWORDS)
 
@@ -370,7 +401,7 @@ def score_item(item: dict) -> tuple[int, bool, bool, bool]:
 
 # ── 데스크 분류 ───────────────────────────────────────────────────────────────
 
-LIST_SCORE_THRESHOLD = 2   # 이 이상이면 리스트 (B 적용 후 A 보충)
+LIST_SCORE_THRESHOLD = 1   # v2: 2→1 하향. 추천 건수 확대 (동포 키워드 약하게라도 있으면 리스트)
 TRAN_SCORE_MIN       = -1  # 이 미만이면 이관 아니라 제외 (잡음 방지)
 LIST_CAP  = 18
 TRAN_CAP  = 12
