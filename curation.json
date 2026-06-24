@@ -1,71 +1,47 @@
 [
   {
-    "id": 22,
+    "id": 35,
     "rank": 1,
     "desk": "주목",
-    "one_liner": "“새 마음 새출발”…이민우, 부동산 계약서 공개에 ‘분가설’ 솔솔 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "在日イタリア商工会議所主催Biritalia（ビリタリア）・ イタリアビール祭典 in Kabukichō! - 産経ニ / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 31,
+    "id": 92,
     "rank": 1,
     "desk": "리스트",
-    "one_liner": "不正関与疑い役員5人退任 在日朝鮮人系のウリ信組、新理事長「健全な経営進めたい」 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 32,
-    "rank": 2,
-    "desk": "리스트",
-    "one_liner": "不正関与疑い役員5人退任 在日朝鮮人系のウリ信組、新理事長「健全な経営進めたい」（写真・画像 1/1） - 産経ニュース / 産経ニュース",
+    "one_liner": "윤호중 장관, 우즈베키스탄 교민 간담회 참석 - 연합뉴스 / 연합뉴스",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 99,
+    "rank": 2,
+    "desk": "리스트",
+    "one_liner": "법무부·국회, 외국인·동포 '우수 인재 유치·정착지원' 방안 모색 - 재외동포신문 / 재외동포신문",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 17,
     "rank": 3,
     "desk": "리스트",
-    "one_liner": "새한총연, 재외동포 함께 '6·25전쟁 역사적 의미' 계승 - 재외동포신문 / 재외동포신문",
+    "one_liner": "여성 소셜연금 20% 적어…노후생활 '빨간불' - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 8,
+    "id": 61,
     "rank": 4,
     "desk": "리스트",
-    "one_liner": "텍사스 테슬라 주택 돌진사고...연방 당국, 특별조사 착수 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 73,
-    "rank": 5,
-    "desk": "리스트",
-    "one_liner": "Sensata Technologies, Skyworks Solutions, and Impinj Shares  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 91,
-    "rank": 6,
-    "desk": "리스트",
-    "one_liner": "영구귀국하고 싶은데 세금 걱정?…7월부터 국세청 온라인 상담 - 연합뉴스 / 연합뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 97,
-    "rank": 1,
-    "desk": "이관",
-    "one_liner": "재외동포청, 세계한상대회 '영비즈니스리더포럼' 참가자 모집 - 재외동포신문 / 재외동포신문",
+    "one_liner": "“세금으로 개발업자 구제?” 정부, 빈 콘도 매입 계획 논란 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 0,
-    "rank": 2,
+    "rank": 1,
     "desk": "이관",
     "one_liner": "모기지 금리 한 달 만에 최저… 내 집 마련 숨통 트이나 - RadioKorea / RadioKorea",
     "caution": "",
@@ -73,425 +49,433 @@
   },
   {
     "id": 1,
-    "rank": 3,
+    "rank": 2,
     "desk": "이관",
-    "one_liner": "보일하이츠 창고 화재 장기화...건물 붕괴 우려 - RadioKorea / RadioKorea",
+    "one_liner": "\"물 많이 마시고 외출 자제\" .. LA카운티 폭염 주의보 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 2,
-    "rank": 4,
+    "rank": 3,
     "desk": "이관",
-    "one_liner": "LA 보일하이츠 창고 화재 나흘째...지역 비상사태 선포 - RadioKorea / RadioKorea",
+    "one_liner": "\"32강 향한 마지막 관문\"... OC 소스몰서 함께 외치자, 대한민국! - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 3,
-    "rank": 5,
+    "rank": 4,
     "desk": "이관",
-    "one_liner": "격추된 미 F-15 조종사 \"이란 드론편대, 해파리 형태\" - RadioKorea / RadioKorea",
+    "one_liner": "CA 도서관 총격범, 더 큰 범행 노렸나…“대규모 총격 계획” - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 4,
-    "rank": 6,
+    "rank": 5,
     "desk": "이관",
-    "one_liner": "\"병 키운 뒤 병원 간다\"... 남성 건강검진 참여 독려 - RadioKorea / RadioKorea",
+    "one_liner": "월드컵 경기장 주변 드론 300대 무더기 압수… 대대적 단속 나섰다 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 5,
-    "rank": 7,
+    "rank": 6,
     "desk": "이관",
-    "one_liner": "LA 보일하이츠 냉동창고 화재... 매연 확산에 비상사태·학교 대피 - RadioKorea / RadioKorea",
+    "one_liner": "“나이보다 늙게 느껴진다면”… 수면 부족 신호일 수 있다 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 6,
-    "rank": 8,
-    "desk": "이관",
-    "one_liner": "LAPD, 반려견 사살 당시 바디캠 공개...과잉 대응 논란 재점화 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 7,
-    "rank": 9,
+    "rank": 7,
     "desk": "이관",
     "one_liner": "'경제 거목' 앨런 그린스펀 전 연준 의장 별세...향년 100세 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 9,
-    "rank": 10,
+    "id": 8,
+    "rank": 8,
     "desk": "이관",
     "one_liner": "오늘의 증권소식(6월 22일) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 10,
-    "rank": 11,
+    "id": 9,
+    "rank": 9,
     "desk": "이관",
-    "one_liner": "LAUSD 교육감 사임...AI 챗봇 사업 수사 여파 - RadioKorea / RadioKorea",
+    "one_liner": "\"병 키운 뒤 병원 간다\"... 남성 건강검진 참여 독려 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 11,
-    "rank": 12,
+    "id": 10,
+    "rank": 10,
     "desk": "이관",
     "one_liner": "CHP, 애너하임 창고서 도난 물품 220만 달러 상당 압수 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
+    "id": 11,
+    "rank": 11,
+    "desk": "이관",
+    "one_liner": "LA 보일하이츠 냉동창고 화재... 매연 확산에 비상사태·학교 대피 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
     "id": 12,
-    "rank": 1,
-    "desk": "제외",
+    "rank": 12,
+    "desk": "이관",
     "one_liner": "트럼프 \"이란 약속 안지키면 해야할 일 할 것…미국 존중해야\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 16,
-    "rank": 2,
+    "id": 14,
+    "rank": 1,
     "desk": "제외",
-    "one_liner": "Premium 세계가 인정하는 자격증과정 - HelloKTown-구인 / HelloKTown-구인",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 17,
-    "rank": 3,
-    "desk": "제외",
-    "one_liner": "고 박한식 교수 ‘평화 통일’ 정신, 카터센터서 기린다 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "“내 안의 무언가 깨워라” 그래미 전설이 알려준 팁 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 18,
-    "rank": 4,
+    "rank": 2,
     "desk": "제외",
-    "one_liner": "'19금 토크' 이상준, LA 다시 온다…\"웃을 준비 됐나!\" - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "은퇴 자산, 어디에 넣어야 안전할까? [영상] - 미주중앙일보 / 미주중앙일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 19,
+    "rank": 3,
+    "desk": "제외",
+    "one_liner": "[노동법] 내달 적용되는 가주의 새 규정 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 20,
+    "rank": 4,
+    "desk": "제외",
+    "one_liner": "미중, 희토류 이어 구리 전쟁?…기술 패권경쟁 새 전선 부각 - 미주중앙일보 / 미주중앙일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 21,
     "rank": 5,
     "desk": "제외",
-    "one_liner": "“지치지 않는 남자 찾아요”…인터넷 방송 ‘현대판 노예팅’ 실체 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "일본 공항서 종이 세관신고서 없앤다…2030년까지 완전 전자화 - 미주중앙일보 / 미주중앙일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 22,
+    "rank": 6,
+    "desk": "제외",
+    "one_liner": "‘멋진 신세계’ 허남준, 쌍둥이 동생 있었다 “이란성 쌍둥이”(‘유퀴즈’) - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 23,
-    "rank": 6,
+    "rank": 7,
     "desk": "제외",
-    "one_liner": "“타코집 나간 곳, K-BBQ가 채운다” - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "북유럽 돌며 정기 출사 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 24,
-    "rank": 7,
+    "rank": 8,
     "desk": "제외",
-    "one_liner": "'쐐기 만루포 쾅' 안현민이 지배한 날, 7타점 맹활약…KT, SSG에 13-2 완승 [수원 리뷰] - 미주 / 미주중앙일보",
+    "one_liner": "헝가리 오르반 퇴장 후…중유럽 4국 협의체 3년만에 부활 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 25,
-    "rank": 8,
+    "rank": 9,
     "desk": "제외",
-    "one_liner": "金총리 \"한중, 한단계 높은 교류 해야\"…리창 \"협력 확대 용의\"(종합) - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "中총리 \"글로벌 성장 위해 혁신적 협력 불가피\"…AI 위험성 경고 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 26,
-    "rank": 9,
+    "rank": 10,
     "desk": "제외",
-    "one_liner": "[정운찬 칼럼] AI 전환, 대한민국의 기회와 도전 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "‘정말 잘해도 어려운데…’ 김혜성, ML 복귀할 수 있을까…최근 3G 12타수 1안타 부진 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 27,
-    "rank": 10,
+    "rank": 11,
     "desk": "제외",
-    "one_liner": "[월드컵] 중국, 日응원단 욱일기 사용에 \"군국주의 유산 허용 안돼\" - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "‘트럼프 관세’ 발표 전말…참모 못 믿고 ‘구글링’, 비판에 남 탓 - 미주중앙일보 / 미주중앙일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 28,
+    "rank": 12,
+    "desk": "제외",
+    "one_liner": "윤주, 간이식 후 마지막 수술대 올랐다..\"갑상선반절제술 받았다\"[전문] - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 29,
-    "rank": 11,
+    "rank": 13,
     "desk": "제외",
-    "one_liner": "코스피 ‘검은 화요일’…10% 수직낙하 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "'70세까지 정년 연장'…독일, 2090년초까지 단계적 추진 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 30,
-    "rank": 12,
+    "rank": 14,
     "desk": "제외",
     "one_liner": "いわき信組などの不正受け、金融庁が地域金融機関の検査強化へ - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 33,
-    "rank": 13,
+    "id": 31,
+    "rank": 15,
     "desk": "제외",
-    "one_liner": "【動画】築地本願寺で「国際ヨガの日」 インド、ソフトパワー向上も 小雨が降る中 - 産経ニュース / 産経ニュース",
+    "one_liner": "沖縄全戦没者追悼式 高市早苗首相、あいさつ全文 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 34,
-    "rank": 14,
+    "id": 32,
+    "rank": 16,
+    "desk": "제외",
+    "one_liner": "中国外務省、日本人2人の拘束認める 「法律順守を教育すべき」 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 36,
+    "rank": 17,
+    "desk": "제외",
+    "one_liner": "政府、日中中間線で掘削船固定の中国に抗議 東シナ海でガス田開発か - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 37,
+    "rank": 18,
     "desk": "제외",
     "one_liner": "＜独自＞中国、東シナのガス田で新たな試掘か 日本政府、厳重抗議 開発加速の恐れも - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 35,
-    "rank": 15,
+    "id": 38,
+    "rank": 19,
+    "desk": "제외",
+    "one_liner": "【広島／世羅】島塚絵里さん 6月27日・28日在廊＆トーク「絵本とフィンランドの夏の楽しみ」 《森と花の絵本ミュージアム / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 39,
+    "rank": 20,
     "desk": "제외",
     "one_liner": "南米EPA交渉、原油・重要鉱物の代替調達に期待 480兆円規模の巨大市場も大きな魅力 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 36,
-    "rank": 16,
-    "desk": "제외",
-    "one_liner": "「株主の強い関与の表れ」経団連会長「建設的な対話重要」 日産株総の社外取再任案否決 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 37,
-    "rank": 17,
-    "desk": "제외",
-    "one_liner": "畜産農家に警戒感 牛肉輸出世界一のブラジルなどとEPA交渉入り 輸出拡大契機との声も - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 38,
-    "rank": 18,
-    "desk": "제외",
-    "one_liner": "大飯原発4号機が営業運転再開 関西電力、3月からの検査終了 厚み減った配管交換 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 39,
-    "rank": 19,
+    "id": 40,
+    "rank": 21,
     "desk": "제외",
     "one_liner": "取締役と監査役対象に法的責任調査へ 不適切会計問題でエア・ウォーターが調査委設置 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 40,
-    "rank": 20,
-    "desk": "제외",
-    "one_liner": "建築資材費、さらに上昇の可能性 日建連会長が懸念 マンション大規模修繕など遅れ - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 41,
-    "rank": 21,
+    "rank": 22,
     "desk": "제외",
-    "one_liner": "介護が必要になったら退去する「健康型有料老人ホーム」 自立シニアをサポート - 産経ニュース / 産経ニュース",
+    "one_liner": "畜産農家に警戒感 牛肉輸出世界一のブラジルなどとEPA交渉入り 輸出拡大契機との声も - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 42,
-    "rank": 22,
+    "rank": 23,
+    "desk": "제외",
+    "one_liner": "大飯原発4号機が営業運転再開 関西電力、3月からの検査終了 厚み減った配管交換 - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 43,
+    "rank": 24,
     "desk": "제외",
     "one_liner": "＜新社長＞あいホールディングスは清水氏 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 43,
-    "rank": 23,
+    "id": 44,
+    "rank": 25,
     "desk": "제외",
     "one_liner": "マイクロソフトのAIデータセンターに電力供給 石油大手シェブロン、ガス火力発電で直接 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 45,
-    "rank": 24,
+    "id": 46,
+    "rank": 26,
     "desk": "제외",
     "one_liner": "【名古屋造形大学】6/28（日）オープンキャンパス開催！ - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 46,
-    "rank": 25,
+    "id": 47,
+    "rank": 27,
     "desk": "제외",
     "one_liner": "『銀河の一票』2026年12月9日(水) Blu-ray&DVD BOX発売決定！主演・黒木華、野呂佳代と初タッグ！異色 / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 47,
-    "rank": 26,
+    "id": 48,
+    "rank": 28,
+    "desk": "제외",
+    "one_liner": "ガタガタニイガタ！！キャンペーン～来ないとわからない、ニイガタ～を実施します！ - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 49,
+    "rank": 29,
+    "desk": "제외",
+    "one_liner": "食堂や書店で「60円」や「60％引き」のキャンペーン実施。追手門学院大学創立60周年記念し、学友会追風が企画 - 産経ニ / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 50,
+    "rank": 30,
     "desk": "제외",
     "one_liner": "国内6つのザ・リッツ・カールトンが、日本各地の優れた生産者と共宴 「FLAVORS IN TRANSIT 旅する味 20 / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 48,
-    "rank": 27,
-    "desk": "제외",
-    "one_liner": "【ホテルグランヴィア岡山】“ひっくり返すとごちそうが現れる” 岡山の郷土料理「かくし寿司」作りを親子で体験 - 産経ニュ / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 49,
-    "rank": 28,
-    "desk": "제외",
-    "one_liner": "包括的資金調達プラットフォーム「JMS」を活用し、25億円の出資に係る株式投資契約を締結 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 50,
-    "rank": 29,
-    "desk": "제외",
-    "one_liner": "夏の風味じゅんさい摘みを体験 箱舟に揺られ無心になってプルプルを収穫 秋田県三種町 味・旅・遊 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 51,
-    "rank": 30,
+    "rank": 31,
+    "desk": "제외",
+    "one_liner": "リブランドオープン「別府 丘と海のドッグリゾート」 リニューアル記念3大特典付プラン販売開始｜2026年8月31日まで  / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 52,
+    "rank": 32,
     "desk": "제외",
     "one_liner": "特別な旅行プランを発売します／ 博多-新大阪間 往路新幹線の1両を貸切 往路新幹線車内で奈良大和四寺巡礼寺院による特別法 / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 52,
-    "rank": 31,
+    "id": 53,
+    "rank": 33,
     "desk": "제외",
     "one_liner": "マルチエキューブ×キビヤックで処方薬のロッカー受け取りサービスを開始 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 53,
-    "rank": 32,
+    "id": 54,
+    "rank": 34,
     "desk": "제외",
     "one_liner": "「C言語プログラミング能力認定試験」「Javaプログラミング能力認定試験」「Pythonプログラミング能力認定試験」ほか / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 54,
-    "rank": 33,
+    "id": 55,
+    "rank": 35,
     "desk": "제외",
     "one_liner": "ランスタッド コミュニケーション室長 斎藤潤子がMCEI東京支部「第4回イノベーターズ・オブ・ザ・イヤー」を受賞 - 産 / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 55,
-    "rank": 34,
+    "id": 56,
+    "rank": 36,
+    "desk": "제외",
+    "one_liner": "包括的資金調達プラットフォーム「JMS」を活用し、25億円の出資に係る株式投資契約を締結 - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 57,
+    "rank": 37,
+    "desk": "제외",
+    "one_liner": "新商品！『デジタク(R)で松山を楽しもう！』の発売を開始 - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 58,
+    "rank": 38,
+    "desk": "제외",
+    "one_liner": "第32回地域バス交通活性化セミナー（那覇）を開催します！ - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 59,
+    "rank": 39,
     "desk": "제외",
     "one_liner": "【岐阜県飛騨市】調査・研究が進む「飛騨の中世」16～17世紀の研究者が全国から集う歴史研究会を飛騨市で初開催！～飛騨の戦 / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 56,
-    "rank": 35,
-    "desk": "제외",
-    "one_liner": "【イベント】英語で学び、ミャンマーの若者とつながるオンライン英会話プログラム「ミャンマー英語サロン」が、7/5（日）“つ / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 57,
-    "rank": 36,
-    "desk": "제외",
-    "one_liner": "NINAITE、アスクル主催ピッチイベント「アスツクル PITCH CAMP」で「オーディエンス賞」を受賞 - 産経ニュ / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 58,
-    "rank": 37,
-    "desk": "제외",
-    "one_liner": "しまむらグループ、6/21（日）より、免税対応店舗を1,306店舗へ拡大！ - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 59,
-    "rank": 38,
-    "desk": "제외",
-    "one_liner": "【BURGER REVOLUTION TOKYO】国産生姜の特製ジンジャーソースで味わう「夏のスタミナバーガー」が7月限 / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 60,
-    "rank": 39,
+    "rank": 40,
     "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]BC 간호사들 합의안 거부…협상은 다시 안개 속으로 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "one_liner": "[AD]버크마운틴 새 타운홈 ‘ROC - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 62,
-    "rank": 40,
+    "rank": 41,
+    "desk": "제외",
+    "one_liner": "BC 간호사 노조 합의안 거부··· 협상 다시 안갯 속 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 65,
+    "rank": 42,
     "desk": "제외",
     "one_liner": "Former South Korean justice minister receives 25-year prison / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 66,
-    "rank": 41,
-    "desk": "제외",
-    "one_liner": "Canada’s historic submarine procurement incites fierce indus / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 67,
-    "rank": 42,
-    "desk": "제외",
-    "one_liner": "Here's Why Shares in Vertiv Crashed Today - The Globe and Ma / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 68,
     "rank": 43,
     "desk": "제외",
-    "one_liner": "Why Micron Stock Suddenly Crashed - The Globe and Mail / The Globe and Mail",
+    "one_liner": "Canada’s historic submarine procurement incites fierce indus / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
@@ -499,7 +483,7 @@
     "id": 70,
     "rank": 44,
     "desk": "제외",
-    "one_liner": "Stock Market Today, June 23: Sandisk Leads Tech Stock Slide  / The Globe and Mail",
+    "one_liner": "Here's Why Shares in Vertiv Crashed Today - The Globe and Ma / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
@@ -507,15 +491,15 @@
     "id": 71,
     "rank": 45,
     "desk": "제외",
-    "one_liner": "Broadcom (AVGO) Stock Trades Down, Here Is Why - The Globe a / The Globe and Mail",
+    "one_liner": "Why Micron Stock Suddenly Crashed - The Globe and Mail / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 72,
+    "id": 73,
     "rank": 46,
     "desk": "제외",
-    "one_liner": "Seer and Korea University Present Preliminary Data at ASMS 2 / The Globe and Mail",
+    "one_liner": "Stock Market Today, June 23: Sandisk Leads Tech Stock Slide  / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
@@ -523,7 +507,7 @@
     "id": 74,
     "rank": 47,
     "desk": "제외",
-    "one_liner": "Lam Research, Qualcomm, and Western Digital Stocks Trade Dow / The Globe and Mail",
+    "one_liner": "Why AMD (AMD) Stock Is Trading Lower Today - The Globe and M / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
@@ -531,7 +515,7 @@
     "id": 75,
     "rank": 48,
     "desk": "제외",
-    "one_liner": "Marvell Technology, Himax, and IPG Photonics Stocks Trade Do / The Globe and Mail",
+    "one_liner": "Broadcom (AVGO) Stock Trades Down, Here Is Why - The Globe a / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
@@ -539,109 +523,125 @@
     "id": 76,
     "rank": 49,
     "desk": "제외",
-    "one_liner": "Applied Materials, Teradyne, and Entegris Stocks Trade Down, / The Globe and Mail",
+    "one_liner": "Stock Market Today, June 23: Micron Falls as South Korea-Led / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 77,
+    "rank": 50,
+    "desk": "제외",
+    "one_liner": "Why Intel (INTC) Stock Is Nosediving - The Globe and Mail / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 78,
-    "rank": 50,
+    "rank": 51,
+    "desk": "제외",
+    "one_liner": "Will Micron Soar on Wednesday? Watch These 3 Things When It  / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 79,
+    "rank": 52,
+    "desk": "제외",
+    "one_liner": "Seer and Korea University Present Preliminary Data at ASMS 2 / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 81,
+    "rank": 53,
+    "desk": "제외",
+    "one_liner": "Lam Research, Qualcomm, and Western Digital Stocks Trade Dow / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 82,
+    "rank": 54,
+    "desk": "제외",
+    "one_liner": "Marvell Technology, Himax, and IPG Photonics Stocks Trade Do / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 83,
+    "rank": 55,
+    "desk": "제외",
+    "one_liner": "Why Micron (MU) Shares Are Getting Obliterated Today - The G / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 84,
+    "rank": 56,
+    "desk": "제외",
+    "one_liner": "Analog Devices and Microchip Technology Shares Plummet, What / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 85,
+    "rank": 57,
+    "desk": "제외",
+    "one_liner": "Applied Materials, Teradyne, and Entegris Stocks Trade Down, / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 86,
+    "rank": 58,
+    "desk": "제외",
+    "one_liner": "KLA Corporation, onsemi, and Nova Shares Are Falling, What Y / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 87,
+    "rank": 59,
+    "desk": "제외",
+    "one_liner": "Asian stocks are mixed after big tech sell-off - The Globe a / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 89,
+    "rank": 60,
     "desk": "제외",
     "one_liner": "Opinion: If Canada Auto can’t survive, let it fade away. Cou / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 80,
-    "rank": 51,
-    "desk": "제외",
-    "one_liner": "HKSTP Forges An Asia–Europe Innovation Gateway at VivaTech 2 / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 81,
-    "rank": 52,
-    "desk": "제외",
-    "one_liner": "Esquimalt eyed for West Coast submarine maintenance facility / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 82,
-    "rank": 53,
-    "desk": "제외",
-    "one_liner": "Business Brief: Fresh subs, rotten tomatoes - The Globe and  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 83,
-    "rank": 54,
-    "desk": "제외",
-    "one_liner": "Sharp drops in Big Tech companies pull the Nasdaq down 1.5%  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 84,
-    "rank": 55,
-    "desk": "제외",
-    "one_liner": "Telescope Innovations to Attend Fastmarkets Global Lithium,  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 86,
-    "rank": 56,
-    "desk": "제외",
-    "one_liner": "Global shares mostly slip amid caution about the war in Iran / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 89,
-    "rank": 57,
-    "desk": "제외",
-    "one_liner": "Bernstein Sticks to Their Buy Rating for Micron (MU) - The G / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 90,
-    "rank": 58,
+    "rank": 61,
     "desk": "제외",
     "one_liner": "'축신' 메시의 WC 역사 쓰기 - 호주 톱뉴스 / 호주 톱뉴스",
     "caution": "",
     "bundle_idea": ""
   },
   {
+    "id": 91,
+    "rank": 62,
+    "desk": "제외",
+    "one_liner": "베트남 롱탄신공항, ‘180일간 총력전’ 이후 인력 동원 증가세…연말 개항 목표 - 인사이드비나 / 인사이드비나",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
     "id": 15,
-    "rank": 59,
+    "rank": 63,
     "desk": "제외",
     "one_liner": "한인 세탁소 아들, DC 유니버스 새 주인공 됐다 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 92,
-    "rank": 60,
-    "desk": "제외",
-    "one_liner": "[10년을 묻다] ③ '사법주권' 한계 대안은…'제2 지익주' 방지법 시급 - 연합뉴스 / 연합뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 93,
-    "rank": 61,
-    "desk": "제외",
-    "one_liner": "[10년을 묻다] ② 수사권 없는 영사의 사투…제도 공백 메운 '외교전' - 연합뉴스 / 연합뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 94,
-    "rank": 62,
+    "rank": 64,
     "desk": "제외",
     "one_liner": "대표팀 환영하는 교민들 - 연합뉴스 / 연합뉴스",
     "caution": "",
@@ -649,103 +649,127 @@
   },
   {
     "id": 95,
-    "rank": 63,
+    "rank": 65,
+    "desk": "제외",
+    "one_liner": "[월드컵] 남아공전 한국 응원단 2천명 이상 예상…홍명보 \"홈 경기 기분\" - 연합뉴스 / 연합뉴스",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 96,
+    "rank": 66,
     "desk": "제외",
     "one_liner": "뜨겁게 태극전사 맞이한 팬들…'결전의 땅' 몬테레이는 축제 중 - 연합뉴스 / 연합뉴스",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 96,
-    "rank": 64,
+    "id": 97,
+    "rank": 67,
     "desk": "제외",
     "one_liner": "이적, 9월 추석 연휴 미국 공연…\"멋진 음악 준비해가겠다\" - 연합뉴스 / 연합뉴스",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 98,
-    "rank": 65,
+    "id": 16,
+    "rank": 68,
     "desk": "제외",
-    "one_liner": "농촌 일손은 든든하게, 동포 정착은 촘촘하게.. - 재외동포신문 / 재외동포신문",
+    "one_liner": "[알림] 킴보 장학생 선발 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 19,
-    "rank": 66,
+    "id": 33,
+    "rank": 69,
     "desk": "제외",
-    "one_liner": "남아공 감독 “우리에게 주어진 선택지는 승리뿐...한국전 약점 파악” - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "不正関与疑い役員5人退任 在日朝鮮人系のウリ信組、新理事長「健全な経営進めたい」 - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 34,
+    "rank": 70,
+    "desk": "제외",
+    "one_liner": "不正関与疑い役員5人退任 在日朝鮮人系のウリ信組、新理事長「健全な経営進めたい」（写真・画像 1/1） - 産経ニュース / 産経ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 7,
+    "rank": 71,
+    "desk": "제외",
+    "one_liner": "텍사스 테슬라 주택 돌진사고...연방 당국, 특별조사 착수 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 80,
+    "rank": 72,
+    "desk": "제외",
+    "one_liner": "Sensata Technologies, Skyworks Solutions, and Impinj Shares  / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 93,
+    "rank": 73,
+    "desk": "제외",
+    "one_liner": "영구귀국하고 싶은데 세금 걱정?…7월부터 국세청 온라인 상담 - 연합뉴스 / 연합뉴스",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 98,
+    "rank": 74,
+    "desk": "제외",
+    "one_liner": "[월드컵] 홍명보 \"비겨도 된다고 생각하는 순간 어려워져…승리하겠다\" - 연합뉴스 / 연합뉴스",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 13,
-    "rank": 67,
+    "rank": 75,
     "desk": "제외",
     "one_liner": "KoreaDaily Hot Deal - 미주 최대 한인 인터넷 쇼핑 - KoreaDaily Hot Deal / KoreaDaily Hot Deal",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 14,
-    "rank": 68,
-    "desk": "제외",
-    "one_liner": "여주 프리미엄 1Box (100mlx30개입) - KoreaDaily Hot Deal / KoreaDaily Hot Deal",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 21,
-    "rank": 69,
-    "desk": "제외",
-    "one_liner": "'청결왕' 브라이언, 서인영 위생관념에 깜짝 \"손톱으로 김치 뜯어 먹어\" ('더 브라이언') [순간포착] - / 미주중앙일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 28,
-    "rank": 70,
-    "desk": "제외",
-    "one_liner": "최여진♥김재욱, 대형 풀 품은 핫핑크 3층 신혼집 공개..서장훈 “모텔 같아”(동상이몽2)[순간포착] - 미 / 미주중앙일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 44,
-    "rank": 71,
+    "id": 45,
+    "rank": 76,
     "desk": "제외",
     "one_liner": "両陛下、ベルギーのフィリップ国王一家とご交流 王室離宮シエルニョン城で和やかにご懇談 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 61,
-    "rank": 72,
+    "id": 63,
+    "rank": 77,
     "desk": "제외",
     "one_liner": "밴조선 부동산 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 63,
-    "rank": 73,
+    "id": 64,
+    "rank": 78,
     "desk": "제외",
     "one_liner": "NAV Price History for Chinese Yuan/Korean Won CNHKRW - The G / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 64,
-    "rank": 74,
+    "id": 66,
+    "rank": 79,
     "desk": "제외",
     "one_liner": "Chinese Yuan/Korean Won (FOREX: CNHKRW) Quote - The Globe an / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 65,
-    "rank": 75,
+    "id": 68,
+    "rank": 80,
     "desk": "제외",
     "one_liner": "NAV Price History for Korean Won/Australian Dollar KRWAUD -  / The Globe and Mail",
     "caution": "",
@@ -753,49 +777,25 @@
   },
   {
     "id": 69,
-    "rank": 76,
+    "rank": 81,
+    "desk": "제외",
+    "one_liner": "Korean Won/Australian Dollar (FOREX: KRWAUD) Quote - The Glo / The Globe and Mail",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 72,
+    "rank": 82,
     "desk": "제외",
     "one_liner": "Wall Street Tuesday: Dow Green, Nasdaq Bleeding, SpaceX Wild / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 77,
-    "rank": 77,
+    "id": 88,
+    "rank": 83,
     "desk": "제외",
     "one_liner": "Asian shares are mixed and US futures fall as Iran talks mak / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 79,
-    "rank": 78,
-    "desk": "제외",
-    "one_liner": "Sharp drops in Big Tech companies pull stocks lower on Wall  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 85,
-    "rank": 79,
-    "desk": "제외",
-    "one_liner": "Wall Street quietly mixed in premarket, oil prices fall on o / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 87,
-    "rank": 80,
-    "desk": "제외",
-    "one_liner": "A Once-in-a-Decade Opportunity: 5 Growth Stocks Down 28% to  / The Globe and Mail",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 88,
-    "rank": 81,
-    "desk": "제외",
-    "one_liner": "Micron (MU): New Buy Recommendation for This Technology Gian / The Globe and Mail",
     "caution": "",
     "bundle_idea": ""
   }
