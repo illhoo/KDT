@@ -177,10 +177,32 @@ KPOP_ENT_KEYWORDS = [
     "シングル", "デビュー", "アイドル",  # 일본어 연예
 ]
 
-# K팝·연예 중 동포 현지 연결 → 리스트로 승격
+# K팝·연예 중 "동포 현지 연결"이 있을 때만 생존 → 리스트로 승격
+# (v2.1: 공연/내한/투어 같은 '이벤트 단어'는 제거. 공연 여부가 아니라
+#  동포 현장 여부로 가린다. 단순 공연 정보는 생존 못 함.)
 KPOP_LOCAL_KEYWORDS = [
-    "공연", "내한", "월드투어", "투어", "현지", "교포", "해외 팬",
-    "동포 커뮤니티", "한인 팬", "팬 행사",
+    "현지", "교포", "해외 팬", "동포 커뮤니티", "한인 팬", "팬 행사",
+    "한인", "교민", "동포", "재외",
+]
+
+# ── v2.1 추가: 연예 가십 (사생활·외모) → 동포 현장 없으면 제외 ──
+# 열애·혼인·몸매·노출 등 순수 가십. is_excluded는 context 가드가 안 되므로
+# score_item에서 동포 가드 없을 때 강한 감점(-10)으로 제외 처리.
+GOSSIP_KEYWORDS = [
+    # 사생활
+    "열애", "열애설", "혼인신고", "결혼설", "이혼설", "파경", "재혼",
+    "♥",  # 미주중앙일보 가십 제목 특유의 하트 (티파니♥변요한 등)
+    # 외모·신체
+    "몸매", "극세사", "민소매", "비키니", "꿀벅지", "각선미", "s라인",
+    "탄탄 팔근육", "구릿빛", "동안 미모", "미모", "화보", "심쿵",
+    # 예능 사생활성
+    "근황 공개", "사복 패션",
+]
+
+# 가십이라도 이 동포 현장 키워드가 있으면 생존 (공연에 한인 운집 등)
+ENT_DONGPO_GUARD = [
+    "교민", "동포", "한인", "한인회", "재외", "교포", "현지", "한마음",
+    "한인 사회", "동포 커뮤니티", "한인 팬",
 ]
 
 # ── v2 추가: 스포츠 감점 키워드 (경기 결과·선수 개인 기록) ──
@@ -384,6 +406,12 @@ def score_item(item: dict) -> tuple[int, bool, bool, bool]:
     dongpo_guard = any(kw in title or kw.lower() in title_lower for kw in SPORTS_DONGPO_GUARD)
     if sports_hit and not dongpo_guard:
         score -= 2
+
+    # ── v2.1 추가: 연예 가십 강한 감점 (동포 현장 가드 없으면 제외로) ──
+    gossip_hit = any(kw in title or kw.lower() in title_lower for kw in GOSSIP_KEYWORDS)
+    ent_guard = any(kw in title or kw.lower() in title_lower for kw in ENT_DONGPO_GUARD)
+    if gossip_hit and not ent_guard:
+        score -= 10   # TRAN_SCORE_MIN(-1) 아래로 확실히 밀어 제외
 
     # ── v2 추가: 외신 디아스포라 가중 (제외 통과분에만 적용) ──
     # 동포 키워드(DONGPO)에서 이미 +3 받은 경우 중복 가중 방지.
