@@ -40,6 +40,20 @@ SEEN_PATH       = "seen.json"
 REPORT_DIR      = "reports"
 REPORT_PATH     = f"{REPORT_DIR}/{DATE_STR}.md"
 
+# ── 메일 발송 설정 ────────────────────────────────────────────────────────────
+# 발신: dailyreport@ (gyominilbo.com 도메인 인증 완료 — publisher@의 별칭)
+# 회신: dailyreport@로 통일 (별칭이라 회신도 publisher@ 함으로 들어옴)
+MAIL_FROM     = "교민일보 데일리리포트 <dailyreport@gyominilbo.com>"
+MAIL_REPLY_TO = "dailyreport@gyominilbo.com"
+# 수신처: 발행인 + 프리랜서 기자
+# ※ dailyreport@ 발송 일주일 검증 완료 → 기자 2명 활성화 (2026-06-28)
+#    1주일 후 추가될 기자 2명도 같은 형식으로 이 리스트에 추가
+MAIL_TO = [
+    "publisher@gyominilbo.com",
+    "kminji2796@gyominilbo.com",
+    "seki.lee@gyominilbo.com",
+]
+
 
 # ── 로드 ─────────────────────────────────────────────────────────────────────
 
@@ -330,8 +344,9 @@ def send_email(html_body: str, subject: str) -> str:
         return "ERROR: RESEND_API_KEY 환경변수 없음"
 
     payload = {
-        "from": "onboarding@resend.dev",
-        "to": ["publisher@gyominilbo.com"],
+        "from": MAIL_FROM,
+        "to": MAIL_TO,
+        "reply_to": MAIL_REPLY_TO,
         "subject": subject,
         "html": html_body,
     }
