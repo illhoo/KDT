@@ -91,47 +91,82 @@ RSS_FEEDS = [
      "url": site_kw_url(KW_KO, "vanchosun.com", "ko", "CA", "CA:ko")},
     {"country": "캐나다", "media": "캐나다 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "CA", "CA:en")},
-    {"country": "캐나다", "media": "캐나다 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "CA", "CA:ko")},
+    # 캐나다 한국어 광역 제거 — 한국 본토 중복
 
     # ── 호주 ─────────────────────────────────────────────────────────────────
     {"country": "호주", "media": "호주 톱디지털",
      "url": site_kw_url(KW_KO, "topdigital.com.au", "ko", "AU", "AU:ko")},
-    {"country": "호주", "media": "호주 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "AU", "AU:ko")},
     {"country": "호주", "media": "호주 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "AU", "AU:en")},
+    # 호주 한국어 광역 제거 — 한국 본토 중복
 
     # ── 베트남 ───────────────────────────────────────────────────────────────
     {"country": "베트남", "media": "인사이드비나",
      "url": site_kw_url(KW_KO, "insidevina.com", "ko", "VN", "VN:ko")},
     {"country": "베트남", "media": "베트남코리아타임스",
      "url": site_kw_url(KW_KO, "vietnamkoreatimes.com", "ko", "VN", "VN:ko")},
-    {"country": "베트남", "media": "베트남 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "VN", "VN:ko")},
+    # 베트남 한국어 광역 제거 — 한국 본토 중복
 
     # ══ 신규 국가 (2단계 확대) — 도메인 안 묶고 광역 검색 ═══════════════════════
     # ── 독일 (유럽 한인 밀도 높음) ──────────────────────────────────────────
     {"country": "독일", "media": "독일 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "DE", "DE:ko")},
-    {"country": "독일", "media": "독일어 광역",
      "url": broad_kw_url(KW_DE, "de", "DE", "DE:de")},
+    # 독일 한국어 광역 제거 — 한국 본토 중복 확인됨 (gl=DE+ko는 국가코드 무시)
 
     # ── 영국 ─────────────────────────────────────────────────────────────────
-    {"country": "영국", "media": "영국 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "GB", "GB:ko")},
     {"country": "영국", "media": "영국 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "GB", "GB:en")},
+    # 영국 한국어 광역 제거 — 한국 본토 중복
 
     # ── 싱가포르/동남아 ──────────────────────────────────────────────────────
-    {"country": "싱가포르", "media": "싱가포르 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "SG", "SG:ko")},
     {"country": "싱가포르", "media": "싱가포르 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "SG", "SG:en")},
+    # 싱가포르 한국어 광역 제거 — 한국 본토 중복
 
     # ── 중국 (재중동포 밀도 최대) ───────────────────────────────────────────
-    {"country": "중국", "media": "중국 한국어 광역",
-     "url": broad_kw_url(KW_KO, "ko", "CN", "CN:ko")},
+    # 중국 한국어 광역 제거 — 한국 본토 중복. 현지 한인매체 리서치 후 site 추가 예정.
+
+    # ══ 1순위 신규 5개국 — 현지 한인매체 site 고정 (한국어 직수신) + 현지어 광역 ═══
+    #   한국어 광역은 전부 한국 본토 중복이라 제거. 현지 매체 색인 여부는 실측 검증.
+    # ── 브라질 (상파울루) ───────────────────────────────────────────────────
+    {"country": "브라질", "media": "좋은아침뉴스",
+     "url": site_kw_url(KW_KO, "bomdianews.com.br", "ko", "BR", "BR:ko")},
+    {"country": "브라질", "media": "브라질투데이",
+     "url": site_kw_url(KW_KO, "hanintoday.com.br", "ko", "BR", "BR:ko")},
+    {"country": "브라질", "media": "브라질 포르투갈어 광역",
+     "url": broad_kw_url("coreano OR coreana OR sul-coreano OR comunidade coreana", "pt-BR", "BR", "BR:pt-419")},
+
+    # ── 멕시코 ───────────────────────────────────────────────────────────────
+    {"country": "멕시코", "media": "멕시코한인신문",
+     "url": site_kw_url(KW_KO, "haninsinmun.com", "ko", "MX", "MX:ko")},
+    {"country": "멕시코", "media": "KMNEWS",
+     "url": site_kw_url(KW_KO, "kmnews.info", "ko", "MX", "MX:ko")},
+    {"country": "멕시코", "media": "멕시코 스페인어 광역",
+     "url": broad_kw_url("coreano OR coreana OR comunidad coreana OR surcoreano", "es-419", "MX", "MX:es-419")},
+
+    # ── 프랑스 (파리) ────────────────────────────────────────────────────────
+    {"country": "프랑스", "media": "파리지성",
+     "url": site_kw_url(KW_KO, "parisjisung.com", "ko", "FR", "FR:ko")},
+    {"country": "프랑스", "media": "프랑스존",
+     "url": site_kw_url(KW_KO, "francezone.com", "ko", "FR", "FR:ko")},
+    {"country": "프랑스", "media": "프랑스어 광역",
+     "url": broad_kw_url('"Coréens en France" OR "communauté coréenne" OR sud-coréen', "fr", "FR", "FR:fr")},
+
+    # ── 뉴질랜드 (오클랜드) ─────────────────────────────────────────────────
+    {"country": "뉴질랜드", "media": "위클리코리아",
+     "url": site_kw_url(KW_KO, "weeklykoreanz.com", "ko", "NZ", "NZ:ko")},
+    {"country": "뉴질랜드", "media": "코리아포스트",
+     "url": site_kw_url(KW_KO, "nzkoreapost.com", "ko", "NZ", "NZ:ko")},
+    {"country": "뉴질랜드", "media": "코리아리뷰",
+     "url": site_kw_url(KW_KO, "koreareview.co.nz", "ko", "NZ", "NZ:ko")},
+    {"country": "뉴질랜드", "media": "뉴질랜드 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "NZ", "NZ:en")},
+
+    # ── 필리핀 (마닐라) ─────────────────────────────────────────────────────
+    {"country": "필리핀", "media": "마닐라서울",
+     "url": site_kw_url(KW_KO, "manilaseoul.co.kr", "ko", "PH", "PH:ko")},
+    {"country": "필리핀", "media": "필리핀 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "PH", "PH:en")},
 
     # ── 한국 (동포 키워드 — 보조. 메인 아님) ────────────────────────────────
     {"country": "한국", "media": "연합뉴스",
