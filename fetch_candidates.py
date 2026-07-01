@@ -177,7 +177,7 @@ RSS_FEEDS = [
          "ko", "KR", "KR:ko")},
 ]
 
-STALE_DAYS = 2
+STALE_DAYS = 4
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; KDT-RSS/1.0)",
