@@ -56,6 +56,8 @@ TODAY_STR = TODAY.isoformat()
 EXCLUDE_MEDIA_SUBSTR = [
     "Hot Deal",
     "AERA DIGITAL",
+    "YouTube",       # 개인 영상 — 음모론·혐오 콘텐츠 유입 차단
+    "facebook.com",  # 개인 게시물
 ]
 
 EXCLUDE_TITLE_RE = [

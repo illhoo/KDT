@@ -168,6 +168,32 @@ RSS_FEEDS = [
     {"country": "필리핀", "media": "필리핀 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "PH", "PH:en")},
 
+# ── 인도네시아 (자카르타 — 교민 3만+) ───────────────────────────────────
+    {"country": "인도네시아", "media": "한인포스트",
+     "url": site_kw_url(KW_KO, "haninpost.com", "ko", "ID", "ID:ko")},
+    {"country": "인도네시아", "media": "자카르타경제신문",
+     "url": site_kw_url(KW_KO, "pagi.co.id", "ko", "ID", "ID:ko")},
+    {"country": "인도네시아", "media": "인니 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "ID", "ID:en")},
+
+# ── 말레이시아 (쿠알라룸푸르) ────────────────────────────────────────────
+    {"country": "말레이시아", "media": "한마당",
+     "url": site_kw_url(KW_KO, "hanmadang.my", "ko", "MY", "MY:ko")},
+    {"country": "말레이시아", "media": "말레이시아 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "MY", "MY:en")},
+
+    # ── 범동포 (전 세계 한인 뉴스 — 매체 약한 나라 보조 그물) ────────────────
+    {"country": "범동포", "media": "월드코리안뉴스",
+     "url": site_kw_url("한인 OR 동포 OR 교민 OR 재외", "worldkorean.net", "ko", "KR", "KR:ko")},
+    {"country": "범동포", "media": "세계한인신문",
+     "url": site_kw_url("한인 OR 동포 OR 교민 OR 재외", "oktimes.co.kr", "ko", "KR", "KR:ko")},
+
+    # ── 태국 (방콕) ─────────────────────────────────────────────────────────
+    {"country": "태국", "media": "한아시아",
+     "url": site_kw_url(KW_KO, "hanasia.com", "ko", "TH", "TH:ko")},
+    {"country": "태국", "media": "교민잡지",
+     "url": site_kw_url(KW_KO, "kyominthai.com", "ko", "TH", "TH:ko")},
+
     # ── 한국 (동포 키워드 — 보조. 메인 아님) ────────────────────────────────
     {"country": "한국", "media": "연합뉴스",
      "url": site_kw_url("재외동포 OR 교민 OR 재외국민", "yna.co.kr", "ko", "KR", "KR:ko")},
