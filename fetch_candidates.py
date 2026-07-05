@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 """
-KDT 야간 모니터링 — RSS 수집 및 링크 결정론적 처리 [v3 동포 키워드 통일]
+KDT 야간 모니터링 — RSS 수집 및 링크 결정론적 처리 [v4 국가 확장]
 출력: candidates.json
 규칙: link 필드는 항상 클릭 가능한 URL. "검색 요망" 절대 출력 안 함.
 
-[v3 구조 전환]
-  기존: 매체 고정(site:도메인 단독) → 매체 전체 기사 유입 → 야구·연예·증시 노이즈
-  변경: 전 매체 "동포 키워드 + site:" 통일 → 소스 단계에서 동포 기사만 수집
-        + 신규 국가는 도메인 안 묶고 "국가 구글뉴스 + 동포 키워드" 광역 검색
-        + 국가·매체 확대 (독일·영국·동남아 등)
-
-  핵심: 재외동포신문(국내 동포매체) 의존 탈피 → 해외 현지 매체에서 직접 동포 기사 수집.
+[v4 구조]
+  - 전 매체 "동포 키워드 + site:" 통일 (한국 본토 중복 방지)
+  - 신규 국가는 현지 한인매체 site 고정 (한국어 직수신) + 현지어 광역
+  - 범동포 매체(월드코리안·세계한인신문)로 매체 약한 나라 보조
+  - "국가코드 + 한국어 광역"은 한국 본토 중복이라 전면 제거
+  - when:7d 최근 7일 수집, STALE_DAYS=4로 fresh 판정
+  - 0건 헛피드(파리지성·KMNEWS·마닐라서울·한마당) 정리
 """
 
 import base64
@@ -26,19 +26,13 @@ import requests
 
 # =============================================================================
 # 동포 키워드 세트 (언어권별) — 전 매체 공통 적용
-#   "현지 동포"를 가리키되 "한국 본토"는 안 가리키는 선.
 # =============================================================================
 KW_KO = "한인 OR 동포 OR 교민 OR 재외"
 KW_EN = '"Korean American" OR "Korean diaspora" OR "Korean community" OR "Korean Canadian" OR "Korean Australian" OR "Korean immigrant"'
 KW_JA = "在日韓国 OR 韓国系 OR 在日コリアン OR 韓人"
-KW_DE = '"Koreaner in Deutschland" OR "koreanische Gemeinde" OR koreanischstämmig'  # 독일어
-# 동남아/기타 한국어권은 KW_KO 재사용 (현지 한인 매체가 한국어)
+KW_DE = '"Koreaner in Deutschland" OR "koreanische Gemeinde" OR koreanischstämmig'
 
-
-# =============================================================================
-# 수집 시간 윈도 — 최근 N일만 (구글 뉴스 when: 연산자)
-#   매일 발송 + 신규성 감쇠(seen.json) 7일과 정합.
-# =============================================================================
+# 수집 시간 윈도 — 최근 N일 (매일 발송 + 신규성 감쇠 7일과 정합)
 WHEN_WINDOW = "7d"
 
 
@@ -62,7 +56,7 @@ def broad_kw_url(keywords: str, hl: str, gl: str, ceid: str) -> str:
 # RSS 피드 정의 — 전부 동포 키워드 적용
 # =============================================================================
 RSS_FEEDS = [
-    # ── 미국 (한인 밀도 최대) ────────────────────────────────────────────────
+    # 미국 (한인 밀도 최대)
     {"country": "미국", "media": "라디오코리아",
      "url": site_kw_url(KW_KO, "radiokorea.com", "ko", "US", "US:ko")},
     {"country": "미국", "media": "미주중앙일보",
@@ -76,7 +70,7 @@ RSS_FEEDS = [
     {"country": "미국", "media": "미국 광역",
      "url": broad_kw_url(KW_KO, "ko", "US", "US:ko")},
 
-    # ── 일본 ─────────────────────────────────────────────────────────────────
+    # 일본
     {"country": "일본", "media": "朝日新聞",
      "url": site_kw_url(KW_JA, "asahi.com", "ja", "JP", "JP:ja")},
     {"country": "일본", "media": "産経ニュース",
@@ -86,49 +80,43 @@ RSS_FEEDS = [
     {"country": "일본", "media": "일본 한국어 광역",
      "url": broad_kw_url(KW_KO, "ko", "JP", "JP:ko")},
 
-    # ── 캐나다 ───────────────────────────────────────────────────────────────
+    # 캐나다
     {"country": "캐나다", "media": "밴쿠버 중앙일보",
      "url": site_kw_url(KW_KO, "vanchosun.com", "ko", "CA", "CA:ko")},
     {"country": "캐나다", "media": "캐나다 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "CA", "CA:en")},
-    # 캐나다 한국어 광역 제거 — 한국 본토 중복
 
-    # ── 호주 ─────────────────────────────────────────────────────────────────
+    # 호주
     {"country": "호주", "media": "호주 톱디지털",
      "url": site_kw_url(KW_KO, "topdigital.com.au", "ko", "AU", "AU:ko")},
     {"country": "호주", "media": "호주 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "AU", "AU:en")},
-    # 호주 한국어 광역 제거 — 한국 본토 중복
 
-    # ── 베트남 ───────────────────────────────────────────────────────────────
+    # 베트남
     {"country": "베트남", "media": "인사이드비나",
      "url": site_kw_url(KW_KO, "insidevina.com", "ko", "VN", "VN:ko")},
-    {"country": "베트남", "media": "베트남코리아타임스",
-     "url": site_kw_url(KW_KO, "vietnamkoreatimes.com", "ko", "VN", "VN:ko")},
-    # 베트남 한국어 광역 제거 — 한국 본토 중복
 
-    # ══ 신규 국가 (2단계 확대) — 도메인 안 묶고 광역 검색 ═══════════════════════
-    # ── 독일 (유럽 한인 밀도 높음) ──────────────────────────────────────────
-    {"country": "독일", "media": "독일 한국어 광역",
-     "url": broad_kw_url(KW_DE, "de", "DE", "DE:de")},
-    # 독일 한국어 광역 제거 — 한국 본토 중복 확인됨 (gl=DE+ko는 국가코드 무시)
-
-    # ── 영국 ─────────────────────────────────────────────────────────────────
-    {"country": "영국", "media": "영국 영문 광역",
-     "url": broad_kw_url(KW_EN, "en", "GB", "GB:en")},
-    # 영국 한국어 광역 제거 — 한국 본토 중복
-
-    # ── 싱가포르/동남아 ──────────────────────────────────────────────────────
+    # 싱가포르
     {"country": "싱가포르", "media": "싱가포르 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "SG", "SG:en")},
-    # 싱가포르 한국어 광역 제거 — 한국 본토 중복
 
-    # ── 중국 (재중동포 밀도 최대) ───────────────────────────────────────────
-    # 중국 한국어 광역 제거 — 한국 본토 중복. 현지 한인매체 리서치 후 site 추가 예정.
+    # 독일 (재유럽 한인 최대)
+    {"country": "독일", "media": "베를린리포트",
+     "url": site_kw_url(KW_KO, "berlinreport.com", "ko", "DE", "DE:ko")},
+    {"country": "독일", "media": "교포신문",
+     "url": site_kw_url(KW_KO, "kyoposhinmun.de", "ko", "DE", "DE:ko")},
+    {"country": "독일", "media": "구텐탁코리아",
+     "url": site_kw_url(KW_KO, "gutentagkorea.com", "ko", "DE", "DE:ko")},
+    {"country": "독일", "media": "독일어 광역",
+     "url": broad_kw_url(KW_DE, "de", "DE", "DE:de")},
 
-    # ══ 1순위 신규 5개국 — 현지 한인매체 site 고정 (한국어 직수신) + 현지어 광역 ═══
-    #   한국어 광역은 전부 한국 본토 중복이라 제거. 현지 매체 색인 여부는 실측 검증.
-    # ── 브라질 (상파울루) ───────────────────────────────────────────────────
+    # 영국 (뉴몰든 한인타운)
+    {"country": "영국", "media": "코리안위클리",
+     "url": site_kw_url(KW_KO, "koweekly.co.uk", "ko", "GB", "GB:ko")},
+    {"country": "영국", "media": "영국 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "GB", "GB:en")},
+
+    # 브라질 (상파울루)
     {"country": "브라질", "media": "좋은아침뉴스",
      "url": site_kw_url(KW_KO, "bomdianews.com.br", "ko", "BR", "BR:ko")},
     {"country": "브라질", "media": "브라질투데이",
@@ -136,23 +124,19 @@ RSS_FEEDS = [
     {"country": "브라질", "media": "브라질 포르투갈어 광역",
      "url": broad_kw_url("coreano OR coreana OR sul-coreano OR comunidade coreana", "pt-BR", "BR", "BR:pt-419")},
 
-    # ── 멕시코 ───────────────────────────────────────────────────────────────
+    # 멕시코
     {"country": "멕시코", "media": "멕시코한인신문",
      "url": site_kw_url(KW_KO, "haninsinmun.com", "ko", "MX", "MX:ko")},
-    {"country": "멕시코", "media": "KMNEWS",
-     "url": site_kw_url(KW_KO, "kmnews.info", "ko", "MX", "MX:ko")},
     {"country": "멕시코", "media": "멕시코 스페인어 광역",
      "url": broad_kw_url("coreano OR coreana OR comunidad coreana OR surcoreano", "es-419", "MX", "MX:es-419")},
 
-    # ── 프랑스 (파리) ────────────────────────────────────────────────────────
-    {"country": "프랑스", "media": "파리지성",
-     "url": site_kw_url(KW_KO, "parisjisung.com", "ko", "FR", "FR:ko")},
+    # 프랑스 (파리)
     {"country": "프랑스", "media": "프랑스존",
      "url": site_kw_url(KW_KO, "francezone.com", "ko", "FR", "FR:ko")},
     {"country": "프랑스", "media": "프랑스어 광역",
      "url": broad_kw_url('"Coréens en France" OR "communauté coréenne" OR sud-coréen', "fr", "FR", "FR:fr")},
 
-    # ── 뉴질랜드 (오클랜드) ─────────────────────────────────────────────────
+    # 뉴질랜드 (오클랜드)
     {"country": "뉴질랜드", "media": "위클리코리아",
      "url": site_kw_url(KW_KO, "weeklykoreanz.com", "ko", "NZ", "NZ:ko")},
     {"country": "뉴질랜드", "media": "코리아포스트",
@@ -162,13 +146,11 @@ RSS_FEEDS = [
     {"country": "뉴질랜드", "media": "뉴질랜드 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "NZ", "NZ:en")},
 
-    # ── 필리핀 (마닐라) ─────────────────────────────────────────────────────
-    {"country": "필리핀", "media": "마닐라서울",
-     "url": site_kw_url(KW_KO, "manilaseoul.co.kr", "ko", "PH", "PH:ko")},
+    # 필리핀 (마닐라)
     {"country": "필리핀", "media": "필리핀 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "PH", "PH:en")},
 
-# ── 인도네시아 (자카르타 — 교민 3만+) ───────────────────────────────────
+    # 인도네시아 (자카르타 — 교민 3만+)
     {"country": "인도네시아", "media": "한인포스트",
      "url": site_kw_url(KW_KO, "haninpost.com", "ko", "ID", "ID:ko")},
     {"country": "인도네시아", "media": "자카르타경제신문",
@@ -176,25 +158,23 @@ RSS_FEEDS = [
     {"country": "인도네시아", "media": "인니 영문 광역",
      "url": broad_kw_url(KW_EN, "en", "ID", "ID:en")},
 
-# ── 말레이시아 (쿠알라룸푸르) ────────────────────────────────────────────
-    {"country": "말레이시아", "media": "한마당",
-     "url": site_kw_url(KW_KO, "hanmadang.my", "ko", "MY", "MY:ko")},
-    {"country": "말레이시아", "media": "말레이시아 영문 광역",
-     "url": broad_kw_url(KW_EN, "en", "MY", "MY:en")},
-
-    # ── 범동포 (전 세계 한인 뉴스 — 매체 약한 나라 보조 그물) ────────────────
-    {"country": "범동포", "media": "월드코리안뉴스",
-     "url": site_kw_url("한인 OR 동포 OR 교민 OR 재외", "worldkorean.net", "ko", "KR", "KR:ko")},
-    {"country": "범동포", "media": "세계한인신문",
-     "url": site_kw_url("한인 OR 동포 OR 교민 OR 재외", "oktimes.co.kr", "ko", "KR", "KR:ko")},
-
-    # ── 태국 (방콕) ─────────────────────────────────────────────────────────
+    # 태국 (방콕)
     {"country": "태국", "media": "한아시아",
      "url": site_kw_url(KW_KO, "hanasia.com", "ko", "TH", "TH:ko")},
     {"country": "태국", "media": "교민잡지",
      "url": site_kw_url(KW_KO, "kyominthai.com", "ko", "TH", "TH:ko")},
 
-    # ── 한국 (동포 키워드 — 보조. 메인 아님) ────────────────────────────────
+    # 말레이시아 (쿠알라룸푸르)
+    {"country": "말레이시아", "media": "말레이시아 영문 광역",
+     "url": broad_kw_url(KW_EN, "en", "MY", "MY:en")},
+
+    # 범동포 (전 세계 한인 뉴스 — 매체 약한 나라 보조 그물)
+    {"country": "범동포", "media": "월드코리안뉴스",
+     "url": site_kw_url(KW_KO, "worldkorean.net", "ko", "KR", "KR:ko")},
+    {"country": "범동포", "media": "세계한인신문",
+     "url": site_kw_url(KW_KO, "oktimes.co.kr", "ko", "KR", "KR:ko")},
+
+    # 한국 (동포 키워드 — 보조. 메인 아님)
     {"country": "한국", "media": "연합뉴스",
      "url": site_kw_url("재외동포 OR 교민 OR 재외국민", "yna.co.kr", "ko", "KR", "KR:ko")},
     {"country": "한국", "media": "재외동포신문 외",
@@ -215,7 +195,7 @@ HEADERS = {
 # Google News 리다이렉트 URL 디코딩
 # =============================================================================
 
-def _decode_gnews_token(token: str) -> str | None:
+def _decode_gnews_token(token: str):
     rem = len(token) % 4
     if rem:
         token += "=" * (4 - rem)
@@ -247,7 +227,7 @@ def resolve_link(raw_link: str) -> str:
 # 날짜 검증
 # =============================================================================
 
-def check_date(pub_str: str, today: datetime.date) -> tuple[bool, bool]:
+def check_date(pub_str: str, today: datetime.date):
     if not pub_str:
         return False, True
     for parser in (parsedate_to_datetime,
@@ -265,7 +245,7 @@ def check_date(pub_str: str, today: datetime.date) -> tuple[bool, bool]:
 # RSS fetch & parse
 # =============================================================================
 
-def fetch_xml(url: str) -> bytes | None:
+def fetch_xml(url: str):
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         r.raise_for_status()
@@ -275,7 +255,7 @@ def fetch_xml(url: str) -> bytes | None:
         return None
 
 
-def parse_items(xml_bytes: bytes, feed_meta: dict, today: datetime.date) -> list[dict]:
+def parse_items(xml_bytes: bytes, feed_meta: dict, today: datetime.date):
     try:
         root = ET.fromstring(xml_bytes)
     except ET.ParseError as e:
@@ -308,7 +288,7 @@ def parse_items(xml_bytes: bytes, feed_meta: dict, today: datetime.date) -> list
             "pubDate": pub_str,
             "old": old,
             "date_unverified": date_unverified,
-            "feed_media": feed_meta["media"],   # 어느 피드에서 왔는지 (진단용)
+            "feed_media": feed_meta["media"],
         })
     return results
 
@@ -319,10 +299,10 @@ def parse_items(xml_bytes: bytes, feed_meta: dict, today: datetime.date) -> list
 
 def main():
     today = datetime.date.today()
-    print(f"KDT RSS 수집 [v3] — {today} ({len(RSS_FEEDS)}개 피드)")
+    print(f"KDT RSS 수집 [v4] — {today} ({len(RSS_FEEDS)}개 피드)")
 
-    all_items: list[dict] = []
-    per_feed_count: dict[str, int] = {}
+    all_items = []
+    per_feed_count = {}
 
     for feed in RSS_FEEDS:
         label = f"[{feed['country']}] {feed['media']}"
@@ -345,17 +325,15 @@ def main():
     print(f"총 {len(all_items)}건 → {out} 저장 완료")
     print(f"{'='*60}")
 
-    # ── 국가별 집계 ──────────────────────────────────────────────────────────
     from collections import Counter
     cc = Counter(c["country"] for c in all_items)
-    print(f"\n── 국가별 수집 ──")
+    print(f"\n[국가별 수집]")
     for country, cnt in sorted(cc.items(), key=lambda x: -x[1]):
         print(f"  {country}: {cnt}건")
 
-    # ── 피드별 수집 건수 (어느 매체가 동포 기사를 잘 무는지 진단) ──────────────
-    print(f"\n── 피드별 수집 (0건 피드 = 동포 기사 없거나 색인 약함) ──")
+    print(f"\n[피드별 수집] 0건 = 동포기사 없거나 색인 약함")
     for label, cnt in per_feed_count.items():
-        mark = "  " if cnt > 0 else "⚠ "
+        mark = "  " if cnt > 0 else "! "
         print(f"  {mark}{label}: {cnt}건")
 
 
