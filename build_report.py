@@ -340,15 +340,16 @@ def _inline(text: str) -> str:
 
 # ── Resend 발송 ───────────────────────────────────────────────────────────────
 
-def send_email(html_body: str, subject: str) -> str:
-    """Resend API로 발송. 결과 문자열 반환."""
+def send_email(html_body: str, subject: str, to=None) -> str:
+    """Resend API로 발송. 결과 문자열 반환.
+    to=None이면 MAIL_TO(전체 6명)로 발송. 특정 수신처만 보내려면 to=["addr"] 지정."""
     api_key = os.environ.get("RESEND_API_KEY", "")
     if not api_key:
         return "ERROR: RESEND_API_KEY 환경변수 없음"
 
     payload = {
         "from": MAIL_FROM,
-        "to": MAIL_TO,
+        "to": to if to is not None else MAIL_TO,
         "reply_to": MAIL_REPLY_TO,
         "subject": subject,
         "html": html_body,
@@ -399,11 +400,15 @@ def git_push(report_path: str) -> str:
 # ── 메인 ─────────────────────────────────────────────────────────────────────
 
 def send_failure_alert(reason: str) -> None:
-    """수집 실패 시 빈 리포트 대신 알림 메일 발송."""
+    """수집 실패 시 발행인에게만 알림. 기자단에는 실패 메일을 보내지 않는다.
+    발행인이 이 알림을 보고 로컬에서 수동 복구·재발송한다."""
     subject = f"[수집 실패] 교민일보 야간 모니터링 — {DATE_STR}"
-    body = f"<h2>수집 실패 알림</h2><p>{reason}</p><p>날짜: {DATE_STR}</p>"
-    result = send_email(body, subject)
-    print(f"  실패 알림 메일: {result}")
+    body = (f"<h2>수집 실패 알림 (발행인 전용)</h2>"
+            f"<p>{reason}</p><p>날짜: {DATE_STR}</p>"
+            f"<p>GitHub Actions 수집이 실패했습니다. 로컬에서 수동 재발송이 필요합니다. "
+            f"기자단에는 이 알림이 발송되지 않았습니다.</p>")
+    result = send_email(body, subject, to=["publisher@gyominilbo.com"])
+    print(f"  실패 알림 메일(발행인 전용): {result}")
     sys.exit(1)
 
 
