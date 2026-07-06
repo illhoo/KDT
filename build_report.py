@@ -52,6 +52,9 @@ MAIL_TO = [
     "publisher@gyominilbo.com",
     "kminji2796@gyominilbo.com",
     "seki.lee@gyominilbo.com",
+    "leeks@gyominilbo.com",
+    "choisan@gyominilbo.com",
+    "borisu0815@gyominilbo.com",
 ]
 
 
