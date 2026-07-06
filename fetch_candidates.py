@@ -18,6 +18,7 @@ import datetime
 import json
 import re
 import sys
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
@@ -246,13 +247,31 @@ def check_date(pub_str: str, today: datetime.date):
 # =============================================================================
 
 def fetch_xml(url: str):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        return r.content
-    except Exception as e:
-        print(f"  [WARN] fetch failed: {e}", file=sys.stderr)
-        return None
+    """RSS fetch. 503/5xx·타임아웃 시 지수 백오프로 최대 3회 재시도.
+    GitHub Actions IP가 구글 뉴스에 일시 차단(503)될 때 재시도로 통과 확률을 높인다."""
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            # 503 등 서버측 일시 오류는 재시도 대상
+            if r.status_code in (429, 500, 502, 503, 504):
+                if attempt < max_retries - 1:
+                    wait = 3 * (2 ** attempt)   # 3초, 6초, 12초
+                    print(f"  [RETRY {attempt+1}/{max_retries}] {r.status_code} — {wait}초 대기", file=sys.stderr)
+                    time.sleep(wait)
+                    continue
+                r.raise_for_status()   # 마지막 시도도 실패면 예외
+            r.raise_for_status()
+            return r.content
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                wait = 3 * (2 ** attempt)
+                print(f"  [RETRY {attempt+1}/{max_retries}] {e} — {wait}초 대기", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            print(f"  [WARN] fetch failed: {e}", file=sys.stderr)
+            return None
+    return None
 
 
 def parse_items(xml_bytes: bytes, feed_meta: dict, today: datetime.date):
@@ -316,6 +335,7 @@ def main():
         print(f"  → {len(items)}건")
         per_feed_count[label] = len(items)
         all_items.extend(items)
+        time.sleep(0.5)   # 피드 간 간격 — 순간 요청 폭주 완화
 
     out = "candidates.json"
     with open(out, "w", encoding="utf-8") as f:
