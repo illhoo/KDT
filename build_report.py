@@ -110,7 +110,9 @@ def date_prefix(cand: dict) -> str:
 
 # ── Markdown 조립 ─────────────────────────────────────────────────────────────
 
-def build_markdown(candidates: list[dict], curation: list[dict]) -> str:
+def build_markdown(candidates: list[dict], curation: list[dict],
+                   all_candidates: list[dict] | None = None) -> str:
+    """candidates = shortlist(큐레이션 대상), all_candidates = 수집 전체(헤더 통계용)."""
     # id → candidate 매핑
     id2cand = {i: c for i, c in enumerate(candidates)}
 
@@ -145,9 +147,19 @@ def build_markdown(candidates: list[dict], curation: list[dict]) -> str:
     lines = []
     lines.append(f"# 교민일보 야간 모니터링 리포트 — {DATE_STR}")
     lines.append("")
-    lines.append(f"> 수집 범위: 한국·미국·일본·캐나다·호주·베트남 / 실행일: {DATE_STR}")
+    # ── 헤더 통계 (v6) ──────────────────────────────────────────────────────
+    # 기존 버그: "수집 범위"가 6개국 시절 하드코딩 문구였고, "RSS 피드 수"는 실제
+    # 피드 수가 아니라 shortlist에 실린 기사들의 매체 유니크 수라 매일 흔들렸다.
+    # → 수집 전체(all_candidates) 기준 실제 통계로 교체.
+    stat_src = all_candidates if all_candidates else candidates
+    n_country = len({c.get("country", "") for c in stat_src if c.get("country")})
+    n_media   = len({c.get("media", "") for c in stat_src if c.get("media")})
+    countries = sorted({c.get("country", "") for c in stat_src if c.get("country")})
+
+    lines.append(f"> 실행일: {DATE_STR} / 수집: {n_country}개국 · {n_media}개 매체 · "
+                 f"{len(stat_src)}건 → 큐레이션 대상 {len(candidates)}건")
+    lines.append(f"> 수집 국가: {' · '.join(countries)}")
     lines.append(f"> 링크 정책: candidates.json의 link 필드 그대로 사용 (모델 생성 링크 없음)")
-    lines.append(f"> RSS 피드 수: {len(set(c['media'] for c in candidates))}개 매체 / shortlist: {len(candidates)}건 큐레이션")
     lines.append("")
 
     # ── 오늘의 주목 ──────────────────────────────────────────────────────────
@@ -435,7 +447,7 @@ def main():
         send_failure_alert("curation.json이 비어 있습니다 — 분류 실패")
 
     # 1. Markdown 조립 — curation id는 shortlist 인덱스 기준
-    md = build_markdown(shortlist, curation)
+    md = build_markdown(shortlist, curation, all_candidates=candidates)
 
     # 2. 발송 결과 placeholder — 실제 발송 후 추가
     subject = f"교민일보 야간 모니터링 — {DATE_STR}"
