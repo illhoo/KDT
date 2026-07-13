@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v6.1 광고 구조 차단 + 일본어 dedup]
+KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v6.2 광고 구조 차단 + 일본어 dedup]
 
 [v6 변경 — 2026-07-14 광고 3건 리스트 진입 사고 대응]
   원인: v5의 광고 차단이 "모집합니다·방1+화1·콘도 렌트" 등 어제 본 표기만 나열한
@@ -120,7 +120,11 @@ AD_RULES = [
     (3, r"하숙|민박|룸메|룸\s*메이트|셰어|쉐어|서브\s*리스|서블렛|마스터\s*룸"),
     (3, r"파킹\s*\d|주차\s*\d\s*대|스퀘어\s*피트|\bsq\s?ft\b|\bloft\b|로프트"),
     (3, r"즉시\s*입주|바로\s*입주|입주\s*가능|입주\s*환영"),
-    (3, r"콘도|타운\s*하우스|하이\s*라이즈|high[\s-]?rise|유닛\s*\d"),
+    (3, r"콘도|타운\s*하우스|하이\s*라이즈|high[\s-]?rise|유닛\s*\d|"
+        r"\bstudio\b|스튜디오\s*(렌트|매물|임대)?"),
+    # 매물 광고 화법 — 형용사 나열·입지 자랑 (뉴스 제목에는 거의 안 나옴)
+    (2, r"조용하고|깨끗한|넓고\s|편리한|최고\s*입지|중심가|노소셜|풀\s*옵션|"
+        r"유틸리티\s*포함|새\s*건물|신축\s*아파트먼트"),
     # 구인·모집
     (3, r"모집|구인|구합니다|구함|급구|채용\s*공고|알바|파트\s*타임|풀\s*타임"),
     (3, r"(캐셔|서버\s|웨이트리스|스태프|staff|바텐더|서빙|쉐프|셰프|바리스타|헬퍼|"
@@ -277,20 +281,18 @@ def _bigrams(s: str) -> set:
 
 
 def _sim(a: str, b: str) -> float:
-    """유사도. 한국어·영어는 공백 토큰 자카드, 일본어처럼 공백이 없으면 문자 bigram.
-    v6: 일본어 제목이 한 덩어리 토큰이라 중복 판정이 전혀 안 되던 문제 해결.
-    (在日コリアン3世 영화감독 기사가 리스트에 2건 중복 등재되던 원인)"""
-    ta, tb = a.split(), b.split()
-    if len(ta) >= 4 and len(tb) >= 4:
-        sa, sb = set(ta), set(tb)
-        if not sa or not sb:
-            return 0.0
-        return len(sa & sb) / len(sa | sb)
+    """유사도 = 공백 토큰 자카드와 문자 bigram 자카드 중 높은 값.
+    v6.2: v6.1은 '공백 토큰이 4개 미만일 때만 bigram' 조건이었는데, 일본어 제목은
+    매체명·부제에 따라 공백 수가 들쭉날쭉해 같은 기사가 토큰 경로로 빠져 중복
+    제거에 실패했다(在日コリアン3世 영화감독 기사가 리스트에 2건). 조건 분기를
+    없애고 항상 둘 다 계산해 높은 쪽을 쓴다."""
+    ta, tb = set(a.split()), set(b.split())
+    tok = len(ta & tb) / len(ta | tb) if ta and tb else 0.0
 
     ba, bb = _bigrams(a), _bigrams(b)
-    if not ba or not bb:
-        return 0.0
-    return len(ba & bb) / len(ba | bb)
+    big = len(ba & bb) / len(ba | bb) if ba and bb else 0.0
+
+    return max(tok, big)
 
 
 def dedup(items: list[dict], threshold: float = 0.45) -> list[dict]:
