@@ -83,6 +83,20 @@ EXCLUDE_TITLE_RE = [
     r"모닝뉴스\s*헤드라인", r"^라디오코리아\s*뉴스$", r"증권소식",
     r"^\d+월\s*\d+일\s*(모닝|뉴스|헤드라인)", r"오늘의\s*(증권|뉴스|헤드라인)",
     r"주요\s*뉴스\s*$", r"뉴스\s*브리핑\s*$", r"^.{0,6}\s*뉴스데스크",
+    # ── v5 추가: 교민 매체 벼룩시장·구인구직·부동산 게시글 ──
+    # RadioKorea 등 교민 매체의 생활정보 게시판 글이 뉴스로 색인되는 것 차단.
+    # "한인타운" 등 동포 키워드가 박혀 있어 화이트리스트를 통과하므로 제목 패턴으로 차단.
+    # 구인·구직
+    r"모집합니다", r"모집\s*합니다", r"구인\s*(합니다|광고)?",
+    r"(서버|주방|캐셔|직원|매니저|기사|알바|파트|풀타임|사원)\s*(분)?\s*(모집|구함|구합니다|채용)",
+    r"채용\s*공고", r"구직", r"사람\s*구합니다", r"급구",
+    # 부동산·렌트 매물
+    r"방\s*\d+\s*\+?\s*화\s*\d+",   # 방1+화1
+    r"\d+\s*bed\s*\d+\s*bath", r"렌트\s*(합니다|줍니다|놓습니다)",
+    r"(콘도|타운하우스|아파트|스튜디오|하우스)\s*렌트", r"룸메이트?\s*(구함|모집)",
+    r"셰어\s*합니다", r"매매\s*합니다", r"(전세|월세|매물)\s*(있습니다|나왔습니다)",
+    # 중고·판매 게시글
+    r"팝니다\s*$", r"삽니다\s*$", r"양도\s*합니다", r"드립니다\s*$",
 ]
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -409,6 +423,9 @@ TRAN_SCORE_MIN       = 1   # v3.1: 0→1. 이관도 동포 신호(+1 이상) 필
                            # 신호 0(none)은 광고·일반뉴스 전부 제외. (산양유·쿠첸 제거)
 LIST_CAP  = 20             # 진단 단계: 넉넉히. 실제 통과분 보고 조정
 TRAN_CAP  = 30             # v3.2: 15→30. 이관을 검토용 그물로 — 발행인이 눈으로 훑는 풀
+LIST_COUNTRY_CAP = 4       # v5: 국가별 리스트 상한. 한 나라가 리스트 독식 방지.
+                           # 일본 재일 기사가 리스트 7/10을 먹던 편중 해소 목적.
+                           # 초과분은 버리지 않고 이관으로 강등(발제 회의에서 볼 수 있게).
 
 
 def classify(shortlist: list[dict], seen: dict) -> list[dict]:
@@ -445,9 +462,11 @@ def classify(shortlist: list[dict], seen: dict) -> list[dict]:
 
     list_count = 0
     tran_count = 0
+    country_list_count: dict[str, int] = defaultdict(int)   # v5: 국가별 리스트 카운터
     for e in active:
         s = e["score"]
         is_korea_pol = e.get("is_korea_pol", False)
+        country = shortlist[e["idx"]].get("country", "")
 
         # 한반도 정치는 점수 무관 이관 강제
         if is_korea_pol and s < LIST_SCORE_THRESHOLD:
@@ -455,9 +474,18 @@ def classify(shortlist: list[dict], seen: dict) -> list[dict]:
                 e["desk"] = "이관"; tran_count += 1
             else:
                 e["desk"] = "제외"
-        # 화이트리스트 통과 → 리스트
+        # 화이트리스트 통과 → 리스트 (단 국가별 상한 준수)
         elif s >= LIST_SCORE_THRESHOLD and list_count < LIST_CAP:
-            e["desk"] = "리스트"; list_count += 1
+            if country_list_count[country] < LIST_COUNTRY_CAP:
+                e["desk"] = "리스트"
+                list_count += 1
+                country_list_count[country] += 1
+            else:
+                # v5: 국가 상한 초과 — 버리지 않고 이관으로 강등
+                e["desk"] = "이관" if tran_count < TRAN_CAP else "제외"
+                e["country_capped"] = True   # 진단용 플래그
+                if e["desk"] == "이관":
+                    tran_count += 1
         # 동포 신호 약하지만 0 이상 → 이관 그물
         elif s >= TRAN_SCORE_MIN and tran_count < TRAN_CAP:
             e["desk"] = "이관"; tran_count += 1
@@ -610,6 +638,58 @@ def main():
         print(f"\n── ⚠ 제외됐지만 동포 신호 있던 항목 ({len(missed)}건) — 놓침 점검 ──")
         for e, item in missed[:15]:
             print(f"    ({e['signal']}/{e['score']}) {item['title'][:50]}")
+
+    # ══════════════════════════════════════════════════════════════════════
+    # v5 신설: 비주력 국가 진단 — 왜 리스트에 안 오르는가
+    #   두 관문(fresh × strong)을 국가별로 갈라 원인 특정.
+    #   candidates 전체를 봐야 하므로 all_items 기준으로 재집계.
+    # ══════════════════════════════════════════════════════════════════════
+    print(f"\n{'='*60}")
+    print("국가별 관문 통과 진단 (왜 리스트에 안 오르는가)")
+    print(f"{'='*60}")
+
+    from collections import defaultdict as dd
+    stat = dd(lambda: {"수집": 0, "fresh": 0, "strong_fresh": 0, "리스트": 0})
+
+    # 1) candidates 전체에서 수집·fresh 집계
+    for item in all_items:
+        c = item.get("country", "?")
+        stat[c]["수집"] += 1
+        if not item.get("old"):
+            stat[c]["fresh"] += 1
+
+    # 2) fresh(shortlist) 중 strong/hub 신호 받은 건수
+    for e in entries:
+        item = fresh[e["idx"]]
+        c = item.get("country", "?")
+        if e.get("signal") in ("strong", "hub"):
+            stat[c]["strong_fresh"] += 1
+        if e["desk"] in ("주목", "리스트"):
+            stat[c]["리스트"] += 1
+
+    print(f"  {'국가':<10} {'수집':>5} {'fresh':>6} {'동포신호':>7} {'리스트':>6}   병목")
+    print(f"  {'-'*10} {'-'*5} {'-'*6} {'-'*7} {'-'*6}   {'-'*20}")
+    for c in sorted(stat, key=lambda x: -stat[x]["수집"]):
+        s = stat[c]
+        # 병목 진단
+        if s["리스트"] > 0:
+            bottleneck = "통과"
+        elif s["수집"] == 0:
+            bottleneck = "수집 0 — 피드 점검"
+        elif s["fresh"] == 0:
+            bottleneck = "fresh 0 — 발행빈도 낮음(STALE)"
+        elif s["strong_fresh"] == 0:
+            bottleneck = "동포신호 0 — 현지 일반뉴스뿐"
+        else:
+            bottleneck = "점수 미달 or 국가상한"
+        print(f"  {c:<10} {s['수집']:>5} {s['fresh']:>6} {s['strong_fresh']:>7} {s['리스트']:>6}   {bottleneck}")
+
+    # 국가 상한으로 강등된 항목
+    capped = [(e, fresh[e["idx"]]) for e in entries if e.get("country_capped")]
+    if capped:
+        print(f"\n── 국가 상한({LIST_COUNTRY_CAP}건) 초과로 이관 강등 ({len(capped)}건) ──")
+        for e, item in capped[:10]:
+            print(f"    [{item['country']}] ({e['signal']}/{e['score']}) {item['title'][:45]}")
 
 
 if __name__ == "__main__":
