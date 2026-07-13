@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v6 광고 구조 차단]
+KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v6.1 광고 구조 차단 + 일본어 dedup]
 
 [v6 변경 — 2026-07-14 광고 3건 리스트 진입 사고 대응]
   원인: v5의 광고 차단이 "모집합니다·방1+화1·콘도 렌트" 등 어제 본 표기만 나열한
@@ -114,17 +114,22 @@ AD_RULES = [
     # (가중치, 정규식) — 매물 스펙
     (3, r"원\s*베드|투\s*베드|쓰리\s*베드|\d\s*베드|베드\s*룸|\d\s*bed\s?room|\d\s*bed\b"),
     (3, r"\d\s*배스|배스\s*룸|\d\s*bath\b|\d\s*br\s*\d\s*ba"),
-    (3, r"방\s*\d\s*\+?\s*화\s*\d"),                       # 방1+화1
+    (3, r"방\s*\d\s*[+,·/\s]*화\s*\d"),                    # 방1+화1 / 큰방2, 화1
+    (3, r"큰\s*방|작은\s*방|개인\s*방|개인\s*화장실|화장실\s*딸린|욕실\s*딸린|"
+        r"화장실\s*포함|방\s*있습니다"),
     (3, r"하숙|민박|룸메|룸\s*메이트|셰어|쉐어|서브\s*리스|서블렛|마스터\s*룸"),
     (3, r"파킹\s*\d|주차\s*\d\s*대|스퀘어\s*피트|\bsq\s?ft\b|\bloft\b|로프트"),
+    (3, r"즉시\s*입주|바로\s*입주|입주\s*가능|입주\s*환영"),
+    (3, r"콘도|타운\s*하우스|하이\s*라이즈|high[\s-]?rise|유닛\s*\d"),
     # 구인·모집
     (3, r"모집|구인|구합니다|구함|급구|채용\s*공고|알바|파트\s*타임|풀\s*타임"),
-    (3, r"(서버|주방|캐셔|직원|매니저|기사|보조|웨이터|배달|사원|점원|헬퍼)\s*(분)?\s*"
-        r"(모집|구함|구합니다|채용|급구)"),
+    (3, r"(캐셔|서버\s|웨이트리스|스태프|staff|바텐더|서빙|쉐프|셰프|바리스타|헬퍼|"
+        r"알바|파트\s*타이머)"),
     # 판매·양도
     (3, r"팝니다|삽니다|양도\s*합니다|처분\s*합니다|무료\s*나눔|급매|직거래"),
     # 매물·거래 일반
-    (2, r"렌트|전세|월세|매물|입주\s*가능|리스\s*(합니다|해요)|유학생\s*ok"),
+    (2, r"렌트|전세|월세|매물|리스\s*(합니다|해요)|유학생\s*ok|한타\b|월셔|프로모션"),
+    (2, r"숙소|게스트\s*하우스|에어비앤비|\bbnb\b|best\s*stay"),
     # 가격 표기
     (2, r"\$\s?\d|\d+\s*불\b|\d+\s*달러|\d{2,4}\s*만\s*원|월세?\s*\d"),
     # 광고 문법 — 명사구 나열(쉼표·슬래시 2회 이상)
@@ -266,11 +271,26 @@ def _normalize(title: str) -> str:
     return t
 
 
+def _bigrams(s: str) -> set:
+    t = s.replace(" ", "")
+    return {t[i:i+2] for i in range(len(t) - 1)}
+
+
 def _sim(a: str, b: str) -> float:
-    sa, sb = set(a.split()), set(b.split())
-    if not sa or not sb:
+    """유사도. 한국어·영어는 공백 토큰 자카드, 일본어처럼 공백이 없으면 문자 bigram.
+    v6: 일본어 제목이 한 덩어리 토큰이라 중복 판정이 전혀 안 되던 문제 해결.
+    (在日コリアン3世 영화감독 기사가 리스트에 2건 중복 등재되던 원인)"""
+    ta, tb = a.split(), b.split()
+    if len(ta) >= 4 and len(tb) >= 4:
+        sa, sb = set(ta), set(tb)
+        if not sa or not sb:
+            return 0.0
+        return len(sa & sb) / len(sa | sb)
+
+    ba, bb = _bigrams(a), _bigrams(b)
+    if not ba or not bb:
         return 0.0
-    return len(sa & sb) / len(sa | sb)
+    return len(ba & bb) / len(ba | bb)
 
 
 def dedup(items: list[dict], threshold: float = 0.45) -> list[dict]:
@@ -567,12 +587,16 @@ def classify(shortlist: list[dict], seen: dict) -> list[dict]:
         is_korea_pol = e.get("is_korea_pol", False)
         country = shortlist[e["idx"]].get("country", "")
 
-        # v6: 준광고는 점수 무관 리스트 진입 금지 → 이관 강등
+        # v6.1: 준광고는 리스트 진입 금지 → 이관 강등.
+        #   단 '강등'이지 '승격'이 아니다. 점수가 이관 최소치(+1) 미만이면 제외.
+        #   (v6 버그: soft_ad를 점수보다 먼저 봐서 none/0·none/-5 채용공고가
+        #    이관으로 올라오던 문제)
         if e.get("soft_ad"):
-            if tran_count < TRAN_CAP:
+            if s >= TRAN_SCORE_MIN and tran_count < TRAN_CAP:
                 e["desk"] = "이관"; tran_count += 1
             else:
                 e["desk"] = "제외"
+                e["reason"] = e.get("reason") or f"준광고(ad={e.get('ad_score')})·점수 미달"
         # 한반도 정치는 점수 무관 이관 강제
         elif is_korea_pol and s < LIST_SCORE_THRESHOLD:
             if tran_count < TRAN_CAP:
