@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
 """
-KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v3 화이트리스트]
+KDT 야간 모니터링 — shortlist + 규칙 기반 curation 자동 생성 [v6 광고 구조 차단]
+
+[v6 변경 — 2026-07-14 광고 3건 리스트 진입 사고 대응]
+  원인: v5의 광고 차단이 "모집합니다·방1+화1·콘도 렌트" 등 어제 본 표기만 나열한
+        블랙리스트였음. 오늘 변형(원베드·1베드 1배스·하숙집·파킹2대·회원모집)에 전부 뚫림.
+        게다가 "한인타운"이 DONGPO_STRONG(+5)이라 광고가 리스트 1등으로 올라감.
+  대응: 패턴 나열 폐기 → 신호 조합 점수제(AD_RULES).
+        ① 게시판·장터 URL(/bbs/·board.php·bulletin 등) → 무조건 제외
+        ② 광고 신호 조합 ad_score >= 5 → 제외 (동포 가점 무효화)
+        ③ 3 <= ad_score < 5 → 준광고. 리스트 진입 금지, 이관 강등
+        ④ 뉴스 서술 신호(화재·사망·소송·급등…) 있으면 -4 상쇄 → 기사 오탐 방지
+
 
 candidates.json
   → shortlist.json  (신규 우선 + 중복 제거 + 국가 캡)
@@ -83,20 +94,63 @@ EXCLUDE_TITLE_RE = [
     r"모닝뉴스\s*헤드라인", r"^라디오코리아\s*뉴스$", r"증권소식",
     r"^\d+월\s*\d+일\s*(모닝|뉴스|헤드라인)", r"오늘의\s*(증권|뉴스|헤드라인)",
     r"주요\s*뉴스\s*$", r"뉴스\s*브리핑\s*$", r"^.{0,6}\s*뉴스데스크",
-    # ── v5 추가: 교민 매체 벼룩시장·구인구직·부동산 게시글 ──
-    # RadioKorea 등 교민 매체의 생활정보 게시판 글이 뉴스로 색인되는 것 차단.
-    # "한인타운" 등 동포 키워드가 박혀 있어 화이트리스트를 통과하므로 제목 패턴으로 차단.
-    # 구인·구직
-    r"모집합니다", r"모집\s*합니다", r"구인\s*(합니다|광고)?",
-    r"(서버|주방|캐셔|직원|매니저|기사|알바|파트|풀타임|사원)\s*(분)?\s*(모집|구함|구합니다|채용)",
-    r"채용\s*공고", r"구직", r"사람\s*구합니다", r"급구",
-    # 부동산·렌트 매물
-    r"방\s*\d+\s*\+?\s*화\s*\d+",   # 방1+화1
-    r"\d+\s*bed\s*\d+\s*bath", r"렌트\s*(합니다|줍니다|놓습니다)",
-    r"(콘도|타운하우스|아파트|스튜디오|하우스)\s*렌트", r"룸메이트?\s*(구함|모집)",
-    r"셰어\s*합니다", r"매매\s*합니다", r"(전세|월세|매물)\s*(있습니다|나왔습니다)",
-    # 중고·판매 게시글
-    r"팝니다\s*$", r"삽니다\s*$", r"양도\s*합니다", r"드립니다\s*$",
+    # ※ v5의 광고 패턴 나열은 v6에서 전면 제거.
+    #   패턴 나열은 표기 변형(방1+화1 → 원베드 → 1베드 1배스)에 계속 뚫린다.
+    #   광고 판정은 아래 AD_RULES 신호 조합 점수제로 이관. (§ 광고 구조 차단)
+]
+
+# ══════════════════════════════════════════════════════════════════════════════
+# 광고 구조 차단 (v6 신설) — 패턴 나열이 아니라 "신호 조합"
+#   RadioKorea 등 교민매체의 벼룩시장·구인·렌트 게시글이 뉴스 RSS에 색인되는 게
+#   구조적 원인. 이 글들엔 "한인타운" 등 동포 키워드가 박혀 있어 화이트리스트를
+#   통과하고 리스트 1등까지 올라간다. → 광고 신호가 있으면 동포 가점을 무효화한다.
+#
+#   ad_score >= AD_BLOCK      → 제외 (동포 신호 무관, 무조건 차단)
+#   AD_SOFT <= ad_score < AD_BLOCK → 리스트 진입 금지 → 이관 강등 (준광고·공지)
+#   뉴스 서술 신호(화재·사망·소송·급등 등)가 있으면 광고 점수 상쇄 → 오탐 방지
+# ══════════════════════════════════════════════════════════════════════════════
+
+AD_RULES = [
+    # (가중치, 정규식) — 매물 스펙
+    (3, r"원\s*베드|투\s*베드|쓰리\s*베드|\d\s*베드|베드\s*룸|\d\s*bed\s?room|\d\s*bed\b"),
+    (3, r"\d\s*배스|배스\s*룸|\d\s*bath\b|\d\s*br\s*\d\s*ba"),
+    (3, r"방\s*\d\s*\+?\s*화\s*\d"),                       # 방1+화1
+    (3, r"하숙|민박|룸메|룸\s*메이트|셰어|쉐어|서브\s*리스|서블렛|마스터\s*룸"),
+    (3, r"파킹\s*\d|주차\s*\d\s*대|스퀘어\s*피트|\bsq\s?ft\b|\bloft\b|로프트"),
+    # 구인·모집
+    (3, r"모집|구인|구합니다|구함|급구|채용\s*공고|알바|파트\s*타임|풀\s*타임"),
+    (3, r"(서버|주방|캐셔|직원|매니저|기사|보조|웨이터|배달|사원|점원|헬퍼)\s*(분)?\s*"
+        r"(모집|구함|구합니다|채용|급구)"),
+    # 판매·양도
+    (3, r"팝니다|삽니다|양도\s*합니다|처분\s*합니다|무료\s*나눔|급매|직거래"),
+    # 매물·거래 일반
+    (2, r"렌트|전세|월세|매물|입주\s*가능|리스\s*(합니다|해요)|유학생\s*ok"),
+    # 가격 표기
+    (2, r"\$\s?\d|\d+\s*불\b|\d+\s*달러|\d{2,4}\s*만\s*원|월세?\s*\d"),
+    # 광고 문법 — 명사구 나열(쉼표·슬래시 2회 이상)
+    (1, r"[,·/][^,·/]{1,12}[,·/]"),
+]
+
+# 뉴스 서술 신호 — 이게 있으면 광고 점수 상쇄 (오탐 방지)
+# 예: "LA 한인타운 하숙집 화재로 3명 사망" / "한인타운 렌트비 급등에 상인 반발"
+AD_NEWS_GUARD = [
+    "화재", "사망", "숨져", "부상", "체포", "구속", "기소", "판결", "소송", "고소",
+    "적발", "단속", "수사", "조사", "논란", "반발", "비판", "규탄", "촉구", "시위",
+    "급등", "급락", "인상", "폭등", "붕괴", "무너져", "추모", "장례", "실종", "총격",
+    "발표", "선출", "당선", "취임", "개최", "열려", "열린다", "확정", "합의", "협약",
+    "피해", "사기", "강도", "절도", "폭행", "차별", "인종", "혐오", "추방", "이민법",
+]
+AD_NEWS_OFFSET = 4     # 뉴스 신호 1개 이상이면 ad_score에서 차감
+
+AD_BLOCK = 5           # 이상 → 제외 (명백 광고)
+AD_SOFT  = 3           # 이상 → 리스트 진입 금지, 이관 강등 (준광고·모집공고)
+
+# URL 경로 기반 차단 — 뉴스가 아닌 게시판·장터 글은 URL이 다르다.
+# 뉴스 기사 URL엔 이 조각들이 들어가지 않으므로 오탐 위험 거의 없음.
+AD_URL_RE = [
+    r"/bbs/", r"board\.php", r"/bulletin", r"/market", r"/classified",
+    r"/flea", r"/vielmarkt", r"/jangter", r"/directory", r"/forum/",
+    r"bo_table=", r"/rent", r"/job(s)?/", r"/buysell",
 ]
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -323,6 +377,34 @@ def prune_seen(seen: dict) -> dict:
 
 _COMPILED_TITLE_RE  = [re.compile(p, re.IGNORECASE) for p in EXCLUDE_TITLE_RE]
 _COMPILED_PROMO_RE  = [re.compile(p, re.IGNORECASE) for p in PROMO_TITLE_RE]
+_COMPILED_AD_RULES  = [(w, re.compile(p, re.IGNORECASE)) for w, p in AD_RULES]
+_COMPILED_AD_URL_RE = [re.compile(p, re.IGNORECASE) for p in AD_URL_RE]
+
+
+def ad_score(item: dict) -> tuple[int, list[str]]:
+    """광고 신호 점수. 제목의 신호 조합으로 산출하고 뉴스 서술 신호로 상쇄한다.
+    반환: (점수, 걸린 신호 목록)"""
+    title = _clean_title(item.get("title") or "")
+    hits: list[str] = []
+    s = 0
+    for w, rx in _COMPILED_AD_RULES:
+        m = rx.search(title)
+        if m:
+            s += w
+            hits.append(m.group(0).strip()[:14])
+
+    # 뉴스 서술 신호가 있으면 광고 점수 상쇄 (기사 오탐 방지)
+    if s > 0 and any(kw in title for kw in AD_NEWS_GUARD):
+        s -= AD_NEWS_OFFSET
+        hits.append("뉴스가드")
+
+    return s, hits
+
+
+def is_ad_url(item: dict) -> bool:
+    """뉴스가 아닌 게시판·장터 경로 URL이면 True."""
+    link = item.get("link") or ""
+    return any(rx.search(link) for rx in _COMPILED_AD_URL_RE)
 
 
 def is_excluded(item: dict) -> tuple[bool, str]:
@@ -334,6 +416,16 @@ def is_excluded(item: dict) -> tuple[bool, str]:
     for rx in _COMPILED_TITLE_RE:
         if rx.search(title):
             return True, f"제목 패턴: {rx.pattern[:40]}"
+
+    # v6 광고 구조 차단 ①: 게시판·장터 URL
+    if is_ad_url(item):
+        return True, "광고 URL: 게시판·장터 경로"
+
+    # v6 광고 구조 차단 ②: 광고 신호 조합 (동포 키워드 무관 — 가점 무효화)
+    a, hits = ad_score(item)
+    if a >= AD_BLOCK:
+        return True, f"광고 신호({a}): {'·'.join(hits[:4])}"
+
     return False, ""
 
 
@@ -448,12 +540,19 @@ def classify(shortlist: list[dict], seen: dict) -> list[dict]:
         pen = seen_penalty(seen.get(seen_key, ""))
         s += pen
 
+        # v6: 준광고(모집공고·경계 사례) — 제외까진 아니나 리스트 진입은 금지
+        a, hits = ad_score(item)
+        soft_ad = AD_SOFT <= a < AD_BLOCK
+
         entries.append({
             "idx": idx, "score": s, "desk": None,
             "signal": r["signal"],
             "is_korea_pol": r["is_korea_pol"],
             "is_kpop_gossip": r["is_kpop_gossip"],
             "seen_pen": pen,
+            "ad_score": a,
+            "soft_ad": soft_ad,
+            "ad_hits": hits,
             "reason": "",
         })
 
@@ -468,8 +567,14 @@ def classify(shortlist: list[dict], seen: dict) -> list[dict]:
         is_korea_pol = e.get("is_korea_pol", False)
         country = shortlist[e["idx"]].get("country", "")
 
+        # v6: 준광고는 점수 무관 리스트 진입 금지 → 이관 강등
+        if e.get("soft_ad"):
+            if tran_count < TRAN_CAP:
+                e["desk"] = "이관"; tran_count += 1
+            else:
+                e["desk"] = "제외"
         # 한반도 정치는 점수 무관 이관 강제
-        if is_korea_pol and s < LIST_SCORE_THRESHOLD:
+        elif is_korea_pol and s < LIST_SCORE_THRESHOLD:
             if tran_count < TRAN_CAP:
                 e["desk"] = "이관"; tran_count += 1
             else:
@@ -638,6 +743,20 @@ def main():
         print(f"\n── ⚠ 제외됐지만 동포 신호 있던 항목 ({len(missed)}건) — 놓침 점검 ──")
         for e, item in missed[:15]:
             print(f"    ({e['signal']}/{e['score']}) {item['title'][:50]}")
+
+    # v6 신설: 광고 차단 진단 — 무엇이 광고로 걸렸나 (오탐 점검용)
+    ad_blocked = [(e, fresh[e["idx"]]) for e in entries
+                  if e["desk"] == "제외" and "광고" in e.get("reason", "")]
+    if ad_blocked:
+        print(f"\n── 🚫 광고 차단 ({len(ad_blocked)}건) — 기사가 섞였는지 확인 ──")
+        for e, item in ad_blocked[:20]:
+            print(f"    [{item['country']}] {item['title'][:45]}  ← {e['reason'][:38]}")
+
+    soft_ads = [(e, fresh[e["idx"]]) for e in entries if e.get("soft_ad")]
+    if soft_ads:
+        print(f"\n── ⚠ 준광고 → 이관 강등 ({len(soft_ads)}건) ──")
+        for e, item in soft_ads[:10]:
+            print(f"    [{item['country']}] (ad={e['ad_score']}) {item['title'][:45]}")
 
     # ══════════════════════════════════════════════════════════════════════
     # v5 신설: 비주력 국가 진단 — 왜 리스트에 안 오르는가
