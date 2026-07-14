@@ -1,215 +1,159 @@
 [
   {
-    "id": 32,
+    "id": 59,
     "rank": 1,
     "desk": "주목",
-    "one_liner": "(LA 한인타운) 올림픽과 놀만디, 원베드, 파킹2대 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 35,
-    "rank": 1,
-    "desk": "리스트",
-    "one_liner": "7/19/2026 재미한인산악회 모임/회원모집 알림 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 41,
-    "rank": 2,
-    "desk": "리스트",
-    "one_liner": "한인타운 근처 하숙집 렌트 - 개인 방 $1300 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 44,
-    "rank": 3,
-    "desk": "리스트",
-    "one_liner": "한인타운 넓고 깨끗한 1베드, 1배스, Loft - RadioKorea / RadioKorea",
+    "one_liner": "在日コリアン3世の映画監督が描く“朝鮮学校の今” 「日本の方に一番見てもらいたい」 - 日テレNEWS NNN / 日テレNEWS NNN",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 1,
     "rank": 1,
-    "desk": "이관",
+    "desk": "리스트",
     "one_liner": "몽골 동포들 만난 李대통령 \"국민이 나라 걱정하는 일 없을 것\"(종합) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 30,
+    "id": 56,
     "rank": 2,
-    "desk": "이관",
-    "one_liner": "LA·OC 집값 감당하며 은퇴가 되나요 남가주 한인들을 위한 월급 5천불 은퇴 설계 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 33,
-    "rank": 3,
-    "desk": "이관",
-    "one_liner": "LA 한인 민박 \"LaMarieBnB\"(여행자가 직접 선정한 LA Best Stay 숙소) - RadioKo / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 64,
-    "rank": 4,
-    "desk": "이관",
-    "one_liner": "在日コリアン3世の映画監督が描く“朝鮮学校の今” 「日本の方に一番見てもらいたい」（2026年7月12日掲載） - 日テ / 日テレNEWS NNN",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 66,
-    "rank": 5,
-    "desk": "이관",
-    "one_liner": "在日コリアン3世の映画監督が描く“朝鮮学校の今” 「日本の方に一番見てもらいたい」（日テレNEWS NNN） - ｄメニ / ｄメニューニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 79,
-    "rank": 6,
-    "desk": "이관",
-    "one_liner": "ヘイトの矛先は在日コリアンから埼玉クルドに移り、子どもまで狙われ…ヘイトスピーチ解消法１０年 なぜ差別が続くのか、何が必 / 山陽新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 3,
-    "rank": 7,
-    "desk": "이관",
-    "one_liner": "베트남 전국수석, KAIST 선택한 이유…\"한국 안전하고 기회 많아\" - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 15,
-    "rank": 8,
-    "desk": "이관",
-    "one_liner": "BTS \"스윔\", 美서 표절 의혹…빅히트 \"일방적 주장, 강경 대응\"(종합) - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 19,
-    "rank": 9,
-    "desk": "이관",
-    "one_liner": "한인 여성 건강을 위한 뜻깊은 연구에 함께 해주세요 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 57,
-    "rank": 10,
-    "desk": "이관",
+    "desk": "리스트",
     "one_liner": "「在日韓国人記念館」が銀行にある理由 ソウルからヨボセヨ - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 58,
-    "rank": 11,
-    "desk": "이관",
-    "one_liner": "「在日韓国人記念館」が銀行にある理由 ソウルからヨボセヨ（写真・画像 1/1） - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 63,
-    "rank": 12,
-    "desk": "이관",
-    "one_liner": "「在日韓国人記念館」が銀行にある理由 ソウルからヨボセヨ（産経新聞） - Yahoo!ニュース / Yahoo!ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 67,
-    "rank": 13,
-    "desk": "이관",
-    "one_liner": "「在日韓国人記念館」が銀行にある理由 ソウルからヨボセヨ (産経新聞) - Yahoo!ニュース / Yahoo!ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 68,
-    "rank": 14,
-    "desk": "이관",
+    "id": 60,
+    "rank": 3,
+    "desk": "리스트",
     "one_liner": "松本若菜の中学時代でデビューの16歳。在日コリアンの生徒役に「歴史を学べば互いの見方がわかるなと」 - Yahoo!ニュ / Yahoo!ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 69,
-    "rank": 15,
-    "desk": "이관",
+    "id": 61,
+    "rank": 4,
+    "desk": "리스트",
     "one_liner": "父の祖国・北朝鮮の勲章をBTSのライブのために売って…。自らの在日コリアンのルーツに向き合った15歳 - Yahoo!ニ / Yahoo!ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 70,
-    "rank": 16,
-    "desk": "이관",
-    "one_liner": "カルト的人気の米映画 第4弾も韓国系＆インド系アメリカ人の青年コンビ続投へ プロデューサー明かす - Yahoo!ニュー / Yahoo!ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 76,
-    "rank": 17,
+    "id": 67,
+    "rank": 1,
     "desk": "이관",
     "one_liner": "在日コリアンの選挙権考える　一橋大名誉教授が7月11日にソレイユさがみで講演〈相模原市中央区・相模原市緑区〉 - ｄメニ / ｄメニューニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 89,
-    "rank": 18,
+    "id": 70,
+    "rank": 2,
+    "desk": "이관",
+    "one_liner": "ヘイトの矛先は在日コリアンから埼玉クルドに移り、子どもまで狙われ…ヘイトスピーチ解消法１０年 なぜ差別が続くのか、何が必 / 山陽新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 72,
+    "rank": 3,
+    "desk": "이관",
+    "one_liner": "井浦新が語るカルチャーの力「政治を超えて国と国をつなげてくれるもの」最新作『トロフィー』で在日コリアンの父親役に(1/2 / ウォーカープラス",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 78,
+    "rank": 4,
+    "desk": "이관",
+    "one_liner": "「38度線をぶっ壊せ」元ヤクザの在日コリアンが日本で政治家を目指す覚悟 - ライブドアニュース / ライブドアニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 74,
+    "rank": 5,
+    "desk": "이관",
+    "one_liner": "ロサンゼルス市観光局を総括するドン·リュ(Doane Liu)局長は、LA市初の韓人副市長を歴任した韓国系2世の米国人だ / 매일경제",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 2,
+    "rank": 6,
+    "desk": "이관",
+    "one_liner": "베트남 전국수석, KAIST 선택한 이유…\"한국 안전하고 기회 많아\" - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 13,
+    "rank": 7,
+    "desk": "이관",
+    "one_liner": "한인 여성 건강을 위한 뜻깊은 연구에 함께 해주세요 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 62,
+    "rank": 8,
+    "desk": "이관",
+    "one_liner": "カルト的人気の米映画 第4弾も韓国系＆インド系アメリカ人の青年コンビ続投へ プロデューサー明かす - Yahoo!ニュー / Yahoo!ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 64,
+    "rank": 9,
+    "desk": "이관",
+    "one_liner": "K－POPスターの飛行機飛ばし、中国ECサイトの貨物載せ…突破口探す韓国系LCC（中央日報日本語版） - Yahoo!ニ / Yahoo!ニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 85,
+    "rank": 10,
+    "desk": "이관",
+    "one_liner": "Korean American Warmline Challenges Mental Health Stigma in  / LA Local",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 86,
+    "rank": 11,
     "desk": "이관",
     "one_liner": "How a Korean immigrant’s English struggle helped deaf users  / The Korea Herald",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 90,
-    "rank": 19,
+    "id": 88,
+    "rank": 12,
     "desk": "이관",
     "one_liner": "Korean-American Star Weatherholt Shatters Cardinals' Contrac / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 93,
-    "rank": 20,
+    "id": 90,
+    "rank": 13,
     "desk": "이관",
     "one_liner": "Korean-American Chan Kim Tied for 3rd, 2 Strokes Back at PGA / news.sbs.co.kr",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 94,
-    "rank": 21,
+    "id": 91,
+    "rank": 14,
     "desk": "이관",
     "one_liner": "Top Diplomats of S. Korea, Guatemala Discuss FTA, Developmen / Periódico Digital Centroamericano y del Caribe",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 96,
-    "rank": 22,
-    "desk": "이관",
-    "one_liner": "Korean-American Biotechs Eye KOSDAQ Listings in Wave - Seoul / Seoul Economic Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 97,
-    "rank": 23,
+    "id": 93,
+    "rank": 15,
     "desk": "이관",
     "one_liner": "Korean-American closer Riley O'Brien earns first MLB All-Sta / Chosunbiz",
     "caution": "",
@@ -224,10 +168,10 @@
     "bundle_idea": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "rank": 2,
     "desk": "제외",
-    "one_liner": "안약 250만 병 긴급 리콜…FDA \"즉시 사용 중단\" - RadioKorea / RadioKorea",
+    "one_liner": "스페이스X·아람코 이어 세계 3위…숫자로 본 SK하이닉스 ADR - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -235,23 +179,23 @@
     "id": 4,
     "rank": 3,
     "desk": "제외",
-    "one_liner": "스페이스X·아람코 이어 세계 3위…숫자로 본 SK하이닉스 ADR - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 6,
-    "rank": 4,
-    "desk": "제외",
     "one_liner": "국민의힘, CJ대한통운 대법 판결에 \"노란봉투법 폐지해야\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 7,
+    "id": 5,
+    "rank": 4,
+    "desk": "제외",
+    "one_liner": "제니, 스페인 \"매드 쿨 페스티벌\" 헤드라이너 출연 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 6,
     "rank": 5,
     "desk": "제외",
-    "one_liner": "SK하이닉스 공모가, 주당 149달러 확정... 265억 달러 조달 성공 - RadioKorea / RadioKorea",
+    "one_liner": "\"카타르 협상단, 美·이란 긴장완화 위해 이란 방문\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -259,15 +203,15 @@
     "id": 8,
     "rank": 6,
     "desk": "제외",
-    "one_liner": "제니, 스페인 \"매드 쿨 페스티벌\" 헤드라이너 출연 - RadioKorea / RadioKorea",
+    "one_liner": "트와이스, 오늘부터 서울 KSPO돔서 월드투어 앙코르 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 9,
+    "id": 10,
     "rank": 7,
     "desk": "제외",
-    "one_liner": "\"카타르 협상단, 美·이란 긴장완화 위해 이란 방문\" - RadioKorea / RadioKorea",
+    "one_liner": "BTS \"스윔\", 美서 표절 의혹…빅히트 \"일방적 주장, 강경 대응\"(종합) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -275,7 +219,7 @@
     "id": 11,
     "rank": 8,
     "desk": "제외",
-    "one_liner": "美연준, 정책 검토 5대 TF 출범…맨큐 등 외부 전문가 수혈 - RadioKorea / RadioKorea",
+    "one_liner": "올겨울 '역대급 엘니뇨' 오나...남가주 폭우·산사태 우려 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -283,173 +227,93 @@
     "id": 12,
     "rank": 9,
     "desk": "제외",
-    "one_liner": "트와이스, 오늘부터 서울 KSPO돔서 월드투어 앙코르 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 14,
-    "rank": 10,
-    "desk": "제외",
-    "one_liner": "송중기·박지현의 로코…\"러브 클라우드\" 내년 방송 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 16,
-    "rank": 11,
-    "desk": "제외",
-    "one_liner": "7월 9일 이브닝뉴스 헤드라인 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 17,
-    "rank": 12,
-    "desk": "제외",
-    "one_liner": "올겨울 '역대급 엘니뇨' 오나...남가주 폭우·산사태 우려 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 18,
-    "rank": 13,
-    "desk": "제외",
-    "one_liner": "최저임금 격차 730원으로…노 1만1천250원 vs 사 1만520원(종합) - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 20,
-    "rank": 14,
-    "desk": "제외",
-    "one_liner": "미 6월 기존주택 거래 2.4% 감소…집값은 사상 최대 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 21,
-    "rank": 15,
-    "desk": "제외",
     "one_liner": "앤젤레스 국유림, 서밋 산불로 1,300에이커 전소… 주민 대피령 발령 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 22,
-    "rank": 16,
-    "desk": "제외",
-    "one_liner": "식자재 유통 영업사원 (Sales Representative) - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 23,
-    "rank": 17,
-    "desk": "제외",
-    "one_liner": "개인 Sedan, Mini-Van, Sub Urban SUV로 학교 아이들 Pick-up & Drop off / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 24,
-    "rank": 18,
-    "desk": "제외",
-    "one_liner": "제4기 AI Image and Video 초급반 강의 안내 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 25,
-    "rank": 19,
+    "id": 15,
+    "rank": 10,
     "desk": "제외",
     "one_liner": "Import & Export - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 28,
-    "rank": 20,
-    "desk": "제외",
-    "one_liner": "Joo Pocha Gastropub & Karaoke 주말 파트타임 모집 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 29,
-    "rank": 21,
+    "id": 20,
+    "rank": 11,
     "desk": "제외",
     "one_liner": "Monica - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 36,
-    "rank": 22,
+    "id": 27,
+    "rank": 12,
     "desk": "제외",
-    "one_liner": "버뱅크 스시 레스토랑 스시쉐프/서버/캐시어 모집 - RadioKorea / RadioKorea",
+    "one_liner": "가든그로브 아리랑마켓 내 리테일 상점리스 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 37,
-    "rank": 23,
+    "id": 29,
+    "rank": 13,
     "desk": "제외",
     "one_liner": "2026 기타 7월 여름 빅세일 이벤트-손님이 원하는가격! ◈ 저렴한 리스 ◈ 스페셜! - RadioKore / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 40,
-    "rank": 24,
+    "id": 31,
+    "rank": 14,
     "desk": "제외",
-    "one_liner": "커뮤니티 - RadioKorea / RadioKorea",
+    "one_liner": "식자재 유통 영업사원 (Sales Representative) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 43,
-    "rank": 25,
+    "id": 35,
+    "rank": 15,
     "desk": "제외",
     "one_liner": "소형이사 &가구운반LA,OC책임감으로 소형이사 도와 드립니다 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 45,
-    "rank": 26,
+    "id": 36,
+    "rank": 16,
+    "desk": "제외",
+    "one_liner": "태권도 사범님 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 38,
+    "rank": 17,
     "desk": "제외",
     "one_liner": "Office Administrator - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 46,
-    "rank": 27,
+    "id": 43,
+    "rank": 18,
     "desk": "제외",
-    "one_liner": "어씨스턴 디자이너(assistant designer) - RadioKorea / RadioKorea",
+    "one_liner": "Graphic Design Position - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 47,
-    "rank": 28,
+    "id": 49,
+    "rank": 19,
     "desk": "제외",
-    "one_liner": "인쇄소 그래픽 디자이너 (파트타임) 모집 - 엑손프린트 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 48,
-    "rank": 29,
-    "desk": "제외",
-    "one_liner": "Full-Stack Developer - RadioKorea / RadioKorea",
+    "one_liner": "시니어 등산동호회 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 51,
-    "rank": 30,
+    "rank": 20,
     "desk": "제외",
     "one_liner": "是枝監督の弟子が描いた朝鮮学校 目を背けてきた自身の葛藤を映画に - 朝日新聞 / 朝日新聞",
     "caution": "",
@@ -457,7 +321,7 @@
   },
   {
     "id": 52,
-    "rank": 31,
+    "rank": 21,
     "desk": "제외",
     "one_liner": "韓国でも話題に！笠松将、イ・ジェフンとの共演は「大きな財産」「復讐代行人3～模範タクシー～」インタビュー映像 - 朝日新 / 朝日新聞",
     "caution": "",
@@ -465,7 +329,7 @@
   },
   {
     "id": 53,
-    "rank": 32,
+    "rank": 22,
     "desk": "제외",
     "one_liner": "「3食食べられない日増える」 給食のない夏休み、貧困家庭に不安 - 朝日新聞 / 朝日新聞",
     "caution": "",
@@ -473,191 +337,167 @@
   },
   {
     "id": 54,
-    "rank": 33,
-    "desk": "제외",
-    "one_liner": "別居する子との面会交流「国が法整備怠った」 親権失った親らが提訴 - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 55,
-    "rank": 34,
+    "rank": 23,
     "desk": "제외",
     "one_liner": "孤独・孤立対策、重点計画を改定 子どもの自殺対策や「内密出産」も [高市早苗首相 自民党総裁] - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 56,
-    "rank": 35,
+    "id": 55,
+    "rank": 24,
     "desk": "제외",
     "one_liner": "朝鮮人被爆者の証言記録 91歳朴寿南さんの作品、広島で劇場初公開 [広島県] - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 59,
-    "rank": 36,
+    "id": 57,
+    "rank": 25,
     "desk": "제외",
     "one_liner": "全東信への金融債権、3分の1が朝鮮半島系機関 韓国メディアは在日自営業者への影響懸念 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 60,
-    "rank": 37,
-    "desk": "제외",
-    "one_liner": "理不尽な世界で少女は使命を背負う メソポタミアの自然も魅力 「大統領のケーキ」ほか シネマプレビュー 新作映画評 - 産 / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 61,
-    "rank": 38,
-    "desk": "제외",
-    "one_liner": "【動画】トランプ氏「日本イスラム共和国」と言い間違い ゼレンスキー氏とプーチン氏を混同も - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 62,
-    "rank": 39,
+    "id": 58,
+    "rank": 26,
     "desk": "제외",
     "one_liner": "北朝鮮首相が訪中 「友好条約」締結65年の節目に習氏と会談、戦略的協力強化をアピール - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 65,
-    "rank": 40,
-    "desk": "제외",
-    "one_liner": "韓国系米バイオ4社、技術輸出を追い風に韓国KOSDAQ上場ラッシュへ - BigGo ファイナンス / BigGo ファイナンス",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 71,
-    "rank": 41,
+    "id": 63,
+    "rank": 27,
     "desk": "제외",
     "one_liner": "ユニバーサル ミュージック コリアが韓国系オーストラリア人のヒップホップ・グループ「1300」と契約 - Music A / Music Ally Japan",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 72,
-    "rank": 42,
-    "desk": "제외",
-    "one_liner": "K－POPスターの飛行機飛ばし、中国ECサイトの貨物載せ…突破口探す韓国系LCC（中央日報日本語版） - Yahoo!ニ / Yahoo!ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 73,
-    "rank": 43,
+    "id": 65,
+    "rank": 28,
     "desk": "제외",
     "one_liner": "トロフィー : 作品情報・キャスト・あらすじ - 映画.com / 映画.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 75,
-    "rank": 44,
+    "id": 66,
+    "rank": 29,
     "desk": "제외",
     "one_liner": "「朝鮮学校の内と外」 トロフィー taroさんの映画レビュー（感想・評価） - 映画.com / 映画.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 77,
-    "rank": 45,
+    "id": 69,
+    "rank": 30,
     "desk": "제외",
     "one_liner": "セントルイス·カージナルスの韓国系内野手JJウェザーホルトがチームと長期契約に合意した。 - 매일경제 / 매일경제",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 78,
-    "rank": 46,
+    "id": 71,
+    "rank": 31,
     "desk": "제외",
-    "one_liner": "K−POPスターの飛行機飛ばし、中国ECサイトの貨物載せ…突破口探す韓国系LCC - ｄメニューニュース / ｄメニューニュース",
+    "one_liner": "WBCで活躍した『韓国系』ジョーンズ、打率0.137→最終的に『放出待機措置』 - starnewskorea.com / starnewskorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 80,
-    "rank": 47,
+    "id": 73,
+    "rank": 32,
+    "desk": "제외",
+    "one_liner": "17日までに参加企業を募集 - 매일경제 / 매일경제",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 75,
+    "rank": 33,
+    "desk": "제외",
+    "one_liner": "韓国 과기부 海外韓人人材20チーム誘致へ - CHOSUNBIZ - Chosunbiz / Chosunbiz",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 76,
+    "rank": 34,
+    "desk": "제외",
+    "one_liner": "科学技術情報通信部、海外韓国系技術人材20チームの国内復帰・事業化を支援 - 디지털투데이 / 디지털투데이",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 77,
+    "rank": 35,
+    "desk": "제외",
+    "one_liner": "『「トロフィー」の映画レビューと興行収入予想』 - アメーバブログ / アメーバブログ",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 79,
+    "rank": 36,
     "desk": "제외",
     "one_liner": "조선의 멋, K-POP의 흥··· 올 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 81,
-    "rank": 48,
+    "id": 80,
+    "rank": 37,
     "desk": "제외",
     "one_liner": "7월 10일 단체 및 봉사단체 소식 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 82,
-    "rank": 49,
-    "desk": "제외",
-    "one_liner": "“장례 후 유산은 어떻게···” 캐나 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 83,
-    "rank": 50,
-    "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]랭리 1번 고속도로, 9월까지 교통 패턴 변경 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 84,
-    "rank": 51,
+    "id": 81,
+    "rank": 38,
     "desk": "제외",
     "one_liner": "[밴쿠버 조선일보]소왕국의 기쁨 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 85,
-    "rank": 52,
+    "id": 82,
+    "rank": 39,
     "desk": "제외",
     "one_liner": "밴쿠버 총영사에 이광석 국방부 국제정 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 86,
-    "rank": 53,
-    "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]치아 건강은 전신 건강과 행복을 결정합니다 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 87,
-    "rank": 54,
-    "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]주택 임대 시장, 개인 투자자가 주도한다 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 88,
-    "rank": 55,
+    "id": 83,
+    "rank": 40,
     "desk": "제외",
     "one_liner": "학원/튜터 > ■■■■자동차 운전교육 학원■■■■ 전지역 가능 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 91,
-    "rank": 56,
+    "id": 84,
+    "rank": 41,
+    "desk": "제외",
+    "one_liner": "자동차 매매 > 2015 Infiniti QX60 AWD - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 87,
+    "rank": 42,
+    "desk": "제외",
+    "one_liner": "Landlord arrested after tenants found hidden cameras in bath / CityNews Calgary",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 89,
+    "rank": 43,
     "desk": "제외",
     "one_liner": "Acoustic, R&B soloists headed to New York for 'K-Music Night / The Korea Times",
     "caution": "",
@@ -665,137 +505,297 @@
   },
   {
     "id": 92,
-    "rank": 57,
-    "desk": "제외",
-    "one_liner": "Dallas man sentenced after admitting anti-Asian bias motivat / KERA News",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 95,
-    "rank": 58,
+    "rank": 44,
     "desk": "제외",
     "one_liner": "Dallas man admits racial hatred led him to shoot 3 Asian wom / AsAmNews",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 98,
-    "rank": 59,
+    "id": 94,
+    "rank": 45,
     "desk": "제외",
     "one_liner": "Hangeul swims with saury in Choi Asuk's LA exhibition - The  / The Korea Herald",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 99,
-    "rank": 60,
+    "id": 95,
+    "rank": 46,
     "desk": "제외",
     "one_liner": "KBSA Finalizes Diverse U-15 Softball Team for Asia Cup - 조선일 / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 10,
-    "rank": 61,
+    "id": 97,
+    "rank": 47,
+    "desk": "제외",
+    "one_liner": "Weatherholt Lands 8-Year, $112.5M Deal with St. Louis Cardin / 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 98,
+    "rank": 48,
+    "desk": "제외",
+    "one_liner": "[Photo News] Shinhan chief mentors future leaders - The Kore / The Korea Herald",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 99,
+    "rank": 49,
+    "desk": "제외",
+    "one_liner": "QWER announces Asia tour - The Korea Herald / The Korea Herald",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 96,
+    "rank": 50,
+    "desk": "제외",
+    "one_liner": "Korea names U-15 softball team mixing little league, women’s / Chosunbiz",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 7,
+    "rank": 51,
     "desk": "제외",
     "one_liner": "與임오경, 축구협회 청문회 손흥민·황희찬 참고인 신청 철회(종합) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 13,
-    "rank": 62,
+    "id": 9,
+    "rank": 52,
     "desk": "제외",
     "one_liner": "강백호, \"동점 버저비터\" 끝에 올스타 홈런 더비 첫 우승(종합) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 27,
-    "rank": 63,
+    "id": 18,
+    "rank": 53,
     "desk": "제외",
-    "one_liner": "골프의류 매장에서 파트타임 직원을 구합니다. - RadioKorea / RadioKorea",
+    "one_liner": "Junior/Senior Staff Accountant - 주니어/시니어 회계사 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 50,
-    "rank": 64,
+    "rank": 54,
     "desk": "제외",
     "one_liner": "井浦新｢鬼だな、と｣監督からの炎天下での全力サッカー指示を回顧 - 朝日・日刊スポーツ / 朝日・日刊スポーツ",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 74,
-    "rank": 65,
+    "id": 68,
+    "rank": 55,
     "desk": "제외",
     "one_liner": "スタンフォード大学で活躍している韓国系内野手エリック·ジョン（21）が大リーグドラフトで指名された。 - 매일경제 / 매일경제",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 5,
-    "rank": 66,
+    "id": 14,
+    "rank": 56,
     "desk": "제외",
-    "one_liner": "오늘의 증권소식(7월 10일) - RadioKorea / RadioKorea",
+    "one_liner": "한타/윌셔 High-Rise OPUS 6주+$1000프로모션 바로입주가능 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 26,
-    "rank": 67,
+    "id": 16,
+    "rank": 57,
     "desk": "제외",
     "one_liner": "한인타운에 위치한 일식점에서 서버분 모집합니다 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 31,
-    "rank": 68,
+    "id": 17,
+    "rank": 58,
+    "desk": "제외",
+    "one_liner": "골프의류 매장에서 파트타임 직원을 구합니다. - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 19,
+    "rank": 59,
+    "desk": "제외",
+    "one_liner": "한타/6가+하버드 최고입지! 6주+$1000프로모션 노소셜가능 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 21,
+    "rank": 60,
     "desk": "제외",
     "one_liner": "(엘에이 한인타운 콘도) 방1+화1 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 34,
-    "rank": 69,
+    "id": 22,
+    "rank": 61,
+    "desk": "제외",
+    "one_liner": "채용공고 시니어 재무 분석가 (Senior Financial Analyst) - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 23,
+    "rank": 62,
+    "desk": "제외",
+    "one_liner": "(LA 한인타운) 올림픽과 놀만디, 원베드, 파킹2대 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 24,
+    "rank": 63,
+    "desk": "제외",
+    "one_liner": "LA 한인 민박 \"LaMarieBnB\"(여행자가 직접 선정한 LA Best Stay 숙소) - RadioKo / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 25,
+    "rank": 64,
     "desk": "제외",
     "one_liner": "한인 타운 중심 3Bed/2Bath 하우스 렌트 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 38,
-    "rank": 70,
+    "id": 26,
+    "rank": 65,
+    "desk": "제외",
+    "one_liner": "7/19/2026 재미한인산악회 모임/회원모집 알림 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 28,
+    "rank": 66,
+    "desk": "제외",
+    "one_liner": "버뱅크 스시 레스토랑 스시쉐프/서버/캐시어 모집 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 30,
+    "rank": 67,
     "desk": "제외",
     "one_liner": "채용공고 Junior Editorial(Graphic) / Print Designer - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 39,
-    "rank": 71,
+    "id": 32,
+    "rank": 68,
     "desk": "제외",
     "one_liner": "미국 육군 (US ARMY)에서 새로운 인재를 모집합니다! - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 42,
-    "rank": 72,
+    "id": 33,
+    "rank": 69,
+    "desk": "제외",
+    "one_liner": "한인타운 근처 하숙집 렌트 - 개인 방 $1300 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 34,
+    "rank": 70,
     "desk": "제외",
     "one_liner": "채용공고 eCommerce 이커머스 온라인 운영 담당자 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 49,
+    "id": 37,
+    "rank": 71,
+    "desk": "제외",
+    "one_liner": "한인타운 넓고 깨끗한 1베드, 1배스, Loft - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 39,
+    "rank": 72,
+    "desk": "제외",
+    "one_liner": "인쇄소 그래픽 디자이너 (파트타임) 모집 - 엑손프린트 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 40,
     "rank": 73,
     "desk": "제외",
-    "one_liner": "현장관리자 (Arizona) 모집합니다. - RadioKorea / RadioKorea",
+    "one_liner": "애니메이션 & 캐릭터 매장 파트타임 직원 모집 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 41,
+    "rank": 74,
+    "desk": "제외",
+    "one_liner": "호텔 프론트 데스크 직원 모집 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 42,
+    "rank": 75,
+    "desk": "제외",
+    "one_liner": "LA 한인타운 토킹바 (Talking Bar) 여성 스태프 (Staff) 모집 - 초보 환영, 시간 조절 가 / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 44,
+    "rank": 76,
+    "desk": "제외",
+    "one_liner": "한타/18층펜트 NEW High-Rise 1달+$1000+파킹+인터넷 FREE - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 45,
+    "rank": 77,
+    "desk": "제외",
+    "one_liner": "즉시입주) 한인타운 개인 화장실 딸린 깨끗한 방 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 46,
+    "rank": 78,
+    "desk": "제외",
+    "one_liner": "한인타운 , 큰방2, 화1, $2395, - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 47,
+    "rank": 79,
+    "desk": "제외",
+    "one_liner": "Studio 조용하고 편리한 한인타운 중심가 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 48,
+    "rank": 80,
+    "desk": "제외",
+    "one_liner": "채용공고 eCommerce Operations Assistant - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   }
