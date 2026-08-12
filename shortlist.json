@@ -1,25 +1,10 @@
 [
   {
     "country": "미국",
-    "title": "헐리웃 광고판 안에 실제 사람이?…넷플릭스 이색 홍보 '화제' - RadioKorea",
+    "title": "LA 오토존 하루 만에 또 털려...스트릿 테이크오버 인파 난입 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtaF9BUmNGMzVQc2JfczJuQngyZzdYYWVhQm8xU1k5U0V1UG9QdWczMGVjYVVaVXI1cWcyeE9LYnA1cEtWOVptZlpybzFXUUdvWG1xYVBucjc5bXNqX25r?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 16:27:40 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 0
-  },
-  {
-    "country": "미국",
-    "title": "전직 LAPD 경찰관, 한인타운 10대 납치·강도에 종신형 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QjNILVBjSmY3N0lSNjRObXJ0VkczSGhKS0dEVDJ6SUtpNzMzLVIzMmZGN1JtejM3TnBtM1FuTmFobkotcUJ3Q1hEMXJCVVhtUU9zNUE2VmJJanBKZGY5VGxHZEE?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 07:36:01 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGV0lGbXRHSzUxVi1qVXc0TzJnazBEcHdSS3Rid0pJd2FqaWpNdFRjTFZjaGhTd0VISUEzdU9jSkZFUDdHTFVscEs3bFl4Um15ZUJCWERLQ2FHMWh1SW1r?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 17:19:24 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -28,21 +13,6 @@
     ],
     "dup_count": 1,
     "_orig_id": 1
-  },
-  {
-    "country": "미국",
-    "title": "콜롬비아 강진 사망자 최소 백여 명…도시 곳곳 건물붕괴 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90ZTJlM3RfT2lvVXZyZ2c2aTZXck12eDJ2SlFIZVNsdmV5WDZ1YnUtNVFFU2FiSExhb0VnQ1dqdGlPckw5OWJCRkJKOWFOd0JNVnRtY3VmTThYV0Q3dFRn?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 17:17:25 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 2
   },
   {
     "country": "미국",
@@ -57,7 +27,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 3
+    "_orig_id": 2
   },
   {
     "country": "미국",
@@ -69,11 +39,10 @@
     "date_unverified": false,
     "feed_media": "라디오코리아",
     "dup_media": [
-      "RadioKorea",
-      "v.daum.net"
+      "RadioKorea"
     ],
-    "dup_count": 2,
-    "_orig_id": 4
+    "dup_count": 1,
+    "_orig_id": 3
   },
   {
     "country": "미국",
@@ -81,6 +50,21 @@
     "media": "RadioKorea",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3bnRNbjdESDNiakVNR1ZVRG5kay14ZGlOY1gzeFdfWV9FYjJhVllfSExRWC1SQ1oycUV1ZGZLR2hqN2oxSWh1VjYyWWtsNTROSnB3Ry1QQWdHRjkzc1BScGFZTEQ?oc=5",
     "pubDate": "Mon, 10 Aug 2026 20:44:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 4
+  },
+  {
+    "country": "미국",
+    "title": "전직 LAPD 경찰관, 한인타운 10대 납치·강도에 종신형 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QjNILVBjSmY3N0lSNjRObXJ0VkczSGhKS0dEVDJ6SUtpNzMzLVIzMmZGN1JtejM3TnBtM1FuTmFobkotcUJ3Q1hEMXJCVVhtUU9zNUE2VmJJanBKZGY5VGxHZEE?oc=5",
+    "pubDate": "Sun, 09 Aug 2026 07:36:01 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -107,6 +91,36 @@
   },
   {
     "country": "미국",
+    "title": "‘스파이더맨’ 흥행 어디까지…2주 만에 16억 달러, ‘오디세이’도 신기록 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4NExBS2JvaU1HdVFvb0tldWRzWnZiWWI0Mlk2Q3drZlhmVHJ3WUhNQWZsMjlLVi1uRU5tbmplVDdCc3BRbENBTDY4dnYwNC1aNXdiT0ZVRDR1c0tFMGMw?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 00:58:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 7
+  },
+  {
+    "country": "미국",
+    "title": "KYCC, '백투스쿨(Back-to-School)' 무료나눔 행사 성료 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sa3k0dUNQbUFTNVlBQzRmUV9YY2o0cnNnMjhpLTY0bkJVbUotSS1jcFl5aHBZa0VodVV4SUxpNGpIZGdrdGRVbTE5N1R0MjNVRVRlaEpXb1lxVFpEajh2X3dEY1o?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 16:43:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 9
+  },
+  {
+    "country": "미국",
     "title": "백지영·라 산타 세실리아 한 무대... KYCC 자선 콘서트 20일 개최 - RadioKorea",
     "media": "RadioKorea",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCM0REdmhZV21zUnhTOG85Y3BPQUVBcW5VN3pURFV0REJSWTdYcVVvVDA1UGJKUTg0R0JUS2ltQjd1QlIwWEdhRk9uYzhtRUlRSlVnOXU4TXl4SmtmZTc4?oc=5",
@@ -118,7 +132,22 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 8
+    "_orig_id": 10
+  },
+  {
+    "country": "미국",
+    "title": "스펙트럼·버라이즌 잇따라 절단 테러... LA한인타운 등 인터넷 ‘먹통’ - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CT0hpRG16czZ3ekxYYzl3T0Y2R1g3Nk9rcmV6M0xDTHA0cld5cDFaSWVCckw4Y0VRaklRcW9DcGdPWGpFWl9oN2ZyWXFoLUhhaWFWRTdNUVdpSUdfeW4wQTQ3Nk0?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 22:55:50 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 11
   },
   {
     "country": "미국",
@@ -133,7 +162,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 9
+    "_orig_id": 12
   },
   {
     "country": "미국",
@@ -141,36 +170,6 @@
     "media": "RadioKorea",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zdG9WbzF4MjBTc2xzYWEwaGdqSmtfdUE1aFJmV1FqSkFyMEw5ZHQtZWVxRUEzQjE1YnBQWUxFVFktay13RzdLRUVWQ29uUW4wZi1WZ0JaNEtZLUFjd29V?oc=5",
     "pubDate": "Mon, 10 Aug 2026 09:06:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 10
-  },
-  {
-    "country": "미국",
-    "title": "CA에선 은퇴도 비싸다…부부 노후자금 132만 달러 필요 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBiZTNlYXJObFAxOFVXOHNnamhiU2NvQVBsSGE4V1hRa19DMlpRZUFibVRxa2hyODl1LUJFRi1kT2RiazBtNl9STVk5U0VDeHkwMHo5ZjI1aUtvSndPUW5j?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 12
-  },
-  {
-    "country": "미국",
-    "title": "“주택난 속 새 보금자리” LA한인타운 저소득층 아파트 완공 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53TFVvRS1JNFZjYUpXWWdRYTBLT0ptblBZd2dSV0Zpcm9lYzJ0RHBIa0REdGNmUzhXbk40a0JZaUN3OENZRUtWYzhaUkZOSlI3cVIzNXRBNElGZTZIakZV?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 06:42:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -193,127 +192,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 15
-  },
-  {
-    "country": "미국",
-    "title": "남가주 무더위 한풀 꺾인다...내일부터 기온 내려가 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RdTJ2T3lFQWVSMzBnN3NvQ09YdmpJVE04WFAtU08xcm5ZRUhRR3BSZVdRR09hbDZKTmxlblBaWEFHczFfNy1hMnZYUXdHd1VfcnFldTVfLTNqX1JJbGg4?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 20:15:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
     "_orig_id": 16
-  },
-  {
-    "country": "미국",
-    "title": "2PM, 완전체 콘서트…\"데뷔 18주년, 공연 자체가 행운\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kV3JSR3MzdDNpOGtNRVhXaUc3WDhmaUl1aUY3M19sSGlUOFhEeXp3cVg0NXpyWXF3M1huU3RBTDYzejRoRVo4WjRYeVpaZGgwYUU0S3dINlMzazZIeTZj?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:10:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 17
-  },
-  {
-    "country": "미국",
-    "title": "한국스키장경영협회, 스키스노보드협회와 산업 활성화 맞손 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyVXFDVEQ1NjlfWjJxSzJtdGFiS2l2UFJYQVZKUXVBSm93WE0yaXFLREJDSFYtdXlLbkZNVTlOUno4b3Z5TlZsSkcxbjhvZnpTRUJNdENWQ0NjSkpqQzhv?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 16:08:16 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 18
-  },
-  {
-    "country": "미국",
-    "title": "‘스파이더맨’ 흥행 어디까지…2주 만에 16억 달러, ‘오디세이’도 신기록 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4NExBS2JvaU1HdVFvb0tldWRzWnZiWWI0Mlk2Q3drZlhmVHJ3WUhNQWZsMjlLVi1uRU5tbmplVDdCc3BRbENBTDY4dnYwNC1aNXdiT0ZVRDR1c0tFMGMw?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:58:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 19
-  },
-  {
-    "country": "미국",
-    "title": "“우리가 지킨다”…LA 주민 순찰대, ‘개학 시즌’ 이민 단속 감시 강화 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kMjlkWGpqeDZKVVZTQktrRElQWDFRQ29uTUVadEQwa0dyR0h3cjJrd01WM2RrMFMxSDY5cXdiMmVpZDIyUHRoSFA2WU53ang3UHZMSGdlcWhZRzlra2ZN?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 08:21:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 20
-  },
-  {
-    "country": "미국",
-    "title": "8월 10일 이브닝뉴스 헤드라인 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8ydVRiRlRyR0RJM2ZpbEtxQTRPMDdiRmFsamZUbmlUWWR2bktQRUp5RFRmcDdPd2NMMG8teXZ5dzliMUNhNUxQbFBHcXIxUFJYckdXSDZVUnk5VGs2eWtn?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 08:56:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 21
-  },
-  {
-    "country": "미국",
-    "title": "LA올림픽 티켓 2차 판매 시작…당첨자는 ‘48시간’ 내 구매해야 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fMmNxNmM2SUYyV05NRFA1UG8zN2JOdzdHcVd4NjBZYTEtWUFFUVJHdnNHU3RGYXFpOWNhZndwMWdNNEJrNFU1U3ZiZV9ONDRxTmZkNGZUQ1pwVFB4b3lB?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 01:56:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 22
-  },
-  {
-    "country": "미국",
-    "title": "싸이월드 10월 다시 열린다…스테이블코인·NFT로 승부수 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90S2lDWUxwdFo3NzU3WUZET3VFZDluRGdHUGc1aW1LaFphTzJXNklBd0VJRExSbEhIbTZGS2tkd0lMMDhwN2NZZlFmVHB0SmRUek82ZWUtMURsTlYtX0FF?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:03:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 24
   },
   {
     "country": "미국",
@@ -328,52 +207,23 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 25
+    "_orig_id": 17
   },
   {
     "country": "미국",
-    "title": "WNBA 박지현, 골든스테이트전 5분 뛰며 1도움…팀은 패배 - RadioKorea",
+    "title": "팔뚝에 무궁화 새긴 프란체스카 홍…\"한국계 자랑스러워\" - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QTFFBVnVEZm5ZcVB1dngxaGM2bUc1bExQM3VWNm1GNHNteXF4aTJrRmpWTU9rQkM4em9EdGJyQ1E3WVhiZkwzemdNc0tveHR6cHRQckZHRlhvcUxuM0Zz?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:07:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nTUIzRms2LTBZQ2dYS0czSG1HLWsxM3BaTndGaDRhaTNvckZudzdMTjlSOUVuRUdab3NBZXVxd1NQRXJkNm1aanJianVMd2hUQzNCUG9rRE1OU2hTT3ZF?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 23:50:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
     "dup_media": [
-      "RadioKorea"
+      "RadioKorea",
+      "미주중앙일보"
     ],
-    "dup_count": 1,
-    "_orig_id": 26
-  },
-  {
-    "country": "미국",
-    "title": "운동화 아식스 OEM 업체 비즈코, 강남 \"브이플렉스\" 인수 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CZWZQaGFpZ1EzQjFoZTFzaUZBSm9xTWN2TEpnR0xPaXMydWRRTEpLM1ZZWnZWSDIxUG9KQTFjQmFsT21pT2hTR0tYV09zVmtxWlBJQlZOZlQtRzFvTXk4?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 16:07:48 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 27
-  },
-  {
-    "country": "미국",
-    "title": "영국 디지털은행 레볼루트, 프랑스 은행 면허 취득 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Pb2F2YUZCUHpQVUZ1UmlIWE5nTHhLNDVUbnMtUm5VM2xpa1BuMURSQTZQNWFZUE1Ec24tZ1JDYWZuSmx1Y3pQYXJud3RmVm8tUVE0TmNjTkpXUmZtdUFR?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 16:02:21 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 28
+    "dup_count": 2,
+    "_orig_id": 18
   },
   {
     "country": "미국",
@@ -388,22 +238,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 30
-  },
-  {
-    "country": "미국",
-    "title": "\"더 독하고 색다르게\"…스릴러·액션 입고 진화한 \"위기의 부부\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CcTF0TzFHVE5xRW1hbWU4Wk9SRjQ0LU85b0RBdTVScnktTkZuc2VDWUhhbFdZV0RnQjhYbUVuSGFxT1I0OW5aSDdIYm9GcF9xakltQVd6c19pdEk2REVR?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:13:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 33
+    "_orig_id": 20
   },
   {
     "country": "미국",
@@ -418,14 +253,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 35
+    "_orig_id": 22
   },
   {
     "country": "미국",
-    "title": "\"산불에도 돈 건다\"...산불 예측시장 규제 촉구 - RadioKorea",
+    "title": "얼굴 파랗게 변하고 숨 멎은 3살 아이…리알토 경찰이 살렸다 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xOFRLTWEyWTBqU21JREJYOV9ySEpjUS0zT0dINktwYy01MF9KTGFjQmZMMThuRXhsS2JRTkplQmlxRGdZdTdNS0hHSGZQRWNYYWVsOWNhXzV4Rk9vUmFj?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 20:01:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02R1dTYWVWbzRRNWdObkxqc3BFY1N1bE9haVpKalYyWmlXTWNqWmF0QVEtSWFUM2hIWkNmTlRqSnV5YWxGano2dHEydEhNd2lYNjNxTy1nd3V4YXhUM3hV?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 17:06:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -433,14 +268,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 36
+    "_orig_id": 24
   },
   {
     "country": "미국",
-    "title": "AI 데이터센터, 美선거 쟁점화…환경·생활비·일자리 이슈로 - RadioKorea",
+    "title": "\"전주서 꽃피운 독립영화\"…장편 \"빈집의 연인들\" 전국 개봉 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqRUhQLTZBT2Mzb2JqMl9zbTkxU0pISERfVEtueXEycGl1aC1JX2d3dHVGdDdIaW1weVNRT2FpNjRKRkJ3a0lLR0dGZU1nb2UtRjB0ekZWckhJUVJ3VVVN?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 00:31:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzTDQ0Q2pPZm5rcjNackZKcDV5cmhEbUoySEhBSGxXcW04cmZTQXRUUWFrLXB6REFYRURwazVIdmE4Nkh1WXhCU21PaGpsYWNWOC1FT1g5cGx5OFNxWXNJ?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:20:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -448,14 +283,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 37
+    "_orig_id": 25
   },
   {
     "country": "미국",
-    "title": "프랑스 축구대표 수비수 디뉴, 11년 만에 PSG 복귀…3년 계약 - RadioKorea",
+    "title": "[AI픽] AI로 보고서 3시간→5분…AWS, \"아마존 퀵\"으로 국내 공략 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TLU5HbUJPaEtCNHFoV3pJWWkwVWtjQkQtQmJKWlQyc0plMUlJTUVaOXVHT2hTdkF3WUUxbEd6M2xJTXVTOGg2N2ItdEZ0ajlVVVlkS19sOWdwSnhaQmtV?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:07:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yNVhvNUdmbTJaa2VMS2lBZFBvQ0xrbElJVVdkaFdfbXdMX2lUVTZBa1NpLTBQeGpCQlpCRzItc24zSHdiM1hNOHk1Sk03aXFDS1czbXZ2cTVPVU1hekdF?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:17:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -463,14 +298,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 38
+    "_orig_id": 27
   },
   {
     "country": "미국",
-    "title": "허리케인 너울에 남가주 해변 모래 대거 유실...주차장도 피해 - RadioKorea",
+    "title": "SMR·양자·우주…정부, 7대 미래성장동력 \"씨앗\" 뿌린다 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yRU14bjZWWTBvV01GbTV3WEVRX2FGVFZ4Vk0zcE0xWDdLQWpZbHNWYVB4elVTZ3pzNEpvYWluNXJGZEcxUjhGN3FEM2w1MHlQeW5NU1l3ZHlPSFd5OV9N?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 20:06:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aTkJDQV9ZcVo3Z0JSWXNQVjZ5clZlOXR2cUx1ME5LNTlPYzBBSHRPbUdSOFQ0YWpFYXJZb0MtcEhhRlNWZDhmWUxMaWsxYXpLNC1NTmxWN0k4Vmh0dVp3?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:15:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -478,113 +313,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 39
-  },
-  {
-    "country": "미국",
-    "title": "美공화 \"경제·안보\" 우위 흔들…CNN \"트럼프 이란전 오판 영향\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lcUFDVC1wblhnbUZHVEtFZGx3ZFp6WmJVQnJ1ZU4yQUtMRXBkTUlvd3Znd3dVMzNxTkNUcllFY2JtV2J0ZDFpQVZoc3NPejJiQWFaNEFsbmxKaGd2QTRj?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:40:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 40
-  },
-  {
-    "country": "미국",
-    "title": "부상 안고 AG 준비하는 펜싱 간판 오상욱…\"낫는 것에 집중\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PRXpBMmxhT1NxWjVkMnBudEs4ZHNiTDQ3MGhzdzlqRUhnTzVfNGlheWhzTGEzOFBTTndDaDdxbDNxU3J4amJmb3NoMXhGamlVV1JIWGNpUEV2TXdUcGtJ?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 00:14:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 41
-  },
-  {
-    "country": "미국",
-    "title": "\"\"오징어게임\" 미국판 제작 취소…넷플릭스 우선순위 바뀌어\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kU1lGWVAxZnkwY3N3T2VDSGVmRVBORXE5ell4akkwcVozQlBNbE16Z295Nnh2VzMwVjFDTVJaU3pnbTh0cHNkVklEdzFLdGpTLWpuS290WlFScGNIMERr?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:13:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 42
-  },
-  {
-    "country": "미국",
-    "title": "\"학용품·도서 받아가세요\"... KYCC, '백투스쿨' 행사 개최 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1DNUo5OE1NSVJXdEY5eUNYdWxrZmFJUzV1ZlNyMHB4VjJrcTFqOTVkODhEenhPX3Yzbjl5eGhJRlBCMjRBeEdtdzVwS04wSXdBZHJKekc4OTB1bDZlZWFR?oc=5",
-    "pubDate": "Sat, 08 Aug 2026 05:43:01 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 43
-  },
-  {
-    "country": "미국",
-    "title": "오드리 누나 \"\"케데헌\" 덕분에 팝 음악에 대한 애정 되살아 나\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlVTBiUTAwOU9FR1NXbmZZRkRwRW9KQVZUQk9NRHUtZ3FpcGYtdUxLejVqcnNpSGxmRzRDZ3p5TnFvTHFMM2s1QmVYOTNhdEtKckNwMnJKZU1MUjROa0tR?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:14:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 44
-  },
-  {
-    "country": "미국",
-    "title": "육상 서범수, U-20 세계선수권 경보 5,000ｍ서 비공인 한국기록 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsVE02LXpUTDhBZ0IzOVJyZnVvMnlVR3JnckFUX1NzNGtILUNreDlFemZkaWdfTUcyUjVmMTVzcjNrTnp1SC1KV2NCbFZOVl9vbjJscmxHTjB5eUJ3Q0xz?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:03:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 45
-  },
-  {
-    "country": "미국",
-    "title": "리센느가 알리는 중소기업 제품…중기부, 미국 LA서 \"K컬렉션\" - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51QUczMWJGU0t3VlRZWDEwVElrSGJ4OUV4aEVtby1EbTlxRDJQelB2Uy0xTUxScmZFaTdZRTNCbFZ2d1ppUnZ2Q1BWOGdKa0ZHem0wUV9sREw1NGRFUGc?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 00:29:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea",
-      "미주한국일보"
-    ],
-    "dup_count": 2,
-    "_orig_id": 46
+    "_orig_id": 28
   },
   {
     "country": "미국",
@@ -599,14 +328,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 47
+    "_orig_id": 29
   },
   {
     "country": "미국",
-    "title": "이설 구한 남궁민…\"결혼의 완성\" KBS 2TV 토일 최고시청률 종영 - RadioKorea",
+    "title": "LA 저소득층 주민 — 대중교통 90일 무료 + 이후 매달 20회 무료 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15dEtPdEV6RjFtNWM1TkhqbmxaVDJEWUZhZnlYbG9oeXktMDVoYW5pLVd3RERRT29YTFhWZk1Nb1RKd2x2cksxZVNjYUZjN2diLXROeFl2NV96N09zd0g0?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:12:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90T2dBM1pGOE5kZEROV0wxN2dScGlnekxzOTVMTFc4TEFrbmV1WE5aNE5HdGR6ODk3MkxSYW9jcWIwd21jdEptTGQzcGJNNm83ZjdMbW43Qk1ad2hFN1VF?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 02:35:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -614,7 +343,262 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 48
+    "_orig_id": 30
+  },
+  {
+    "country": "미국",
+    "title": "ADU 증축 계획이라면… 공사비부터 꼼꼼히 준비하세요 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LbTlqTFpfUFRNWlc3V1hUX1NRcnZfZ28tVlJ4aDVSU3pSRDdrYzFEMGQyeldqQVBTaDZNZjJBajgtakpjblpEWUhlZ1VUY1ZESl8wMGtpY2NVUFRmVXFR?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 01:10:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 31
+  },
+  {
+    "country": "미국",
+    "title": "정부, 비축유 스와프 곧 재가동·나프타 수급안정화 조치 연장 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YYm5FM2w0VGVaQjhQb1ZzdVQwQUVKbVZKSDdEVWx6bnYwRWN6YVNGTktqeVdLS05hUWVNNy11dFotYUxVS1hzWV9zaGlLTHhMWGk4YTdGQTA0eVAxVF9B?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 16:27:42 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 32
+  },
+  {
+    "country": "미국",
+    "title": "CA서 가장 많이 짓는 반려견 이름은?…전국 1위와 달랐다 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSQ0lseGdiMGo2SDk2OHJoNmNUU0k0cWphRndpUU9uUjFLc1ZnakdxQXo2N0F2LUp1SXk3SzAzMmdwRnZaVFh2djY0WnF4SDhaajNqY1Nidnl0RmtrTnRZ?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 08:45:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 33
+  },
+  {
+    "country": "미국",
+    "title": "HD현대 정기선, 빌 게이츠와 14일 회동…SMR 협력 논의 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lZFFOM0h6QWRJRWs4SEhFbmRETnR4TWQybUlGdUs0alhicWFzTjN2ZkFpQlQ4TE1zMnpiQVFDM1NFVjhlaDEzbXlBNE1wMVM4dEJGYUtrd1lHbURBMVFn?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:13:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 34
+  },
+  {
+    "country": "미국",
+    "title": "\"소금물에 담가도 멀쩡\" UNIST, 고내식성 마그네슘 합금 개발 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hYVQ1TTRPeURjYWpMUHp3YnpPSmxNbW9LdFAwN3lmMnJyVEtiaHNxdXVPaExsTWZlRUE2dnA3d3VsMkxRampsdjd5aDQ3Rm16cHRSME9uZ2U5T2FVQUE0?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:16:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 35
+  },
+  {
+    "country": "미국",
+    "title": "41kg 됐던 한그루, ‘뼈말라’에 현타 “원하던 모습 아냐”..건강미로 바뀌었다 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUOWdHNU53bFg1VUVsOHhQVmhhQlowUXRNcEZBSkwyc0w0Vkk4X085eDFkakVBUlFSUHpvaGE5VFJYUE9ZdEJVZFUxU0lobDZ6dmdyOE40QTFfMFBRQVdB?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 16:41:12 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 36
+  },
+  {
+    "country": "미국",
+    "title": "방미통위, 구글·애플 앱마켓 결제행위 시정조치 추후 의결 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xdmxWdklqQV9XZEVGU3lYV0ZHd2Q4RThIV0RCek1FYVRzMndmdXpBLXZIZmk1R05vVkhIbEllRXJJZTZEZElqZmFGd2VScXN6Z3BGQlhEMEM2NFNlTFE?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 23:48:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 37
+  },
+  {
+    "country": "미국",
+    "title": "허리케인 너울에 남가주 해변 모래 대거 유실...주차장도 피해 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8yRU14bjZWWTBvV01GbTV3WEVRX2FGVFZ4Vk0zcE0xWDdLQWpZbHNWYVB4elVTZ3pzNEpvYWluNXJGZEcxUjhGN3FEM2w1MHlQeW5NU1l3ZHlPSFd5OV9N?oc=5",
+    "pubDate": "Sun, 09 Aug 2026 20:06:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 38
+  },
+  {
+    "country": "미국",
+    "title": "8월 11일 이브닝뉴스 헤드라인 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4N0diX2dWZTU3TVdLVHpuWnNTdTdreUdIYURvTnZLaEdMWFpkN3JfWUhnX1BWbW04Tkd3VFFmNDZWSXptOFJEMUhiX1NGUi1sSzN5QkoyMGdKVWZucnpZ?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 07:36:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 39
+  },
+  {
+    "country": "미국",
+    "title": "“연봉 15만 달러도 카드빚”...생활비에 휘청이는 가정들 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84a19aWTZhSm1TZXpscEpUeXd0RUdUVDJHQXJ3T0FIdF80eXhDLUpxR1M3anlKUU9meXlENWtWNXVFUUM5TERzZ3hlQjh0UE8xS2FUUkxLR3oyUjlEME1V?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 04:04:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 40
+  },
+  {
+    "country": "미국",
+    "title": "강시로부터 살아남아라…영화 \"강시: 공포의 워크샵\" 크랭크인 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JQ1RlUmV4YTdfcWtnRVZmWndmNFJQU19nc3JEdEhBMlpzUUdieE1UY2xCekUwMGdrRnAwcC1ROWFndWdBNWZHd1ZNSDQ5YlRHc3BROWlkWTNQcDJNVzA0?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:21:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 41
+  },
+  {
+    "country": "미국",
+    "title": "산불 덮쳐도 집 지킨다…주택 둘러싸는 ‘습도막’ 등장 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZQmJ2MzNBYnNGN0k4RTQzU041dU04RzYtcXpadWVkQ0l5N1gtb2NJcDZXQ1g5RC16U3VldmtSMVlQcWdhUHc4SHU2UTNpeTFINXZoWmwyNlhBd3BaclRB?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 08:39:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 42
+  },
+  {
+    "country": "미국",
+    "title": "증권사들, \"역대급 증시\" 2분기 실적 잔치…순익 141%↑ - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xSzlyVTVPVUVRUXE5YU1CZWNpNkdSZy1DUkhUSGh6QU54MGc2VXN3enNSeUk3WmwtMUQwRnk5NEU3NVRuZU80Nnl1T2ZlNVFiakhSaEhoTGhpMm5vNXc?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 23:44:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 43
+  },
+  {
+    "country": "미국",
+    "title": "엔씨, \"쓰론 앤 리버티\" 해외 서비스 직접 맡는다 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtMVg3QUxkTk1oNDJ2VTRsa184Y25UUkdvelN6cHZyR19DQTg3TzA3QklhQ0pBdl9JQm04UUkzbl9Zc3pkSU5BZE1VOVc4Q3FHbUpVY1AzSW5PdWZiNFVV?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:14:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 44
+  },
+  {
+    "country": "미국",
+    "title": "LAUSD, 새 학기 시작… 위기는 여전 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmWGtxd1NSbjVFQ25FLVQ5V1VoeVZEa3oyVzVkcFhhU2U1SGpmOHNYZURYWmJaTGxUS0ZOZGFxV0hlenZ1LW5PdnRsTzJGN3FCd2htQUZ6QUZaaFRBRFE?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 23:50:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 45
+  },
+  {
+    "country": "미국",
+    "title": "\"올해 디스플레이 설비투자 57% 증가…OLED가 성장 주도\" - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Uel9FbGlpVTZaV0VSZlc5QkpNMl95ejE1T2VKMUI1QUZFZF8xWUtXa082ZXpsRnRjLXVXMGUyeGFEX0V4bGpOMF9xQlEzc0RfX1BsTFpESUhkdHdNaGo0?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:15:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 46
+  },
+  {
+    "country": "미국",
+    "title": "잉글우드 뒤덮은 디지털 광고판…결국 주민투표로 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FcW1oTTdabjhLVXA5SkphR3R3S1FibjJteE5uclI3YTlXdVl5STB4WS1uR21oVWNpLUZpSk1pZTc0QnNfcmJGOVY2aFE2aUhZSG0wX1VQRFVGMWljNkNn?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 05:54:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 47
   },
   {
     "country": "미국",
@@ -629,52 +613,22 @@
       "RadioKorea"
     ],
     "dup_count": 1,
+    "_orig_id": 48
+  },
+  {
+    "country": "미국",
+    "title": "“한순간에 삶의 터전 잃는다”… LA 소상공인 보호 목소리 커져 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RaW1mckVFREtCbjBXMWNILUF5TldfWU9hb0VjakVJV1hTU3BkMHlfcUVXbW5XQnN5VGg5QW5sV1o4MnI4eVZjTzNJSGdtNXI3U3g4bGNucmYtbDB2cXBN?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 08:34:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
     "_orig_id": 49
-  },
-  {
-    "country": "미국",
-    "title": "美국방차관 \"아시아가 최우선\"…중견국 동맹엔 \"망상\" 공개경고 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41THh3SUk1cTVseDgzQUVBUFFhR1ZXeTc2R1ZvTVhoaHVBY2F6QUJlaVZBQ2dabldhQzZfSHRJSTBpdGdSb2xsSmJnVG5RRjU0bXBvV1ZjNDZCZUs5S3Uw?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 00:06:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 50
-  },
-  {
-    "country": "미국",
-    "title": "게임 즐기던 청년들이 항공 관제사로?…FAA 채용 전략 통했다 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sQWVlS2NPOXdxa3NXZkU4MTVOVE9OUWtGZE1RX25JdE50MHUyLUYycEh3YmdPTjJzMnVzX1JzaW8tY1NNYmlSc3JMUGxsOU9hZmN1ZFRsb2FzdnR2ek13?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 01:29:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 51
-  },
-  {
-    "country": "미국",
-    "title": "정부, 비축유 스와프 곧 재가동·나프타 수급안정화 조치 연장 - RadioKorea",
-    "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CWkp6YWl6dHRTT2dFR0t4TWItMlNZa0d5d045NW9vcmVudHlmd216cnFDc3NKSUZQX25WV0RrUm1SaExGOWNoSUxneGxFN0dtUVdaMnR5akpjdjhPLVE?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 16:27:42 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "라디오코리아",
-    "dup_media": [
-      "RadioKorea"
-    ],
-    "dup_count": 1,
-    "_orig_id": 52
   },
   {
     "country": "미국",
@@ -689,14 +643,14 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 53
+    "_orig_id": 50
   },
   {
     "country": "미국",
-    "title": "미 국내선 기내서 한국 국적자 ICE에 체포...비자기한 초과 추정 - RadioKorea",
+    "title": "WNBA 박지현, 골든스테이트전 5분 뛰며 1도움…팀은 패배 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE82eEhGZWVpYnZVaWR2YUV2cG81OHdaQTJtc29NU1BvV2x6cWN3eGJRbVhib1IzN29fSXNuMWU1UGw0NS1yMTFERDg4RmhiZGJpWjB5cUtCajJxamszakhr?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 15:57:11 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QTFFBVnVEZm5ZcVB1dngxaGM2bUc1bExQM3VWNm1GNHNteXF4aTJrRmpWTU9rQkM4em9EdGJyQ1E3WVhiZkwzemdNc0tveHR6cHRQckZHRlhvcUxuM0Zz?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 00:07:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -704,7 +658,7 @@
       "RadioKorea"
     ],
     "dup_count": 1,
-    "_orig_id": 55
+    "_orig_id": 51
   },
   {
     "country": "미국",
@@ -719,14 +673,59 @@
       "RadioKorea"
     ],
     "dup_count": 1,
+    "_orig_id": 52
+  },
+  {
+    "country": "미국",
+    "title": "\"RM과 협업\" 재즈 듀오 도미 앤 제이디 백, 12월 첫 내한 공연 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EZUxfSFExZ2tGQU9rUnlNcGN0c19Ud01sVWczcl85MmdMUjViRUNWX2FybTZ6NFZVYTJ3dXRRc3RmaGhzSUQ3dGg0TUdNMFlWVEVvZ045Zk8wRjR5V1Br?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:20:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 53
+  },
+  {
+    "country": "미국",
+    "title": "다저스타디움 관중석서 골프?...12월 '어퍼덱 골프' 개최 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fcloxcURtUFpkUWVDeUllMHo0SExXR1FLblUzY09VbU9hd3ZoLVBTSzk3bmVHWWM3OWRzVmZSNGJsY09wZVJrX1NVQm5MbFlZQTJwMXJrcU5KTjloaU5V?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 20:18:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
+    "_orig_id": 55
+  },
+  {
+    "country": "미국",
+    "title": "MLB 선발 투수, 구속은 올랐으나 이닝 소화력은 역대 최저치 - RadioKorea",
+    "media": "RadioKorea",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVE4zbFFUZ2lkbFdvTllzc0ppa2xyM0UwSVdBNVZKNElLM05MYUV0UDF5OEVBeTlQa2hLXzdDVmZndWlSYU5zRktsbDREY1htbnhMTkdsRGdYVUQ5WjEw?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 00:13:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "라디오코리아",
+    "dup_media": [
+      "RadioKorea"
+    ],
+    "dup_count": 1,
     "_orig_id": 56
   },
   {
     "country": "미국",
-    "title": "WNBA 뛰는 박지현 \"AG 출전 어려워…월드컵 책임감 갖고 준비\" - RadioKorea",
+    "title": "열등감에 폭주하는 주새벽…\"욕망의 덫\" 6.4% 출발 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuSnFBYWtWY1BCa0JvUGdOTlRxRXBKNHFZTGhzYzZGWVJfQVNMa3h3MTUtdldlaGhLMjhhMXZ3d3hJZHBsVTAxWGQwVVd2MHRxTENhMTU5ckVWdG9CbzFB?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 00:12:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmNmR2X2d1c3Y3VjVwWHpsYW1RcXlZWC1XQ0REcWgwakRrdnhuak5GcXZ4cm83bTQwd0x5c0hmYXVsdTBMYzhCcEVzck5yOV9xNHhSYzh3Ykl4aDByTXA0?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 00:17:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -738,10 +737,10 @@
   },
   {
     "country": "미국",
-    "title": "LA 메트로 노숙자 2년 새 57% 감소…대중교통 안전 체감 높아졌다 - RadioKorea",
+    "title": "\"선수로 NBA 5회 우승·감독 1천335승\" 넬슨 별세…향년 86세 - RadioKorea",
     "media": "RadioKorea",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZSHMxM194eTNUMGxQc2k5cXdoRWswX0UxbEg1bk00eHZwNXNydERMVGEyRDZOcVpNak4tYThRc05QSm52a2pIY1FCMEhkT2ZmWTdzcjZJYmtHb2VzS29F?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 01:23:50 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VSmFVaW1fZW1mUzZhNk5pV2ZqdWNVcC1pSXh4RXBQWi13QmlneWQ1RXBOZ2pkYk9Sb3Flb3EyNDM4dVMzU0JWbUNKdmk0ZVhyemxOeGlZS0xCWF9tb0JV?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 16:12:55 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "라디오코리아",
@@ -753,10 +752,10 @@
   },
   {
     "country": "일본",
-    "title": "（ひと）竹森巧さん、阿部浩貴さん 「原爆漫才」を披露するお笑いコンビ「アップダウン」 - 朝日新聞",
+    "title": "（ひと）川原隆司さん 検察トップの検事総長に就任した - 朝日新聞",
     "media": "朝日新聞",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CUHQ1NkdKYmVjTnZDcTJEelRnR3dtY3JObEgwZWQzN0gxRkRpNlVnZ3ZQeGdONVNLMEo1REpDMTRZQ0ZhMDBRb0pEZ3Rub0tCdWhiWTc1ZDVoczRa?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 20:00:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BUFVLLWY4S0FrNnJtYkt6SVl1b18td0ZLdWdMTURETDFucWgtY2hlYWhpYV9fdk9yalBjd3kwa21hSWtySndiWHVHSEc3aFdBbWZCTXFxaG1NQVRC?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 20:00:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "朝日新聞",
@@ -764,7 +763,7 @@
       "朝日新聞"
     ],
     "dup_count": 1,
-    "_orig_id": 506
+    "_orig_id": 505
   },
   {
     "country": "일본",
@@ -779,14 +778,14 @@
       "朝日新聞"
     ],
     "dup_count": 1,
-    "_orig_id": 508
+    "_orig_id": 506
   },
   {
     "country": "일본",
-    "title": "（ひと）バート・ウィートジェンスさん 地雷除去の社会起業家から禅僧になった - 朝日新聞",
+    "title": "（ひと）竹森巧さん、阿部浩貴さん 「原爆漫才」を披露するお笑いコンビ「アップダウン」 - 朝日新聞",
     "media": "朝日新聞",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5QenFUdU1RQ3hTalZFd3ZTX1IxcFU0dDNtazhRS1RRNmRaRlBtZmc3TzRLMXJrNHpjZTAybUI0TFJqN1I0TGFiS3VnSGRSRnhWSGl6U1Y5UERBRnNk?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 20:00:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CUHQ1NkdKYmVjTnZDcTJEelRnR3dtY3JObEgwZWQzN0gxRkRpNlVnZ3ZQeGdONVNLMEo1REpDMTRZQ0ZhMDBRb0pEZ3Rub0tCdWhiWTc1ZDVoczRa?oc=5",
+    "pubDate": "Sun, 09 Aug 2026 20:00:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "朝日新聞",
@@ -794,22 +793,23 @@
       "朝日新聞"
     ],
     "dup_count": 1,
-    "_orig_id": 509
+    "_orig_id": 507
   },
   {
     "country": "일본",
-    "title": "韓国船、竹島周辺で調査か 日本EEZでワイヤのようなもの海中に投入 外務省が抗議 - 産経ニュース",
-    "media": "産経ニュース",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFOGxvUlhXR2lRbnpQeHl4dkQtWHNaOVZVNjdheFB2aDVuOE8yRDVNQl9tRGFHRW5NbDFJeGJsWUVzWDZCS0VlUDV4WFJoRDlfcm1tSjU3QkdCMElSMWk3WVB4WWU0SjROS3hEc0NJOWJvMzlNdkE?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 15:43:09 GMT",
+    "title": "米国揺るがす韓国系進歩派候補、１１日に勝利をつかめるか : 日本•国際 - ハンギョレ新聞",
+    "media": "ハンギョレ新聞",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CS2dTNXFlV2QwTERUMEdVZURYZmFlcXcyTGZrNExYOTRPVFNhTFI0VjY1c05JTXhsdjVBRkI0cEFfOVJaTlNjdWRjSWZqUHc2bDV1UWV2d1N4c19vNmo4LWpHbw?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 17:12:00 GMT",
     "old": false,
     "date_unverified": false,
-    "feed_media": "産経ニュース",
+    "feed_media": "일본 광역",
     "dup_media": [
-      "産経ニュース"
+      "ハンギョレ新聞",
+      "Yahoo!ニュース"
     ],
-    "dup_count": 1,
-    "_orig_id": 515
+    "dup_count": 2,
+    "_orig_id": 516
   },
   {
     "country": "일본",
@@ -824,22 +824,7 @@
       "Yahoo!ニュース"
     ],
     "dup_count": 1,
-    "_orig_id": 519
-  },
-  {
-    "country": "일본",
-    "title": "「明星 韓流辛麺 激辛牛だしチゲラーメン」「明星 韓流辛麺 激辛濃厚カルボラーメン」（9月14日発売) - 明星食品",
-    "media": "明星食品",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yUGlnMkt3aUZJMzdMcEl0bWZPcVcxcGIzNGZfMC1XVEMwTUtrZVF5bk8tUF9RTjNMc1JUUk1BLXdqVmQwLThxYlNoQWNZMk1D?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 06:13:09 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "일본 광역",
-    "dup_media": [
-      "明星食品"
-    ],
-    "dup_count": 1,
-    "_orig_id": 520
+    "_orig_id": 517
   },
   {
     "country": "일본",
@@ -855,44 +840,14 @@
       "ライブドアニュース"
     ],
     "dup_count": 2,
-    "_orig_id": 522
-  },
-  {
-    "country": "일본",
-    "title": "金九率いる「韓人愛国団」の呼びかけ掲載 中国紙の実物を初公開 - 동아일보",
-    "media": "동아일보",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5IQnpwUmNUTkdYQnc4N294bG9fYkM2ZVBUaUlzZkRwckt3RDFBRFBEcmQ5WGQ3R3pkQUlfVXUtdDVNVE9BS211czFYdmNNcmJwTl9TaGxqbXRwTV9NRXRfd2Y5Yk1XQQ?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:26:42 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "일본 광역",
-    "dup_media": [
-      "동아일보"
-    ],
-    "dup_count": 1,
-    "_orig_id": 523
-  },
-  {
-    "country": "일본",
-    "title": "韓国系シンガーソングライター・AUDREY NUNA、ソロ楽曲「スーパーヒューマン」を本日配信ーーサマソニ'26にも出演予定 - DIGLE MAGAZINE",
-    "media": "DIGLE MAGAZINE",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92bGZVWWEzR3FtX0tCTWdUQnFKZGpDY3NaWDlJSmNjU3d3UWt4Y25weHRkeHBSS0RPSkxWQ0JpZno0N3lDRHJtQkRyYw?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 10:01:50 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "일본 광역",
-    "dup_media": [
-      "DIGLE MAGAZINE"
-    ],
-    "dup_count": 1,
-    "_orig_id": 525
+    "_orig_id": 519
   },
   {
     "country": "일본",
     "title": "井浦新が語るカルチャーの力「政治を超えて国と国をつなげてくれるもの」最新作『トロフィー』で在日コリアンの父親役に(1/2) - ウォーカープラス",
     "media": "ウォーカープラス",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtVjFHU0E3UXFKLUZscEVXT0tPVUFxY0h5NGNzaHVwOGMwVDVsWWlBQzBfczZ5cGljRFJXWjNZUkplVUo2SHBLQnNtdWpZM014S1BxVlgzcnBwWWVNeklrMGtDTTdSZmPSAWxBVV95cUxNTXRlR004V0xoM2pPSDJENWJUME0tVHlvUWxaLTlMdzVMSUhnWXdZZTBHaGVrZUlyQ2liMmhRVkI5R3NMRkpEYUo2YndwLV9ob0FpVG9YYXhkSExjZmZIV2xtS210Tk5zX2hzT0c?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 15:51:56 GMT",
+    "pubDate": "Tue, 11 Aug 2026 21:49:18 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "일본 광역",
@@ -900,44 +855,29 @@
       "ウォーカープラス"
     ],
     "dup_count": 1,
-    "_orig_id": 526
+    "_orig_id": 522
   },
   {
     "country": "일본",
-    "title": "米国揺るがす韓国系進歩派候補、１１日に勝利つかめるか : 日本•国際 - ハンギョレ新聞",
-    "media": "ハンギョレ新聞",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CS2dTNXFlV2QwTERUMEdVZURYZmFlcXcyTGZrNExYOTRPVFNhTFI0VjY1c05JTXhsdjVBRkI0cEFfOVJaTlNjdWRjSWZqUHc2bDV1UWV2d1N4c19vNmo4LWpHbw?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 17:12:00 GMT",
+    "title": "【ルポ】共和党支持者も「公約集ください」…米国を揺るがした韓国系民主社会主義者 (ハンギョレ新聞) - Yahoo!ニュース",
+    "media": "Yahoo!ニュース",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRjVhYV9wYkZDdzZ4end5QnJMS3JEMktqNk1rV0cxa0twRzRYUnBIZTJSckYtbW1USDJURVNwd0VnNkFISXozSWpKMlY4OEdvTHVWcy1KUDV5LWVSNEQzcEV5YXJ2X0xFb29QSFlndVNWc3BBemVDNEYxYnVqa29FeExLbklzOVJnSmVjNTJR?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 01:49:46 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "일본 광역",
     "dup_media": [
-      "ハンギョレ新聞"
-    ],
-    "dup_count": 1,
-    "_orig_id": 528
-  },
-  {
-    "country": "일본",
-    "title": "米中間選挙を前に韓国系・イスラム系の新鋭候補が躍進 - 동아일보",
-    "media": "동아일보",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41TXRUMVhUdWFCejNTNmN5WjZZV3N2MzUxcnBueDZnWHl1QjNiTVBQd3g0OUlYOW5kekxmT0tjVnE3Qk9sdHBFV1c4TEVQMUNScG5rS1ZTMmp3WHBjSmYwMVdPUF9oQQ?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:26:31 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "일본 광역",
-    "dup_media": [
-      "동아일보"
+      "Yahoo!ニュース"
     ],
     "dup_count": 1,
     "_orig_id": 529
   },
   {
     "country": "일본",
-    "title": "【ルポ】共和党支持者も「公約集ください」…米国を揺るがした韓国系民主社会主義者 (ハンギョレ新聞) - Yahoo!ニュース",
+    "title": "【インタビュー】１１日に民主党の州知事予備選に臨むフランチェスカ・ホンさん（ハンギョレ新聞） - Yahoo!ニュース",
     "media": "Yahoo!ニュース",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQc3NxVHpGZmYyTzJEY2s4dmRaNkFudmJGZWxiUzI4T1pERWhFcXpPSVl5LUl5S1ozWE13VXU0VnJvenF4QUFGS3I3SXFOakdoVGN1bG1LR3RXVUp5Ml9yRURiaXZsbDFBZ2pfemp4dy1GTTJVcVVHMDgxcG5fOEowYndxb3JCUmgwQ3VkbE1R?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 01:49:46 GMT",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KSGNHUk1vS2pUdGJOTTRrWFJBNGZwZi1QY211STM0UjdBREtneDJVYzhLbjZKN1lsbWQwQjdQakd4RTFEYzNFX01RMXAtMXFjTk9JOElwVFdzT3FJcUh3cTNsZFBaZnNDRWZIZk9aX05aNXpuaTVrZmU2R2lCSzg?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 02:09:03 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "일본 광역",
@@ -952,7 +892,7 @@
     "title": "ヘイトの矛先は在日コリアンから埼玉クルドに移り、子どもまで狙われ…ヘイトスピーチ解消法１０年 なぜ差別が続くのか、何が必要か【多文化共生企画】 - 山陽新聞",
     "media": "山陽新聞",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SOTRscF94M1dBS2QtcmVSSU5femRJcWo4Y0lmalc1eWNyNV8tb2pVcExPNU9YWkJpWGRjZ2tlYVBJVnMyV2EyRnYyekt2WGo4enc?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 07:00:00 GMT",
+    "pubDate": "Sun, 09 Aug 2026 07:00:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "일본 광역",
@@ -960,7 +900,37 @@
       "山陽新聞"
     ],
     "dup_count": 1,
-    "_orig_id": 532
+    "_orig_id": 531
+  },
+  {
+    "country": "일본",
+    "title": "若者の｢韓国離れ｣が始まった…韓国ファッションに熱中した20代女性が\"次の手本\"にしているアジアの国【2026年7月BEST】 - PRESIDENT Online（プレジデントオンライン）",
+    "media": "PRESIDENT Online（プレジデントオンライン）",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tam9iYmVQU2oxdmlYYUVRV2xacE1Ec1d5OXRVSHV6Z2F2RXVDdzNURTBBaWpzMHFsSG1PQ1ZJQTZoRVIxRjRzVDl2WHpNUFJaeTBFTlRNRzM?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 10:00:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "일본 광역",
+    "dup_media": [
+      "PRESIDENT Online（プレジデントオンライン）"
+    ],
+    "dup_count": 1,
+    "_orig_id": 534
+  },
+  {
+    "country": "일본",
+    "title": "在米韓国系銀が増益もウリアメリカ減益 - CHOSUNBIZ - Chosunbiz",
+    "media": "Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa19XdlRUdGZPTi1kUTJmQnhFTlR3d3NaYnNIRlYtRExUM3E0NTdBOUFNYS1rdkhXZWkyZWc3YVBhTFFTb2Rld1dwQUtJNDNtNy1VLUFiMjVYZUpJcVJBTVg2VGF2YVZRTG1PT2pLY2lhMTQwYVlXZy1kOWg3YjhBaDhDdHYwd1owTDR3WEJwSmtGb1dF0gGUAUFVX3lxTE1rX1d2VFR0Zk9OLWRRMmZCeEVOVHd3c1pic0hGVi1ETFQzcTQ1N0E5QU1hLWt2SFdlaTJlZzdhUGFMUVNvZGV3V3BBS0k0M203LVUtQWIyNVhlSklxUkFNWDZUYXZhVlFMbU9PaktjaWExNDBhWVdnLWQ5aDdiOEFoOEN0djB3WjBMNHdYQnBKa0ZvV0U?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 00:30:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "일본 광역",
+    "dup_media": [
+      "Chosunbiz"
+    ],
+    "dup_count": 1,
+    "_orig_id": 535
   },
   {
     "country": "일본",
@@ -975,7 +945,22 @@
       "Chosunbiz"
     ],
     "dup_count": 1,
-    "_orig_id": 535
+    "_orig_id": 536
+  },
+  {
+    "country": "일본",
+    "title": "今年11月、米中間選挙に出馬する候補を選出する民主党予備選挙が「中道対進歩」構図で展開される中で、ウィスコンシン州知事に挑戦した「進歩候補」韓国系フランチェスカ·ホン(韓国名ホン·ユンジョン)が超接戦.. - 매일경제",
+    "media": "매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qUGxweE1na2ZDMmg5d2doXzVLSWVIUExKNlhFXzRhem5UUzRnQkRacm9wM2RXdlBEOE55ejR1aXlUalBlbVp0bzFYbFF4Tms?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 08:51:28 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "일본 광역",
+    "dup_media": [
+      "매일경제"
+    ],
+    "dup_count": 1,
+    "_orig_id": 539
   },
   {
     "country": "일본",
@@ -990,7 +975,7 @@
       "매일경제"
     ],
     "dup_count": 1,
-    "_orig_id": 537
+    "_orig_id": 540
   },
   {
     "country": "일본",
@@ -1005,7 +990,7 @@
       "매일경제"
     ],
     "dup_count": 1,
-    "_orig_id": 538
+    "_orig_id": 542
   },
   {
     "country": "일본",
@@ -1020,22 +1005,7 @@
       "Chosunbiz"
     ],
     "dup_count": 1,
-    "_orig_id": 548
-  },
-  {
-    "country": "일본",
-    "title": "絞首台からの生還の上映スケジュール・映画情報 - 映画の時間",
-    "media": "映画の時間",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBibG5pQzk4cFdfc05FOEZ0Wk04V21VQ0p0bzlhbHhmTzRkZ0tSOEkwRzg2UWdyS3lKTlhHZTQtUENUUlBCeEI5YU0xNmg1dk1wNkE?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 13:10:47 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "일본 광역",
-    "dup_media": [
-      "映画の時間"
-    ],
-    "dup_count": 1,
-    "_orig_id": 550
+    "_orig_id": 551
   },
   {
     "country": "일본",
@@ -1050,7 +1020,7 @@
       "Chosunbiz"
     ],
     "dup_count": 1,
-    "_orig_id": 551
+    "_orig_id": 552
   },
   {
     "country": "일본",
@@ -1065,14 +1035,14 @@
       "디지털투데이"
     ],
     "dup_count": 1,
-    "_orig_id": 552
+    "_orig_id": 553
   },
   {
     "country": "캐나다",
-    "title": "8월 7일 단체 및 봉사단체 소식 - 밴쿠버 조선일보",
+    "title": "[밴쿠버 조선일보]8월 11일 단체 및 봉사단체 소식 | 밴쿠버 뉴스 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLVXZ1UVNhOGNJVzJQUGFjRnhERGdlQ1lLQWdFLTgxWmVfUHVLQ3NnLS00cEg5b3pMYlQ0WUp5T19yX2wtQ0JxSGxERnRBOV9PRy1vdkluMy1XNWtEU1FCendZZ3hpcWp6bkMxWUhXaGMwTE9tZkg4VnpINlAtTFE?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 16:35:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xVGJuckNJaXd1dms4SEFSUFh2UEZ4aF9iRnUtbXBON1YyR2w0dFRId2VpbTFUbWRocTdna0FwQ1NtbGMzWWd2SHVXQTYweEZkME5oeHQyZzdGakVDSXlfNXRKRjVTbENQRmJsRnZXWWYzOUk5LUlDRjJOZTBOeW8?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 16:31:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1080,7 +1050,22 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 659
+    "_orig_id": 660
+  },
+  {
+    "country": "캐나다",
+    "title": "가족 떠난 뒤 남은 유산··· 복잡한 행정절차 짚어본 시간 - 밴쿠버 조선일보",
+    "media": "밴쿠버 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0TDM4X1l3cXgwUjhnb2ZsT1AwakcwcDJZdGQybjBmNDNwcVhiODktaElCek9CZ3A2a3F4T3J4R0VqYnNCRktPaWJsdW5wVDlpUTR0azY3Q3FaUlRMLVl6VTZEb2c5SmoxVDQ2TW9mUEMzSXlfRkFvbWZZczdsWmM?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 22:19:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "밴쿠버 중앙일보",
+    "dup_media": [
+      "밴쿠버 조선일보"
+    ],
+    "dup_count": 1,
+    "_orig_id": 662
   },
   {
     "country": "캐나다",
@@ -1095,7 +1080,7 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 661
+    "_orig_id": 663
   },
   {
     "country": "캐나다",
@@ -1110,14 +1095,14 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 662
+    "_orig_id": 664
   },
   {
     "country": "캐나다",
-    "title": "[밴쿠버 조선일보]밴쿠버 캐넉스 마스코트 ‘핀’, 명예의 전당 입성 불발 | 밴쿠버 뉴스 - 밴쿠버 조선일보",
+    "title": "[밴쿠버 조선일보]개통 5일 만에 4만 건··· 고디 하우 다리 이용 활발 | 밴쿠버 뉴스 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeU9pRkdZdU1kajNFVmpIcnl4V1NsVUtjTlFuOHBIeExla0QzRV9pYmZxMW1TOEtYZUQxdW1tNG8zUFQxdnBBdUYyWmhUTHg1Zi0zVkFINWN2QXNzci0tT0VtOF9SeUhqREhrVDVlODdveFpJV215QXRmVkxuTV9kb09rYnFxVEtUdlp3?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 19:52:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUG9FLURGenhvWElIVXV5aDBrQjFkNmE4NE5McXVDeUxvaFdWaXh0ZFFxdnJZS29BblRnVTU5Vms5MGczVDRBVlNTd2NIdHlOZTRjVVdPUXpfYlphb1NWZkJmTUZGaU1NbkhfcjdvaFU4YmFrNHFjSUtLVlptdDlHSDRwTVBVMXNrOXZN?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 20:31:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1125,7 +1110,7 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 664
+    "_orig_id": 667
   },
   {
     "country": "캐나다",
@@ -1140,43 +1125,13 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 666
-  },
-  {
-    "country": "캐나다",
-    "title": "“시장의 반전은 없다!” - 밴쿠버 조선일보",
-    "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTXk5M0wxS2VtT28xNXdvNWliRjFTc1N6SUUyeEI2N1pHZm9tUmx5dEJTNXZ6dFVWTFljMmhDWkJ3MUFMRWUwRGEwZEQxSlNKbmhzdGl2ZnJlN0l1QVgzQW5ELXVFNFFFdVFTeDlCU1RpblByalZaa0VRUUY4OGp5XzRVb2EzbzRlc0xicUtLaTFMeXl3WFE?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 17:34:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "밴쿠버 중앙일보",
-    "dup_media": [
-      "밴쿠버 조선일보"
-    ],
-    "dup_count": 1,
-    "_orig_id": 668
-  },
-  {
-    "country": "캐나다",
-    "title": "여행가방 끌까, 밀까··· 관절·척추엔 이러는 게 낫다 - 밴쿠버 조선일보",
-    "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSC1PcnhodWV5TUFRV0dLejdTLXNVYllqcG1EYzFXWExIX0lNQy1Mczl0Rjc0QnZnTFlkdUNWNHU3eU43b1o4N3NPQ1A2eHktMXZhb3JucTE4eWREdHJnN1o3QXVLc0JmOUQ4TmxFem5uZzRxV3dENjBMbWplTTljWEZzYkpMNlRSeWpwejN5cXZSQ3M5bEE?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 18:29:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "밴쿠버 중앙일보",
-    "dup_media": [
-      "밴쿠버 조선일보"
-    ],
-    "dup_count": 1,
-    "_orig_id": 671
+    "_orig_id": 669
   },
   {
     "country": "캐나다",
     "title": "[밴쿠버 조선일보]8월 캐나다 이민 시장, 변화의 시작보다 중요한 것은 ‘방향’입니다 | 밴쿠버 뉴스 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ2lvZWRSdzRzY2RVT3F0ajJqejVTTFBYNGk0c05mU2lUX3cxdnF2MTdvdG51OTI4b0pOZ0NlRWRZZ3g5VWRBeWp3YnZfTjRBOXhsYXBFVmdfNVpxRU1rYlkwVnB4d0RBb1RSTGlsUWpoTHZWaDhvTU03M3lmN3B3MmtKQWE4QVp0WS1qTEl1WFFuWFozOUsyNnBn?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLWhOM2lDRWJGdFpCQi1TenZLOFhPY3pXeGhuMmVjbGk2OXhYdEo5Mi1rd0g5UEJwZTY0RnM5NEdyRFg5a2ZVQUJxaWVobDFydldsYXNkUTRkV3RXMTF3VVo4bHJFSEt0NUZLOHFfdXZvWDFTOWp2UXdaS1o2b0hyUS1EOUpwaTFISl9zQ2pDN2E1YlJSMWc?oc=5",
     "pubDate": "Mon, 10 Aug 2026 21:41:00 GMT",
     "old": false,
     "date_unverified": false,
@@ -1185,14 +1140,14 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 673
+    "_orig_id": 678
   },
   {
     "country": "캐나다",
-    "title": "“밴쿠버 여름을 달콤하게”··· 화제의 ‘아이스크림’ 맛집 5선 - 밴쿠버 조선일보",
+    "title": "여행가방 끌까, 밀까··· 관절·척추엔 이러는 게 낫다 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeGxvT2VHMEZJOWRwU3lOTXE2Mm11eU5uUFB6N0hSTEJMQXc0QUt1R0ptbUx3RWN5MU52ZXdOeFl5Z2NIZHdKb3I2b3pJVnBCR0tFa3VSS2pJUm1NMDkxaGw4aC1lb05jNkxqbDJKb1BSYkVUMmxnQ3hTWVhXajVJRzVjemJDUnBJMHc?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 21:11:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWNXMWZFdDJvcFYxcWZqbFZxMmU3ZXRnQW9uZ0l2X1NLcjVyVWVBWXlQY3lhNk1pMzNsS0hkLW5vUDNkNEtiSTljRXpncEdFM1pGWkp6WTN2bHlTVENYX0FLQUlCY1FISjNSTG9aRExuTnUxd0dSYjFudENMWThua3NsdU9jNEw2Tmc?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 18:29:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1200,14 +1155,14 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 674
+    "_orig_id": 679
   },
   {
     "country": "캐나다",
-    "title": "자동차 매매 > 2021 Mazda CX-5 - 밴쿠버 조선일보",
+    "title": "백홍기 부동산 일식당 밴쿠버웨스트 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6OHhhdmpiWGhnUEtubHphSzF6ZHBUQmFJbE56UGJvOTVHNjFySURKSGI2ZEJJSVBYUEdVdTM4Z0g5ei1uUjl4YzF2MWpXdkRlckdleHRxYXdINXhXV00yNUxQbmJmdTFUTU40cFRHTTFSamJONEJzY0h6V1VBdw?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 18:56:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqRWNaSVFvTUlRVFVPU3dSQkpCLVZuS3BhMlBjV2JYdEh3R2pPbkd1c2RPMU5JbGhHUHk5Tm4tODJuTzQzNWN3Ri12M2JTNXExMzEwN0N0U1JpV0NlWEc5Tk1PbmQzYmM4SG1JQ0lfQklOSHBnTW83OVB6a3k?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 07:25:40 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1215,14 +1170,14 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 676
+    "_orig_id": 684
   },
   {
     "country": "캐나다",
-    "title": "학원/튜터 > [수학/과학/영어 튜터] BC 현직고등학교 교사 l 내신관리 및 대학입시 상담 - 밴쿠버 조선일보",
+    "title": "학원/튜터 > UBC 신경과학(Neuroscience) 졸업 · 심리학 (Psychology) 석박사 | 전과목 최상위권 맞춤 과외 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9veUdyWlpmbV9MQ3lVdHM5YXhzelA2N09UMngwR0NVZDRuUkptUXNRMXNNRDJHR19ZRDB0VVJIWWhpajlBcFRrYnhBWi1QdWxWQjJ2VHFrVHpRbWJDdjhkdi1qazdmbDZraTlaanFiNVNUUHgyRTAzOQ?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 17:34:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12RHZ5TVJoRkJWeEc5UHlaRmIwMS1QOHliaUVEY2g0ckRnYVhicVZFVXI2dFZ1UGMtMS1wTUNNaWdFQUZTSjRXT3FhajBVVl9XUWhxQ2RZXzBuZGQ1T05iQ0pWQnBqM0VPbGhQNl9lMU90VFlaSW5lcA?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 00:33:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1231,21 +1186,6 @@
     ],
     "dup_count": 1,
     "_orig_id": 685
-  },
-  {
-    "country": "캐나다",
-    "title": "학원/튜터 > 왕초보에서 프랑스어 TCF 6개월만에 합격하기 - 밴쿠버 조선일보",
-    "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DMDQ1di1wZUNZVTQweUJVejR5N2ZPbDlUYmdfTjZEd0hibmVFZ2JNbTJHUXhWNDdzdHgyOHB6Vk9iNzlDQ2NocWFUU1g5TkNsbU1kbG13VVB0dDYwUGR5TDRESW5WcndwWjFHSlFjc0JkRTNwSXZiaQ?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 17:14:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "밴쿠버 중앙일보",
-    "dup_media": [
-      "밴쿠버 조선일보"
-    ],
-    "dup_count": 1,
-    "_orig_id": 689
   },
   {
     "country": "캐나다",
@@ -1260,22 +1200,7 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 690
-  },
-  {
-    "country": "캐나다",
-    "title": "자동차 매매 > 2018 Toyota Corolla SE - 밴쿠버 조선일보",
-    "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Za1A5U2M5NHcyaHFUa1pDMFRpQ2VSWVMtOXV5WEFRc3BVUkVvbHpQQ0lnNXZ5eTFzR0VzOVE2RGpNTm9EVDE0VG5VTkVSNTZ5VkJGazYwc0JNMEhlQ3FNZG1nam5NaHo5Z0xlODBXZk5xOVlKV2ZTZmM4REZPQQ?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:31:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "밴쿠버 중앙일보",
-    "dup_media": [
-      "밴쿠버 조선일보"
-    ],
-    "dup_count": 1,
-    "_orig_id": 691
+    "_orig_id": 692
   },
   {
     "country": "캐나다",
@@ -1290,29 +1215,14 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 692
-  },
-  {
-    "country": "캐나다",
-    "title": "자동차 매매 > 2018 Honda CR-V LX AWD - 밴쿠버 조선일보",
-    "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LZFBGRURQemFHbVFYS2VoRTlEUFVmYklmNlFxTEY4V2VCZnVPb0daMUFPbTNOZnJITVJQbTQ1RTUtSnhialhTd2hOSGhmdXFUaWRmSVZmX2pKdnpJRU5YVnVTXzdiSmgxLVhfU1c3akZ5LWthbVZmSjM4TU8zZw?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:34:00 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "밴쿠버 중앙일보",
-    "dup_media": [
-      "밴쿠버 조선일보"
-    ],
-    "dup_count": 1,
     "_orig_id": 693
   },
   {
     "country": "캐나다",
-    "title": "자동차 매매 > 2017 Toyota RAV4 XLE AWD - 밴쿠버 조선일보",
+    "title": "학원/튜터 > [수학/과학/영어 튜터] BC 현직고등학교 교사 l 내신관리 및 대학입시 상담 - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdk1zUnZmLXB0NzRmQk92SEhaaHBDQmszVjU1dGJMNXl3OTVoWFdneHowb09sZHRwRUhPTUIwSnByT196WmNvZkVXYmRFZzFidlpLX29qTllDclRhYnhDZ0ViN1FRV2l1c0twS3dXS1U4RUpCLWhDbVRPQV9YUERyb0d4VWloa0g0Ync?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:38:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9veUdyWlpmbV9MQ3lVdHM5YXhzelA2N09UMngwR0NVZDRuUkptUXNRMXNNRDJHR19ZRDB0VVJIWWhpajlBcFRrYnhBWi1QdWxWQjJ2VHFrVHpRbWJDdjhkdi1qazdmbDZraTlaanFiNVNUUHgyRTAzOQ?oc=5",
+    "pubDate": "Sun, 09 Aug 2026 17:34:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1324,10 +1234,10 @@
   },
   {
     "country": "캐나다",
-    "title": "자동차 매매 > 2017 Maserati Ghibli S Q4 - 밴쿠버 조선일보",
+    "title": "자동차 매매 > 2025 Ford Explorer Platinum - 밴쿠버 조선일보",
     "media": "밴쿠버 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5SU1DUm1JTDd0X3p6aGdyQ0NQUms2OWRCYU1rQVJpZ0JhQXlHTU1OdzN1Qm5tVEpsb0dtNWYwZ1F0ekdTQTdIa1FFV3ZCdk5VME9DdXVzcUF2bS1JQk9SOFVsNV9VLUJYTzl3UDFEeDNkZmc5ajE0bTAyRE9mZw?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 00:25:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUEJYQXZHTEtJQTBsekM1VHVvYlpyajhtVGVyNkc4ZVNSOFZwMjhmVUp2ekV2MUZfMllqNElaLU9pdVAyanJsdTczT2Z1Sk4zdE05S0J4d0F6bnpEMGw1WWFKNjYwV3l0RDVUaDBXR2lqNzBSMmVEWlQ2MlZmOUNzWnM0bjhpVFNyckE?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 22:24:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "밴쿠버 중앙일보",
@@ -1335,71 +1245,143 @@
       "밴쿠버 조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 695
+    "_orig_id": 703
   },
   {
     "country": "캐나다",
-    "title": "Drug Den Transforms into Sports Plaza Amid K-Culture Influence - 조선일보",
-    "media": "조선일보",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1BsbjNNMnFEdkY5Rkh1bXJ4OGc5WW1aWVJfOEhPOG5EcTlyR1BGN2ZVd0s4ZHlfNWxpUE5pVVd4NkZwUDJzZEJJRFcxZGF1elItRUludDdPeWxjSzVMT0RsY1FWSmdadGYxVnU4c1BqWDJkVXhjZzRtdVBpNVZJa0ppT1M?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 15:50:42 GMT",
+    "title": "자동차 매매 > 2024 Honda HR-V LX - 밴쿠버 조선일보",
+    "media": "밴쿠버 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRM0c5Zzc3TTlEWW1WZUV6elZKRUc2eUNRQ1FoVWpnenFvMVE3QzJRQzU2S1ljTFBlNldyWENxb19RRDBMc2RKb3I4Q3pjVUpqWFhoTGJmOGxLakZTd1R5ajdiU1ZIVG5nRXJPbGQ5SnhzdV9DRGQ0NzJuT0d6QQ?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 17:04:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "밴쿠버 중앙일보",
+    "dup_media": [
+      "밴쿠버 조선일보"
+    ],
+    "dup_count": 1,
+    "_orig_id": 704
+  },
+  {
+    "country": "캐나다",
+    "title": "President meets new US ambassador for 1st time - The Korea Times",
+    "media": "The Korea Times",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYXBnSDhHUmJtZllKS3lkVFZIM05hOUxsbzVhT3NPazc4N190cnNNRXJNLTc3Q2xRNVp2VGlFWEhQckk1SWhQTWUyMm80bm1USmNyOFBKT3RmN2c4a1Q5N0N5cTQ5TnN5WW5MTXJtVEs0WGVTeWNfaUdhemhhaUJBYUlCWXdUdEo1UWV5WDdYTTZFVjRYTXlnRDJkWXN3MnMtWmtkMURn0gGmAUFVX3lxTE5hcGdIOEdSYm1mWUpLeWRUVkgzTmE5TGxvNWFPc09rNzg3X3Ryc01Fck0tNzdDbFE1WnZUaUVYSFBySTVJaFBNZTIybzRubVRKY3I4UEpPdGY3ZzhrVDk3Q3lxNDlOc3lZbkxNcm1USzRYZVN5Y19pR2F6aGFpQkFhSUJZd1R0SjVRZXlYN1hNNkVWNFhNeWdEMmRZc3cycy1aa2QxRGc?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 02:47:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "조선일보",
-      "chosun.com"
+      "The Korea Times"
     ],
-    "dup_count": 2,
-    "_orig_id": 701
+    "dup_count": 1,
+    "_orig_id": 707
   },
   {
     "country": "캐나다",
-    "title": "Influencers Snuck Kimchi into a BTS Concert (to Give to Jung Kook) - jaehakim.substack.com",
-    "media": "jaehakim.substack.com",
+    "title": "Korean-American Candidate's Narrow Loss Stalls Socialist Surge - 조선일보",
+    "media": "조선일보",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeFRCR2NmVFJZeDVGU3dCYTQtN3JaVFpFMzl0bkJBWkhxSS1pUmtITzYtNUU1M2hpR0J4SExpc3VibHBBVzdJWjZkTW0yb0haSWJnYmthQXVVVUhOclJyaktEUnVFelVROUFhZm5hX0o0aUxXbU91aHM5TFQ1UHFQcjduUTY?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 15:50:19 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "조선일보"
+    ],
+    "dup_count": 1,
+    "_orig_id": 708
+  },
+  {
+    "country": "캐나다",
+    "title": "Korean American steakhouse Perilla' Happy(est) Meal - ABC7 Chicago",
+    "media": "ABC7 Chicago",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYVpHQ252RXBzV2JtZl82Q0t6c1ItTG5pNHBVTmE4X1hUbFhJTXdRT19pdFpFbXVhR0U1Mk9kRTZLcjF2SFMweDVNeTY2S0R3Qlo0UE9COWJGSG15YnlLZUJEU1pZdUVqNVFaU0RQXzlWcXpQa2pMWnZzY0VXWlRHeWVXdFN2cGtvSmtmNlFuRjJvVFHSAVtBVV95cUxQeHkwMUdlNXZSV0wwZ3lURlJha2wwcmZuT05NMVZmUE0ybnFHZ0FydEFtT2JhazZNYUZ1Ml9wdGVIQWZubjNSS0V1bEVDcW4tWDQ3MU5OdXE1NENR?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 13:12:37 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "ABC7 Chicago"
+    ],
+    "dup_count": 1,
+    "_orig_id": 709
+  },
+  {
+    "country": "캐나다",
+    "title": "Lee accepts credentials of US Ambassador Steel and others - Aju Press",
+    "media": "Aju Press",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xdzBxZWNfNWtJZmRVNlZSOEVpTFNXOGsxY3NsSGdQMFNQR2F4clVkQ2RXRlJyYWVNVjhVWFlRMzFaX1JJTlF6NGtnLTVQdmlkMlBfTTdBc9IBV0FVX3lxTE1xdzBxZWNfNWtJZmRVNlZSOEVpTFNXOGsxY3NsSGdQMFNQR2F4clVkQ2RXRlJyYWVNVjhVWFlRMzFaX1JJTlF6NGtnLTVQdmlkMlBfTTdBcw?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 05:35:17 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "Aju Press"
+    ],
+    "dup_count": 1,
+    "_orig_id": 710
+  },
+  {
+    "country": "캐나다",
+    "title": "Influencers Snuck Kimchi into a BTS Concert (to Give to Jung Kook) - K-Culture with Jae-Ha Kim",
+    "media": "K-Culture with Jae-Ha Kim",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSFVia1hORk1mcHd6ZGlPekczZ05xcDJfNDh0dG10RDJWZE9ES3FCMElPQ3U0aGE3d3Fxem5kN19vSWhVbFZCNDNDM3VOcV9aZzFYVExGbmd0WUxrb216YTFUckJNWnA3Unp0cm5uMXk0TTF5Y2NrZkItNHhhYVpBT2lPSmU0YkZiRkE?oc=5",
     "pubDate": "Sat, 08 Aug 2026 23:50:05 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "jaehakim.substack.com",
       "K-Culture with Jae-Ha Kim"
     ],
-    "dup_count": 2,
-    "_orig_id": 703
+    "dup_count": 1,
+    "_orig_id": 712
   },
   {
     "country": "캐나다",
-    "title": "[Reportage] Francesca Hong, the Korean American democratic socialist winning over Wisconsinites, left and right - english.hani.co.kr",
-    "media": "english.hani.co.kr",
+    "title": "Announcement Of The Recipient Of The 2026 AHL–Kim Family Fund Research Fellowship In Harlem - Harlem World Magazine",
+    "media": "Harlem World Magazine",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUndjMU90cEk3ZklJX3BKcnd2UUozRXRYZmYzdnhDNndNRGprZlo3M3RXZ3hFWHdyMVNQSmU2cHo4WkRqU0hOTzlrMEo3MTZreXlrMVNmQ1ViYlhlZGMxdE54RnlzNERQb0tKdVFIRmduSWlKdXVrSkhRSXc3aHFPcjVnWi1MQXI4dmJrQUZrRXE2ZE5wOGhYUG9mM0RVQTQ1cktXc29vZkl1dXhldE1kTlBKS2lHTEFxRVNsV0o3UnVuQjJZR004?oc=5",
+    "pubDate": "Mon, 10 Aug 2026 07:00:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "Harlem World Magazine",
+      "harlemworldmagazine.com"
+    ],
+    "dup_count": 2,
+    "_orig_id": 713
+  },
+  {
+    "country": "캐나다",
+    "title": "[Reportage] Francesca Hong, the Korean American democratic socialist winning over Wisconsinites, left and right - Hankyoreh : English Edition",
+    "media": "Hankyoreh : English Edition",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMHdJRnJhaUVWeHY1aWVmdHZBY1d0OVUxTE5aRjQ3bzVmWU9zYmI1MUpNM3lHZmczR0JpcGk5WVZ1WlV2eUNuMS1SVUtKXzBjRUtma3VaVDJhZGhRV0hpOGttWEFENHBFSDUyT3FvV3haU3RiVWxtSk1BLTJ6bTZuZ3V3?oc=5",
     "pubDate": "Tue, 11 Aug 2026 08:04:00 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "english.hani.co.kr",
       "Hankyoreh : English Edition"
     ],
-    "dup_count": 2,
-    "_orig_id": 704
+    "dup_count": 1,
+    "_orig_id": 714
   },
   {
     "country": "캐나다",
     "title": "Chang-Rae Lee mines personal history for new novel 'A Tender Age' - WBUR",
     "media": "WBUR",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SWkVlNVVPTnY3YkcxUV82WTNmTEFYd1M1YTFHa0N2bmVkYzhwbjlqVElXdERvYjBLWnZfaUJsMWh4NDRPOXlVVm91bE5VYlliZDR2UGZDNnVvX3ZiaEVkcFdLWS1BbjVfdjE3eEFvNE1kcS1HVEZndA?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 16:15:16 GMT",
+    "pubDate": "Tue, 11 Aug 2026 21:45:58 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "WBUR",
-      "wbur.org"
+      "WBUR"
     ],
-    "dup_count": 2,
-    "_orig_id": 706
+    "dup_count": 1,
+    "_orig_id": 716
   },
   {
     "country": "캐나다",
@@ -1411,73 +1393,85 @@
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "헤럴드경제",
-      "mbiz.heraldcorp.com"
-    ],
-    "dup_count": 2,
-    "_orig_id": 707
-  },
-  {
-    "country": "캐나다",
-    "title": "'KPop Demon Hunters' singer' Audrey Nuna captures “feeling of redemption, of validation, of the tides finally turning\" on bold new single ‘superHuman’ - nme.com",
-    "media": "nme.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQV9qSFd0WUp1RG1ReF9MTUJkYWJNZXhyLWVBVUZiamxpWnJrb1paSU9OdkotRXFsVDNQNUNuWnpnbnFuS3ZKcGlpNVpFV2ZPSTh1dnlpRWZHNVRKdnlWNkdwQXVVeGhJVWtpRHNia05sWHRfd1RTZlNiczN5Q1gxdHBLTVpVRVR6QThmcGg0SDMzTVhncGJTa3hWQUxhY2JpaUx0YnpR?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 12:34:35 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "캐나다 영문 광역",
-    "dup_media": [
-      "nme.com",
-      "NME"
-    ],
-    "dup_count": 2,
-    "_orig_id": 708
-  },
-  {
-    "country": "캐나다",
-    "title": "Visa cancellations surge 75% higher to 175,000 so far this year - AsAmNews",
-    "media": "AsAmNews",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSEc1WDdleWdJRzBJQjlJNm10QVZRQmY0eXFuSlRna2lpRGNhWjFfckY3SkZXR3l2YkRPNVRZRDluOHhBZkZxZVdRMFpvWFRFbmlwc1lDTEFzLWV0VmVoQXc3LXkwREthenNDdk1rUGhsNDVqRVM1a3NiOFpNUmRMVUJ5SQ?oc=5",
-    "pubDate": "Mon, 10 Aug 2026 21:07:05 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "캐나다 영문 광역",
-    "dup_media": [
-      "AsAmNews"
+      "헤럴드경제"
     ],
     "dup_count": 1,
-    "_orig_id": 709
+    "_orig_id": 717
   },
   {
     "country": "캐나다",
-    "title": "[Science Bulletin] Two Local Governments Compete to Host Korea’s Second Space Center - 동아사이언스",
-    "media": "동아사이언스",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5DbXkxSU9Gc3NUUEQ3SW1FRXVpeG5XRldQUEtKRnNoeW1KQnExQ1lha2JyV2RpSUJxV1VUMHg2cm9GUFBPOWhpWF9wWnIyOE9zRjUwTQ?oc=5",
-    "pubDate": "Sun, 09 Aug 2026 04:06:00 GMT",
+    "title": "Hong's Defeat Stalls Democratic Socialists' Momentum - 조선일보",
+    "media": "조선일보",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd1N5cHRqaFhTcEpyR3ZQVDlhcUdxZlhzeG8wOGU4Wk5NVDlWYnBZU1d1TDdDcWdxOGhReVp0TVVXQnV5ZEl5OHY0VmF6eHFqYXJpd1djVklhU0JNbzNxM1ZjZUNfTFlRZVA4RFplNEVkNmZWZFZXVDBETkNKb0IxOEw3YjI?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 12:32:30 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "동아사이언스"
+      "조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 710
+    "_orig_id": 719
   },
   {
     "country": "캐나다",
-    "title": "The Korean American Community Foundation Announces $5 Million Grant From MacKenzie Scott Uk Election Results (1wluOnM4X7) - Mshale",
-    "media": "Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FZ01CXzNiS0dIR3JGeWJhX2JzY3lzVUxvalVjeDFGMmNEdHFtRmE1dG5GV3ZYY0ZqUk5lbHZSNkk5bHlXdFBXNVQyLXRYdGdPYUNtbnNIbEVzdzg?oc=5",
-    "pubDate": "Tue, 11 Aug 2026 08:55:28 GMT",
+    "title": "Lee asks new U.S. ambassador to serve as 'bridge' for stronger alliance - Korea JoongAng Daily",
+    "media": "Korea JoongAng Daily",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUkthWWlRRHkwb19UN0xGSjF3aFpzTTFnOVAyaVgzSkhpQlRsRkdEeFBGbllUcWxVeFhuSGotLWtVd0xweU9PU2h6d2EtT2VfcXZFeldPektuV2I5dlVUdmdIQXNoakZVWkhmaDY4Rmc4dUZXbWlWS2pKT09FbDRoRnphWGZpeS03Y3lEcU9PSE1GVmFEZ0ExZ0hPeVY4SlZvLUNFTGtzY2hBOFFTdHVoeXFabU5mQU1G?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 09:17:41 GMT",
     "old": false,
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "Mshale",
-      "mshale.com"
+      "Korea JoongAng Daily"
     ],
-    "dup_count": 2,
-    "_orig_id": 712
+    "dup_count": 1,
+    "_orig_id": 720
+  },
+  {
+    "country": "캐나다",
+    "title": "President hopes new US envoy will strengthen Seoul-Washington alliance - The Korea Times",
+    "media": "The Korea Times",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYzRNV2ctNTZhYjlLbE53UFB0dE9OLXVjRndaWVhJWlR3R1pEQ3VaTmhEbVlyS29EQjQzY1VydndPUWlJQ3ZwODhTRW8zLXVnR085UE1QbzM2aXRUSjVfM3QyaDUwYVU4RXp3Um5NUUd3UjdiQ1ltQkNPazJubHZaZGNTbDYxa1hIWlJWTER4OW5iaW5TYWNlbHMzLUZEekVfZUhuWkVQTUJBVTBZXzBQTmt5T1BUQXJVQ3lFNWlycGHSAcYBQVVfeXFMTUdJWUI1MG50MzJLdUxTN0VTc3k1NEtYR3VoM0JfcjFvMlI0d2lpQ1pmdGUySkxhOWR2UUJKdE1YRFMxZ1NQdEdCZGhBa2xIdlMzb1NoZEFWOTJHcXJZY3ZLcW5CcnJEOV9CTDl3MXRBRGFFTXc5R2tYUnN5NGFUaHM0Mk93a1habHhwTlB6dFRENE81R0pKd2ZzSExoNGFUd21rU2ZFRllKdm1QSllsZjYwOGh0ZFNMajFfeEQyam1kWGZzX2tR?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 02:47:03 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "The Korea Times"
+    ],
+    "dup_count": 1,
+    "_orig_id": 721
+  },
+  {
+    "country": "캐나다",
+    "title": "K-Culture Fuels Cracolândia's Sports Plaza Makeover - 조선일보",
+    "media": "조선일보",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1BsbjNNMnFEdkY5Rkh1bXJ4OGc5WW1aWVJfOEhPOG5EcTlyR1BGN2ZVd0s4ZHlfNWxpUE5pVVd4NkZwUDJzZEJJRFcxZGF1elItRUludDdPeWxjSzVMT0RsY1FWSmdadGYxVnU4c1BqWDJkVXhjZzRtdVBpNVZJa0ppT1M?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 19:03:07 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "조선일보"
+    ],
+    "dup_count": 1,
+    "_orig_id": 722
+  },
+  {
+    "country": "캐나다",
+    "title": "Over 44,000 ethnic Korean laborers secure long-term visas as gov't speeds up integration - The Korea Times",
+    "media": "The Korea Times",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVUd6el93OXk5SUVKWFctbzBoeGl1aHJuQUpfYk90bG9hYkY0R29GeHZQeExERFYwSWJhVmwyN0Y1cUxDTnBzdG0tTHI0ek9pMnpfc0V3ZHBQNU56SmwtektzVE5XekwzZnI5ZFBUNEJrNVEwUlJSOXJsUVRCSXZ1VExSdWRtdEdOYU1sVjRIb0FocEZBQ1g4SXZ1ZDdEUFZ4YTNDWF9LdFVDczhRMm5hYTRwRERIN1pEYjhwVUJOcU9sSmJ6WUN5NHI5bUJRcFBxRGFwUXlFYzl6ZG1JTTlpWG9ZRdIB4wFBVV95cUxPVUd6el93OXk5SUVKWFctbzBoeGl1aHJuQUpfYk90bG9hYkY0R29GeHZQeExERFYwSWJhVmwyN0Y1cUxDTnBzdG0tTHI0ek9pMnpfc0V3ZHBQNU56SmwtektzVE5XekwzZnI5ZFBUNEJrNVEwUlJSOXJsUVRCSXZ1VExSdWRtdEdOYU1sVjRIb0FocEZBQ1g4SXZ1ZDdEUFZ4YTNDWF9LdFVDczhRMm5hYTRwRERIN1pEYjhwVUJOcU9sSmJ6WUN5NHI5bUJRcFBxRGFwUXlFYzl6ZG1JTTlpWG9ZRQ?oc=5",
+    "pubDate": "Wed, 12 Aug 2026 02:17:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "캐나다 영문 광역",
+    "dup_media": [
+      "The Korea Times"
+    ],
+    "dup_count": 1,
+    "_orig_id": 723
   },
   {
     "country": "캐나다",
@@ -1489,25 +1483,24 @@
     "date_unverified": false,
     "feed_media": "캐나다 영문 광역",
     "dup_media": [
-      "조선일보",
-      "chosun.com"
-    ],
-    "dup_count": 2,
-    "_orig_id": 713
-  },
-  {
-    "country": "캐나다",
-    "title": "New affordable housing complex opens in LA’s Koreatown - AsAmNews",
-    "media": "AsAmNews",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDFobmFmZkR6M19KY1NIRWJIdmVzVG1qSmZxYkRuQWozZExTRmtiSjlxTUhpX0ZRV0lSR0Fwc3hPWWtNcjJzTU1wNHBkZk5BNVFxdmNSMDA3R1FGVDd3RHEtRWVWWVVRY0ZNXzI3Y2ZzSHZkeHpRR05kMlNxMDRpdXJJRUcxUllZaFl6Z3NJUjI3cjh4YnY0dGpMOURRM0U?oc=5",
-    "pubDate": "Fri, 07 Aug 2026 12:56:09 GMT",
-    "old": false,
-    "date_unverified": false,
-    "feed_media": "캐나다 영문 광역",
-    "dup_media": [
-      "AsAmNews"
+      "조선일보"
     ],
     "dup_count": 1,
-    "_orig_id": 714
+    "_orig_id": 724
+  },
+  {
+    "country": "호주",
+    "title": "시드니 스트라스필드 영어 간판 추진 큰 반향 - 호주 톱뉴스",
+    "media": "호주 톱뉴스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13Rlpna3VEWVk3Qi1ycFV2SlZrNWI2d0ZaSUZCSUcxd29jX1Jsd2lxa2paME9kOFhjX0Ztc3c2bnRObnpQd2RoUVNCUGdLS2picGpVS0xjMnlSYVdPWlpTTVQtbGVldzBXOUU4SmhNcXc?oc=5",
+    "pubDate": "Tue, 11 Aug 2026 09:45:00 GMT",
+    "old": false,
+    "date_unverified": false,
+    "feed_media": "호주 톱디지털",
+    "dup_media": [
+      "호주 톱뉴스"
+    ],
+    "dup_count": 1,
+    "_orig_id": 754
   }
 ]
