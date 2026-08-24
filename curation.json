@@ -48,7 +48,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 48,
+    "id": 49,
     "rank": 5,
     "desk": "리스트",
     "one_liner": "대뉴욕지구한인상공회의소, 사이버한국외대와 MOU 체결 - 미주중앙일보 / 미주중앙일보",
@@ -64,7 +64,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 38,
+    "id": 36,
     "rank": 3,
     "desk": "이관",
     "one_liner": "\"호주판 셰일혁명 시험대\"…비탈루 가스 첫 공급 - RadioKorea / RadioKorea",
@@ -72,7 +72,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 45,
+    "id": 43,
     "rank": 4,
     "desk": "이관",
     "one_liner": "이정은 \"복수심 탐구 평생 숙제 같아…나도 끝까지 갈 수 있을까\" - RadioKorea / RadioKorea",
@@ -80,10 +80,10 @@
     "bundle_idea": ""
   },
   {
-    "id": 55,
+    "id": 76,
     "rank": 5,
     "desk": "이관",
-    "one_liner": "韓国R&Bシンガー JUNNY、待望の初来日公演が決定！ - 朝日新聞 / 朝日新聞",
+    "one_liner": "体重103kg→68kgまで減量した男性、ビフォーアフターに衝撃 SNSでは「コン・ユに似ている」と話題に - ABEM / ABEMA TIMES",
     "caution": "",
     "bundle_idea": ""
   },
@@ -99,7 +99,7 @@
     "id": 96,
     "rank": 7,
     "desk": "이관",
-    "one_liner": "Western Canada's largest kimchi and Korean food festival ret / Daily Hive",
+    "one_liner": "The reluctant architect of Korean stand-up - The Korea Heral / The Korea Herald",
     "caution": "",
     "bundle_idea": ""
   },
@@ -107,7 +107,7 @@
     "id": 97,
     "rank": 8,
     "desk": "이관",
-    "one_liner": "Lee Hwi-hyang Reveals Rumor That Shocked Guam's Korean Commu / 스포츠조선",
+    "one_liner": "Western Canada's largest kimchi and Korean food festival ret / Daily Hive",
     "caution": "",
     "bundle_idea": ""
   },
@@ -115,7 +115,7 @@
     "id": 98,
     "rank": 9,
     "desk": "이관",
-    "one_liner": "The reluctant architect of Korean stand-up - The Korea Heral / The Korea Herald",
+    "one_liner": "Lee Hwi-hyang Reveals Rumor That Shocked Guam's Korean Commu / 스포츠조선",
     "caution": "",
     "bundle_idea": ""
   },
@@ -235,15 +235,15 @@
     "id": 23,
     "rank": 14,
     "desk": "제외",
-    "one_liner": "구로·세종 등 청년기숙사 2천호 공급…공공청사 200개소 개발(종합) - RadioKorea / RadioKorea",
+    "one_liner": "CA 노숙자 줄었는데… 감소세 놓고 ‘주거 지원 성과’ vs ‘집계 한계’ - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 24,
+    "id": 25,
     "rank": 15,
     "desk": "제외",
-    "one_liner": "CA 노숙자 줄었는데… 감소세 놓고 ‘주거 지원 성과’ vs ‘집계 한계’ - RadioKorea / RadioKorea",
+    "one_liner": "\"AI 붐에 커촹반50, 중국 대표 주가지수로 부상\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -251,15 +251,15 @@
     "id": 26,
     "rank": 16,
     "desk": "제외",
-    "one_liner": "\"AI 붐에 커촹반50, 중국 대표 주가지수로 부상\" - RadioKorea / RadioKorea",
+    "one_liner": "LA 자전거도로 없앤 뒤 임신부 참변…아기까지 숨져, 유족 소송 추진 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 28,
+    "id": 27,
     "rank": 17,
     "desk": "제외",
-    "one_liner": "LA 자전거도로 없앤 뒤 임신부 참변…아기까지 숨져, 유족 소송 추진 - RadioKorea / RadioKorea",
+    "one_liner": "뉴욕증시, 美 국채금리 반등에 하락 출발 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
@@ -267,87 +267,87 @@
     "id": 29,
     "rank": 18,
     "desk": "제외",
-    "one_liner": "뉴욕증시, 美 국채금리 반등에 하락 출발 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 31,
-    "rank": 19,
-    "desk": "제외",
     "one_liner": "LA 개솔린 값 닷새째 상승...갤런당 5달러 60센트대 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 32,
-    "rank": 20,
+    "id": 30,
+    "rank": 19,
     "desk": "제외",
     "one_liner": "카카오 둘로 나눈다…\"AI\"는 카톡·사업, \"X\"는 미래 투자(종합2보) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 33,
-    "rank": 21,
+    "id": 31,
+    "rank": 20,
     "desk": "제외",
     "one_liner": "\"연구용 시신 빼돌려 팔다니…\" 하버드 의대, 737억원 배상 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 34,
-    "rank": 22,
+    "id": 32,
+    "rank": 21,
     "desk": "제외",
     "one_liner": "“안전 위한 펜스인가, 공공 공간 훼손인가…맥아더파크 펜스 설치, 여러분의 생각은?” - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 39,
-    "rank": 23,
+    "id": 37,
+    "rank": 22,
     "desk": "제외",
     "one_liner": "김민석 \"최고위 업무 상황판 만들자\"…기강잡기 이어 \"깨알지시\"(종합) - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 42,
-    "rank": 24,
+    "id": 40,
+    "rank": 23,
     "desk": "제외",
     "one_liner": "국방부, 군 기관지 성조지 편집장·발행인 해임 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 43,
-    "rank": 25,
+    "id": 41,
+    "rank": 24,
     "desk": "제외",
     "one_liner": "삼성SDI \"삼성디스플레이 지분 4.4조원 매각…투자재원 마련\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 46,
-    "rank": 26,
+    "id": 44,
+    "rank": 25,
     "desk": "제외",
     "one_liner": "빨간문 넘어선 악령들의 공포…\"인시디어스: 그들이 넘어왔다\" - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 47,
-    "rank": 27,
+    "id": 45,
+    "rank": 26,
     "desk": "제외",
-    "one_liner": "한인단체장연합회 8월 월례회 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "자쿠지서 쉬던 남성 폭행·휴대폰 강탈...13세 2명 체포 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 49,
+    "id": 46,
+    "rank": 27,
+    "desk": "제외",
+    "one_liner": "재개하는 LPGA 투어…유해란, 포틀랜드 클래식서 시즌 3승 도전 - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 48,
     "rank": 28,
     "desk": "제외",
-    "one_liner": "삼성전자, 미국서 특허· 해고 소송 잇따라…한인 전직 임원도 부당해고 주장 - 미주중앙일보 / 미주중앙일보",
+    "one_liner": "한인단체장연합회 8월 월례회 - 미주중앙일보 / 미주중앙일보",
     "caution": "",
     "bundle_idea": ""
   },
@@ -392,8 +392,16 @@
     "bundle_idea": ""
   },
   {
-    "id": 56,
+    "id": 55,
     "rank": 34,
+    "desk": "제외",
+    "one_liner": "韓国R&Bシンガー JUNNY、待望の初来日公演が決定！ - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 56,
+    "rank": 35,
     "desk": "제외",
     "one_liner": "AIで作ったモデルの画像と「酷似」で裁判に 著作権は認められる？ [大阪府] [AIの時代] - 朝日新聞 / 朝日新聞",
     "caution": "",
@@ -401,7 +409,7 @@
   },
   {
     "id": 58,
-    "rank": 35,
+    "rank": 36,
     "desk": "제외",
     "one_liner": "【ディズニー・ミラコスタで家族に感謝を】東京韓国青年商工会・第3回理事会にて『令和の虎』榊󠄀原清一が提言！会員定着を生む / 産経ニュース",
     "caution": "",
@@ -409,7 +417,7 @@
   },
   {
     "id": 60,
-    "rank": 36,
+    "rank": 37,
     "desk": "제외",
     "one_liner": "1兆ウォン超のM&A、83%を外資系PEFが席巻…韓国系運用会社はゼロ - BigGo ファイナンス / BigGo ファイナンス",
     "caution": "",
@@ -417,7 +425,7 @@
   },
   {
     "id": 63,
-    "rank": 37,
+    "rank": 38,
     "desk": "제외",
     "one_liner": "韓国系作曲家の新作『皇后』、ベートーヴェンの名曲『皇帝』に応答する - 매일경제 / 매일경제",
     "caution": "",
@@ -425,7 +433,7 @@
   },
   {
     "id": 64,
-    "rank": 38,
+    "rank": 39,
     "desk": "제외",
     "one_liner": "韓国系ブライダル店が突然営業停止　顧客被害27万Sドル超、ホテルが店舗を回収 - AsiaX BIZ / AsiaX BIZ",
     "caution": "",
@@ -433,7 +441,7 @@
   },
   {
     "id": 65,
-    "rank": 39,
+    "rank": 40,
     "desk": "제외",
     "one_liner": "李大統領 中国外相と面会 - 聯合ニュース / 聯合ニュース",
     "caution": "",
@@ -441,7 +449,7 @@
   },
   {
     "id": 66,
-    "rank": 40,
+    "rank": 41,
     "desk": "제외",
     "one_liner": "原爆孤児となった広島の少女を変えた「精神親」 京都の30歳女性がなぜ？物心支えた半世紀の物語 (京都新聞) - Yaho / Yahoo!ニュース",
     "caution": "",
@@ -449,7 +457,7 @@
   },
   {
     "id": 69,
-    "rank": 41,
+    "rank": 42,
     "desk": "제외",
     "one_liner": "Kコンテンツの情報番組『Kエンタメラボ』6周年記念公開放送成功裏に終了 - jp.ajunews.com / jp.ajunews.com",
     "caution": "",
@@ -457,7 +465,7 @@
   },
   {
     "id": 70,
-    "rank": 42,
+    "rank": 43,
     "desk": "제외",
     "one_liner": "ソウル特別市九老区高尺スカイドーム(1万6000席)では11月21日土曜日、総合格闘技(MMA)大会「ブラックコンバット / 매일경제",
     "caution": "",
@@ -465,7 +473,7 @@
   },
   {
     "id": 71,
-    "rank": 43,
+    "rank": 44,
     "desk": "제외",
     "one_liner": "「少女の揺れ動く気持ちと家族愛」 トロフィー 隣組さんの映画レビュー（感想・評価） - 映画.com / 映画.com",
     "caution": "",
@@ -473,7 +481,7 @@
   },
   {
     "id": 72,
-    "rank": 44,
+    "rank": 45,
     "desk": "제외",
     "one_liner": "長生炭鉱水没事故の悲劇を舞台に 「海底骨歌」9月から東京・大阪・山口で上演 - 聯合ニュース / 聯合ニュース",
     "caution": "",
@@ -481,7 +489,7 @@
   },
   {
     "id": 73,
-    "rank": 45,
+    "rank": 46,
     "desk": "제외",
     "one_liner": "横浜美術館と共同企画 韓国で楽しむ「ロードムービー」日韓現代美術展 - カナロコ / カナロコ",
     "caution": "",
@@ -489,7 +497,7 @@
   },
   {
     "id": 74,
-    "rank": 46,
+    "rank": 47,
     "desk": "제외",
     "one_liner": "ポスト・マロン、韓国系恋人と破局後新たな恋が実現..ダイヤモンドリングのプレゼント [ワールドスターの話題] - sta / starnewskorea.com",
     "caution": "",
@@ -497,17 +505,9 @@
   },
   {
     "id": 75,
-    "rank": 47,
-    "desk": "제외",
-    "one_liner": "釜山で国際ドラゴンボート大会 - 聯合ニュース / 聯合ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 76,
     "rank": 48,
     "desk": "제외",
-    "one_liner": "体重103kg→68kgまで減量した男性、ビフォーアフターに衝撃 SNSでは「コン・ユに似ている」と話題に - ABEM / ABEMA TIMES",
+    "one_liner": "釜山で国際ドラゴンボート大会 - 聯合ニュース / 聯合ニュース",
     "caution": "",
     "bundle_idea": ""
   },
@@ -656,7 +656,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 41,
+    "id": 39,
     "rank": 67,
     "desk": "제외",
     "one_liner": "\"선수로 NBA 5회 우승·감독 1천335승\" 넬슨 별세…향년 86세 - RadioKorea / RadioKorea",
@@ -664,8 +664,16 @@
     "bundle_idea": ""
   },
   {
-    "id": 0,
+    "id": 47,
     "rank": 68,
+    "desk": "제외",
+    "one_liner": "'손흥민도 결국 퍼졌다' LAFC 살인 일정에 한계...감독 \"출전 시간 관리해야\" - RadioKorea / RadioKorea",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 0,
+    "rank": 69,
     "desk": "제외",
     "one_liner": "4·29 폭동 경험 담았다...'루프탑 코리안' 토니 문 회고록 출간 - RadioKorea / RadioKorea",
     "caution": "",
@@ -673,7 +681,7 @@
   },
   {
     "id": 2,
-    "rank": 69,
+    "rank": 70,
     "desk": "제외",
     "one_liner": "샌디에이고 시의회에 난데없이 ‘다스베이더’…무슨 일? - RadioKorea / RadioKorea",
     "caution": "",
@@ -681,7 +689,7 @@
   },
   {
     "id": 5,
-    "rank": 70,
+    "rank": 71,
     "desk": "제외",
     "one_liner": "AI 데이터센터 폭증에 전기료도 오른다…가정 부담 커지나 - RadioKorea / RadioKorea",
     "caution": "",
@@ -689,7 +697,7 @@
   },
   {
     "id": 7,
-    "rank": 71,
+    "rank": 72,
     "desk": "제외",
     "one_liner": "웨스트할리우드서 오늘 어린이 책 축제...다채로운 행사 마련 - RadioKorea / RadioKorea",
     "caution": "",
@@ -697,7 +705,7 @@
   },
   {
     "id": 10,
-    "rank": 72,
+    "rank": 73,
     "desk": "제외",
     "one_liner": "CA 산불 위험지역 집 주변 ‘5피트’ 비워야…수백만 집주인 영향 - RadioKorea / RadioKorea",
     "caution": "",
@@ -705,7 +713,7 @@
   },
   {
     "id": 12,
-    "rank": 73,
+    "rank": 74,
     "desk": "제외",
     "one_liner": "세계 최대 야생동물 횡단로 12월 개통…101번 프리웨이로 단절된 서식지 연결 - RadioKorea / RadioKorea",
     "caution": "",
@@ -713,7 +721,7 @@
   },
   {
     "id": 15,
-    "rank": 74,
+    "rank": 75,
     "desk": "제외",
     "one_liner": "8월 22일 모닝뉴스 헤드라인 - RadioKorea / RadioKorea",
     "caution": "",
@@ -721,30 +729,22 @@
   },
   {
     "id": 17,
-    "rank": 75,
+    "rank": 76,
     "desk": "제외",
     "one_liner": "잔디 대신 나무 심으면 100달러…남가주 주민 지원 확대 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 25,
-    "rank": 76,
+    "id": 24,
+    "rank": 77,
     "desk": "제외",
     "one_liner": "북극항로 시대 연다…국내 컨테이너선 22일 첫 시범운항 - RadioKorea / RadioKorea",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 27,
-    "rank": 77,
-    "desk": "제외",
-    "one_liner": "징계 후 복귀전 치른 배재고, 봉황대기 1회전 탈락…시즌 마감 - RadioKorea / RadioKorea",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 30,
+    "id": 28,
     "rank": 78,
     "desk": "제외",
     "one_liner": "마리나 델 레이서 6주째 ‘하수구 악취’…병원 공사가 원인 - RadioKorea / RadioKorea",
@@ -752,7 +752,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 35,
+    "id": 33,
     "rank": 79,
     "desk": "제외",
     "one_liner": "94년 역사 LA 비전 극장, 4천만 달러 복원 마치고 다시 문 연다 - RadioKorea / RadioKorea",
@@ -760,7 +760,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 36,
+    "id": 34,
     "rank": 80,
     "desk": "제외",
     "one_liner": "라디오코리아 - RadioKorea / RadioKorea",
@@ -768,7 +768,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 37,
+    "id": 35,
     "rank": 81,
     "desk": "제외",
     "one_liner": "남가주 주말까지 90~100도 폭염…팜스프링스는 112도까지 치솟아 - RadioKorea / RadioKorea",
@@ -776,7 +776,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 40,
+    "id": 38,
     "rank": 82,
     "desk": "제외",
     "one_liner": "할리우드 누빈 ‘스타 돼지’ 윌버, 작곡가 다이앤 워런 품에서 새 출발 - RadioKorea / RadioKorea",
@@ -784,7 +784,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 44,
+    "id": 42,
     "rank": 83,
     "desk": "제외",
     "one_liner": "“월급 3분의 1이 대출금으로\"... 내 집 마련 부담 다시 커졌다 - RadioKorea / RadioKorea",
