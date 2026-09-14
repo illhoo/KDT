@@ -1,89 +1,121 @@
 [
   {
-    "id": 6,
+    "id": 24,
     "rank": 1,
     "desk": "주목",
-    "one_liner": "\"한국어 교육기관 간 연계·협력해 통합 생태계 구축해야\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "한인타운 8가·버몬트서 갱 관련 총격...용의자 2명 도주 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 28,
+    "id": 5,
     "rank": 1,
     "desk": "리스트",
-    "one_liner": "한인타운 8가·버몬트서 갱 관련 총격...용의자 2명 도주 - 라디오코리아 / 라디오코리아",
+    "one_liner": "한인타운 기반 MS-13 간부 오늘 선고...최대 종신형 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 94,
+    "id": 51,
     "rank": 2,
     "desk": "리스트",
-    "one_liner": "Artist Ho Bin Kim explored the history of Keelung’s Korean c / UA.NEWS",
+    "one_liner": "【そもそも解説】在日コリアンとは？ 国籍や呼称が決まった経緯 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 50,
+    "id": 7,
     "rank": 1,
+    "desk": "이관",
+    "one_liner": "\"한국어 교육기관 간 연계·협력해 통합 생태계 구축해야\" - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 52,
+    "rank": 2,
     "desk": "이관",
     "one_liner": "在日コリアン2世、張本勲さんの訃報を現地メディアが速報｢韓国野球とも長い間縁を結んだ｣ - 朝日・日刊スポーツ / 朝日・日刊スポーツ",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 67,
-    "rank": 2,
-    "desk": "이관",
-    "one_liner": "張本勲さん、在日韓国人やくざ好演 昭和59年の東映「修羅の群れ」で菅原文太さんの弟分 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 95,
+    "id": 93,
     "rank": 3,
     "desk": "이관",
-    "one_liner": "Korean-American Rookie Bateman Electrifies Toronto With .336 / 조선일보",
+    "one_liner": "Korean American reporter CeFaan Kim shares harrowing account / asamnews.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 93,
+    "id": 96,
     "rank": 4,
+    "desk": "이관",
+    "one_liner": "Tokayev Honors South Korean Figures as Kazakhstan-Korea Ties / The Astana Times",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 45,
+    "rank": 5,
+    "desk": "이관",
+    "one_liner": "韓총리 \"미프진, 병원에서만 가능하도록…제도 보수적 설계\" - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 50,
+    "rank": 6,
+    "desk": "이관",
+    "one_liner": "千人の在日コリアンの大声援 アジア大会サッカー女子で北朝鮮が大勝 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 90,
+    "rank": 7,
     "desk": "이관",
     "one_liner": "Seoul riverside festival to bring together Korean, diaspora  / upi.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 96,
-    "rank": 5,
+    "id": 92,
+    "rank": 8,
     "desk": "이관",
-    "one_liner": "Korean American reporter CeFaan Kim shares harrowing account / AsAmNews",
+    "one_liner": "Korean-American Rookie Bateman Electrifies Toronto With .336 / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 97,
-    "rank": 6,
+    "id": 94,
+    "rank": 9,
     "desk": "이관",
     "one_liner": "Between two languages: Asian immigrant women and youth conne / Epicenter NYC",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 98,
-    "rank": 7,
+    "id": 95,
+    "rank": 10,
     "desk": "이관",
     "one_liner": "Stephanie Ahn’s Seven-Year Road to ‘Bedford Park’: ‘You Neve / IMDb",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 99,
-    "rank": 8,
+    "id": 97,
+    "rank": 11,
     "desk": "이관",
     "one_liner": "All’N goes ‘all in’ on building his own K-pop path - The Kor / The Korea Herald",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 99,
+    "rank": 12,
+    "desk": "이관",
+    "one_liner": "President moves to quell reelection talk, but stops short of / The Korea Times",
     "caution": "",
     "bundle_idea": ""
   },
@@ -91,469 +123,365 @@
     "id": 0,
     "rank": 1,
     "desk": "제외",
-    "one_liner": "\"장보고 주유하고 월세 내면 텅\"...LA 생활비 전국 9위 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 1,
-    "rank": 2,
-    "desk": "제외",
-    "one_liner": "트럼프 “1인당 500달러 돌려준다”...오바마케어 환급금 10월부터 체크 발송 - 라디오코리아 / 라디오코리아",
+    "one_liner": "OC 셰리프 대원, 약혼녀에 9발 총격 혐의..유족 “살인죄 적용해야” - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 2,
-    "rank": 3,
+    "rank": 2,
     "desk": "제외",
-    "one_liner": "애플 '아이폰 듀오' 공개... 폴더블 시장 본격 진출 - 라디오코리아 / 라디오코리아",
+    "one_liner": "호텔 예약 날짜·금액까지 알고 접근..여행 사기 갈수록 ‘진짜처럼’ - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 3,
+    "rank": 3,
+    "desk": "제외",
+    "one_liner": "주방 천장에서 갑자기 사람이 ‘쿵’..알고 보니 보험 조사관 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 8,
     "rank": 4,
     "desk": "제외",
-    "one_liner": "헐리웃 도로에 시민들이 직접 횡단보도 그렸다..알고 보니 ‘무허가’ - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 5,
-    "rank": 5,
-    "desk": "제외",
-    "one_liner": "한인금연센터에서 알려드리는 금연과 건강혜택, 금연도움요령 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 9,
-    "rank": 6,
-    "desk": "제외",
-    "one_liner": "어바인서 총기로 가족 위협한 30대 남성... 4시간 대치 끝 체포 - 라디오코리아 / 라디오코리아",
+    "one_liner": "헐리웃 도로에 시민들이 직접 횡단보도 그렸다..알고 보니 ‘무허가’ - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 11,
-    "rank": 7,
-    "desk": "제외",
-    "one_liner": "아버지 흉기로 찔러 살해한 30대 남성, 징역 39년형 선고받아 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 12,
-    "rank": 9,
+    "rank": 13,
     "desk": "이관",
-    "one_liner": "李대통령 \"피터팬 아빠 걱정 잊지 않겠다…발달장애인 지원\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "李대통령 \"피터팬 아빠 걱정 잊지 않겠다…발달장애인 지원\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 13,
-    "rank": 8,
+    "id": 14,
+    "rank": 5,
     "desk": "제외",
-    "one_liner": "‘두 언어로 수업을?’ CA서 이중언어 교육 늘어나…교사 수는 부족 - 라디오코리아 / 라디오코리아",
+    "one_liner": "아버지 흉기로 찔러 살해한 30대 남성, 징역 39년형 선고받아 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 15,
-    "rank": 9,
+    "id": 16,
+    "rank": 6,
     "desk": "제외",
-    "one_liner": "문가영, '시조새 타투' 깜짝 공개..날개뼈 위 과감한 노출[핫피플] - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 18,
-    "rank": 10,
-    "desk": "이관",
-    "one_liner": "李대통령 \"제 임기 헌법상 명확히 제한…취임 초 해외방문 많이\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "‘두 언어로 수업을?’ CA서 이중언어 교육 늘어나…교사 수는 부족 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 19,
-    "rank": 10,
+    "rank": 7,
     "desk": "제외",
-    "one_liner": "류준열·홍경·정호연의 추적극…넷플릭스, \"아웃백\" 제작 - 라디오코리아 / 라디오코리아",
+    "one_liner": "AI 만드는 CEO들도 “너무 빠르다”..오픈AI·앤트로픽 속도조절 한목소리 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 20,
+    "rank": 14,
+    "desk": "이관",
+    "one_liner": "李대통령 \"우즈베크, 소중한 친구…공동번영·평화 향해 도약\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 21,
-    "rank": 11,
+    "rank": 8,
     "desk": "제외",
-    "one_liner": "\"힘들 땐 앞을 보라 도망치면 거기서 끝이다\"…장훈의 불꽃 인생 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 22,
-    "rank": 12,
-    "desk": "제외",
-    "one_liner": "“앞으로 돈 쓰기 겁난다”...미 소비자심리 역대 두 번째 최저 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“앞으로 돈 쓰기 겁난다”...미 소비자심리 역대 두 번째 최저 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 23,
-    "rank": 13,
+    "rank": 9,
     "desk": "제외",
-    "one_liner": "[아시안게임] 北 선수단, 일본 도착…\"역대급\" 180여명 파견 - 라디오코리아 / 라디오코리아",
+    "one_liner": "[아시안게임] 北 선수단, 일본 도착…\"역대급\" 180여명 파견 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 26,
-    "rank": 14,
+    "id": 25,
+    "rank": 10,
     "desk": "제외",
-    "one_liner": "고교 풋볼 후원금 41만 달러 빼돌려...재무 담당 체포 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 27,
-    "rank": 15,
-    "desk": "제외",
-    "one_liner": "\"바람의 나라\" 세계관 품은 전통공예…경복궁 계조당서 전시 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 30,
-    "rank": 16,
-    "desk": "제외",
-    "one_liner": "스트레이 키즈 주축 페스티벌 \"스트레이시티\"…보고타서 첫선 - 라디오코리아 / 라디오코리아",
+    "one_liner": "노동장관 \"노사대응따라 산업전환 일자리 키우는 과정 될 수 있어\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 31,
-    "rank": 17,
+    "rank": 11,
     "desk": "제외",
-    "one_liner": "노동장관 \"노사대응따라 산업전환 일자리 키우는 과정 될 수 있어\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "이튼 산불 피해자 '통합 지원 플랫폼' 출범...정부 지원 한곳에 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 32,
-    "rank": 18,
+    "rank": 12,
     "desk": "제외",
-    "one_liner": "이란, 유조선 공격에 보복...\"요르단 미군기지·군함 타격\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "\"에이전틱AI 관련 美기업 투자 패시브\" 등 ETF 4종 상장 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 33,
-    "rank": 19,
+    "rank": 13,
     "desk": "제외",
-    "one_liner": "LAX서 비행기표 없어도 탑승구까지 간다..누가 이용할 수 있나? - 라디오코리아 / 라디오코리아",
+    "one_liner": "\"韓 도우러 갔지만 얻은 게 더 많아\"…LA서 \"한미 우호의 밤\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 36,
-    "rank": 20,
+    "id": 34,
+    "rank": 14,
     "desk": "제외",
-    "one_liner": "미 전역서 9·11 테러 25주기 추모...\"잊지 않았다\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "의대생 현역입대 5년새 19배…\"군의관·공보의 복무기간 줄여야\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 37,
-    "rank": 21,
+    "rank": 15,
     "desk": "제외",
-    "one_liner": "\"해변 모래가 한꺼번에 사라졌다\"...라구나비치 비상사태 선포 - 라디오코리아 / 라디오코리아",
+    "one_liner": "9·11 희생자 마지막 쪽지 25년 만에 공개…LA 가족의 기억 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 38,
-    "rank": 22,
+    "rank": 16,
     "desk": "제외",
-    "one_liner": "이메일 쓰고 쇼핑 결제까지…메타, AI에이전트 \"뮤즈\" 출시 - 라디오코리아 / 라디오코리아",
+    "one_liner": "CA 차량 번호판 46년 만에 바뀐다..새 번호는 어떻게 달라지나? - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 39,
+    "rank": 17,
+    "desk": "제외",
+    "one_liner": "AI 개발 경쟁에 제동?...오픈AI·앤트로픽 CEO \"속도 늦춰야\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 40,
-    "rank": 23,
+    "rank": 18,
     "desk": "제외",
-    "one_liner": "흑백요리사2, ‘타미 리 쉐프’, 남가주 발달장애 가족 만나러 온다 - 라디오코리아 / 라디오코리아",
+    "one_liner": "아마존, 마이애미 화물기 참사에 '21에어' 운항 중단 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 41,
+    "rank": 19,
+    "desk": "제외",
+    "one_liner": "시흥시, \"배곧 복합문화중심도시\" 조성사업 우선협상대상자 선정 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 42,
-    "rank": 24,
+    "rank": 20,
     "desk": "제외",
-    "one_liner": "선플재단, AI 딥페이크·악플 추방 선언식…\"K-리스펙트 실천\" - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 43,
-    "rank": 25,
-    "desk": "제외",
-    "one_liner": "드라마 \"김부장\"도 AI로 액션 제작…방송가 AI 활용 확산 - 라디오코리아 / 라디오코리아",
+    "one_liner": "심장병 사망 위험 56% 낮게 나타난 운동..“가장 건강한 종목”은? - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 44,
-    "rank": 26,
+    "rank": 21,
     "desk": "제외",
-    "one_liner": "남자 핸드볼대표팀 \"아시안게임 4강 넘어 내친김에 금메달\" - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 45,
-    "rank": 27,
-    "desk": "제외",
-    "one_liner": "제3회 \"한미동맹대상\" 수상자에 최태원 SK그룹 회장 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 46,
-    "rank": 28,
-    "desk": "제외",
-    "one_liner": "꿈·사랑 다 이룬 김혜준…\"최애의 사원\" 3.1% 종영 - 라디오코리아 / 라디오코리아",
+    "one_liner": "미 전역서 9·11 테러 25주기 추모...\"잊지 않았다\" - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 47,
-    "rank": 29,
+    "rank": 22,
     "desk": "제외",
-    "one_liner": "이튼 산불 피해자 '통합 지원 플랫폼' 출범...정부 지원 한곳에 - 라디오코리아 / 라디오코리아",
+    "one_liner": "기아, 대형 전동화 PBV \"PV7\" 첫선…1회 충전으로 460㎞ 달린다 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 48,
-    "rank": 30,
+    "rank": 23,
     "desk": "제외",
-    "one_liner": "미 생산자물가 0.4% 상승...유가 급등에 인플레 우려 확대 - 라디오코리아 / 라디오코리아",
+    "one_liner": "감사원 \"YTN 지분 \"전량매각\"에 이동관 前방통위원장 개입\"(종합) - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 49,
-    "rank": 31,
+    "rank": 24,
     "desk": "제외",
-    "one_liner": "강아지 입양비 단돈 25달러..패서디나 보호소 “새 가족 찾아요” - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 52,
-    "rank": 32,
-    "desk": "제외",
-    "one_liner": "（取材考記）市議のＳＮＳ投稿 最高裁、人種差別の判断は 宮崎亮 - 朝日新聞 / 朝日新聞",
+    "one_liner": "파라마운트 LA 이전설에 술렁...최대 2만8천개 일자리 위기 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 53,
-    "rank": 33,
+    "rank": 25,
     "desk": "제외",
-    "one_liner": "恋が動き出す…アートのような美しいシーンに注目 黒川想矢×キム・ジアン共演『３ミリの恋』予告 - 朝日新聞 / 朝日新聞",
+    "one_liner": "北朝鮮選手に声援 アジア大会 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 54,
-    "rank": 34,
+    "id": 55,
+    "rank": 26,
     "desk": "제외",
     "one_liner": "長谷川閑史さん「目の前より世界に目を」 大型買収で世界のタケダに - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 55,
-    "rank": 35,
+    "id": 56,
+    "rank": 27,
+    "desk": "제외",
+    "one_liner": "7校連合VS朝鮮学校の「集団決闘」 割って入った先生、そこに車が [広島県] - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 57,
+    "rank": 28,
+    "desk": "제외",
+    "one_liner": "【そもそも解説】浜岡原発不正 過小評価された「基準地震動」とは - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 58,
+    "rank": 29,
+    "desk": "제외",
+    "one_liner": "（新市長・１３日）美馬市 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 59,
+    "rank": 30,
+    "desk": "제외",
+    "one_liner": "（しつもん！ドラえもん：５９０７）てがみ編 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 62,
+    "rank": 31,
+    "desk": "제외",
+    "one_liner": "（取材考記）市議のＳＮＳ投稿 最高裁、人種差別の判断は 宮崎亮 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 63,
+    "rank": 32,
     "desk": "제외",
     "one_liner": "（社説）張本さん逝く 不条理越え 弱きを語る - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 56,
-    "rank": 36,
-    "desk": "제외",
-    "one_liner": "ソウルに暮らして気づいた、日韓のたくさんの「違い」―― カン・バンファ『ことばの波間で 日本語と韓国のあいだ』｜じんぶん / 好書好日",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 58,
-    "rank": 37,
-    "desk": "제외",
-    "one_liner": "地震被災地を支援へ、駐日韓国大使が熊本訪問 知事「絆の強さ実感」 [熊本県] [2026年熊本地震] - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 61,
-    "rank": 38,
-    "desk": "제외",
-    "one_liner": "張本勲さんを悼み、TBSの番組がコメント 「心からのあっぱれを」 - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 62,
-    "rank": 39,
-    "desk": "제외",
-    "one_liner": "武田薬品元社長の長谷川閑史さんが死去 経済同友会代表幹事も務める - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 63,
-    "rank": 40,
-    "desk": "제외",
-    "one_liner": "外国人の生活保護認めず、最高裁で原告敗訴 判事1人「排除は違憲」 - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 64,
-    "rank": 41,
+    "rank": 33,
     "desk": "제외",
-    "one_liner": "ルポ 大阪・生野 人口2割が外国籍の街 - 朝日新聞出版 最新刊行物 / 朝日新聞出版 最新刊行物",
+    "one_liner": "北條、檀野が優勝 柔道 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 65,
-    "rank": 42,
+    "rank": 34,
     "desk": "제외",
-    "one_liner": "張本勲さん死去 被爆者として「戦争ダメ」訴えた 数日前話した姉は [広島県] - 朝日新聞 / 朝日新聞",
+    "one_liner": "世界、旅のダイアリー）天空の宗教都市、息づく祈り [和歌山県] - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 66,
-    "rank": 43,
+    "rank": 35,
     "desk": "제외",
-    "one_liner": "虐待で亡くなった子ども、2024年度は77人 前年度より12人増 - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 68,
-    "rank": 44,
-    "desk": "제외",
-    "one_liner": "昭和56年、現役引退直後の張本勲さん - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 69,
-    "rank": 45,
-    "desk": "제외",
-    "one_liner": "張本勲さん「韓国はいつまで謝罪しろと繰り返すのか」 在日として未来志向の日韓関係主張 - 産経ニュース / 産経ニュース",
+    "one_liner": "＜お知らせ＞「＃Ｙ川柳」投稿を募集 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 70,
-    "rank": 46,
+    "rank": 36,
     "desk": "제외",
-    "one_liner": "張本勲さん、オバマ氏広島訪問に「安倍ちゃんが総理で良かった」 被爆者として語った思い - 産経ニュース / 産経ニュース",
+    "one_liner": "ベネチア映画祭が閉幕 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 71,
-    "rank": 47,
+    "rank": 37,
     "desk": "제외",
-    "one_liner": "＜産経抄＞張本勲さん逝く、愛ゆえの「喝！」を置き土産に - 産経ニュース / 産経ニュース",
+    "one_liner": "ケーキ店経営者が死亡 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 72,
-    "rank": 48,
+    "rank": 38,
     "desk": "제외",
-    "one_liner": "「日本球界には喝！だね」張本勲さんインタビュー記事一覧 秘話から華麗な交友関係まで - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 73,
-    "rank": 49,
-    "desk": "제외",
-    "one_liner": "火災があったケーキ店「さんらいず」＝9月6日、岐阜県本巣市宗慶 - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 74,
-    "rank": 50,
-    "desk": "제외",
-    "one_liner": "木下グループ杯のフリーで演技するイグナトワ＝田中貴金属アイスアリーナ（萩原悠久人撮影） - 産経ニュース / 産経ニュース",
+    "one_liner": "プルデンシャル、情報持ち出し - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 75,
-    "rank": 51,
+    "rank": 39,
     "desk": "제외",
-    "one_liner": "東京二期会オペラ劇場「カルメン」より＝2025年2月、東京文化会館（寺司正彦撮影） - 産経ニュース / 産経ニュース",
+    "one_liner": "「同盟国の軽視、米国にも不利益」 ベルギーの国防相 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 76,
-    "rank": 52,
+    "rank": 40,
     "desk": "제외",
-    "one_liner": "六回、本塁打を放つソフトバンク・正木智也＝みずほペイペイドーム（渋井君夫撮影） - 産経ニュース / 産経ニュース",
+    "one_liner": "Ｍ＆Ａ、不適切事案受け声明 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 77,
-    "rank": 53,
+    "rank": 41,
     "desk": "제외",
-    "one_liner": "8月の記録的な豪雨でも運行を続けた千葉都市モノレール＝9月10日、千葉市中央区（松崎翼撮影） - 産経ニュース / 産経ニュース",
+    "one_liner": "法人増税「賛成できぬ」 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 78,
-    "rank": 54,
+    "rank": 42,
     "desk": "제외",
-    "one_liner": "女性騎手がクラシック初V 英国競馬のセントレジャーステークス（写真・画像 1/1） - 産経ニュース / 産経ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 79,
-    "rank": 55,
-    "desk": "제외",
-    "one_liner": "大阪府警本部＝大阪市中央区 - 産経ニュース / 産経ニュース",
+    "one_liner": "福岡、旅客機とタラップ車接触 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 80,
-    "rank": 56,
+    "rank": 43,
     "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]BC주, 23개 새 학교 들어선다 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "one_liner": "[밴쿠버 조선일보]버려지는 플라스틱, 국내 환경 심각하게 위협 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 81,
-    "rank": 57,
+    "rank": 44,
     "desk": "제외",
     "one_liner": "[밴쿠버 조선일보]들꽃의 노래 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
@@ -561,39 +489,47 @@
   },
   {
     "id": 82,
-    "rank": 58,
+    "rank": 45,
+    "desk": "제외",
+    "one_liner": "밴조선 모바일닷컴 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 83,
+    "rank": 46,
+    "desk": "제외",
+    "one_liner": "[밴쿠버 조선일보]워크퍼밋 소지자의 단기 학업 기회 확대, 캐나다가 주목하는 ‘이미 들어와 있는 인재’ |  / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 84,
+    "rank": 47,
     "desk": "제외",
     "one_liner": "“제발, 제보해 주세요”··· 피해자 유가족 호소 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 83,
-    "rank": 59,
-    "desk": "제외",
-    "one_liner": "자동차 매매 > 2016 Honda CR-V EX-L - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 84,
-    "rank": 60,
-    "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]R2 급행 버스, 웨스트 밴쿠버서 버나비 잇는다 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 85,
-    "rank": 61,
+    "rank": 48,
     "desk": "제외",
     "one_liner": "[밴쿠버 조선일보]올바른 양치질 1편 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
+    "id": 86,
+    "rank": 49,
+    "desk": "제외",
+    "one_liner": "[밴쿠버 조선일보]R2 급행 버스, 웨스트 밴쿠버서 버나비 잇는다 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
     "id": 87,
-    "rank": 62,
+    "rank": 50,
     "desk": "제외",
     "one_liner": "백홍기 부동산 미장원 포트코퀴틀람 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
@@ -601,201 +537,265 @@
   },
   {
     "id": 89,
-    "rank": 63,
-    "desk": "제외",
-    "one_liner": "청소 방문업체에서 멤버분 모십니다. - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 90,
-    "rank": 64,
-    "desk": "제외",
-    "one_liner": "[AD] 에버그린 재활 클리닉 브렌트우드 점, 4400sq.ft 규모로 확장 이전 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 92,
-    "rank": 65,
+    "rank": 51,
     "desk": "제외",
     "one_liner": "자동차 매매 > 2024 Lexus UX250h - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 51,
-    "rank": 66,
+    "id": 91,
+    "rank": 52,
+    "desk": "제외",
+    "one_liner": "Artist Ho Bin Kim explored the history of Keelung’s Korean c / UA.NEWS",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 54,
+    "rank": 53,
     "desk": "제외",
     "one_liner": "張本勲さんが死去 86歳、プロ野球最多の通算3085安打 - 朝日日刊インサイト / 朝日日刊インサイト",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 34,
-    "rank": 67,
-    "desk": "제외",
-    "one_liner": "코스모시 신곡 정식 발매, 팬들에게 달렸다…프로젝트 돌입 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 57,
-    "rank": 68,
-    "desk": "제외",
-    "one_liner": "張本勲さん死去 プロ野球最多３０８５安打 ８６歳 - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 59,
-    "rank": 69,
-    "desk": "제외",
-    "one_liner": "元プロ野球選手・張本勲さん亡くなる - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 60,
-    "rank": 70,
-    "desk": "제외",
-    "one_liner": "プロ野球でいちばんたくさんヒットを打った張本勲さんが亡くなりました - やさしい朝日新聞 / やさしい朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 91,
-    "rank": 71,
-    "desk": "제외",
-    "one_liner": "학원/튜터 > ?캐나다 BC 공립 교육청 고등부 온라인 학점 관리 프로그램 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 4,
-    "rank": 72,
-    "desk": "제외",
-    "one_liner": "식당 개업 장소 알아보던 남성 노렸다...현금 7만 달러 강탈 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 7,
-    "rank": 73,
-    "desk": "제외",
-    "one_liner": "라디오코리아 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 8,
-    "rank": 74,
-    "desk": "제외",
-    "one_liner": "한인커뮤니티변호사협, LA시니어센터 봉사학생 2명에 장학금 전달 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 10,
-    "rank": 75,
-    "desk": "제외",
-    "one_liner": "남가주 폭염에 ‘끈끈’한 습도까지...붙볕더위 내일(10일)까지 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 14,
-    "rank": 76,
-    "desk": "제외",
-    "one_liner": "일본프로야구 최다안타왕 장훈 별세…향년 86세(종합2보) - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 16,
-    "rank": 77,
-    "desk": "제외",
-    "one_liner": "사우스LA 24시간 정전...폭염 속 3천여 명 고통 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 17,
-    "rank": 78,
-    "desk": "제외",
-    "one_liner": "양상추 먹고 1만2천여 명 감염..대규모 기생충 사태 끝났다 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 20,
-    "rank": 79,
-    "desk": "제외",
-    "one_liner": "CA 신축 다세대 주택 중 콘도 단 3%...'하자 책임법' 부담 탓 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 24,
-    "rank": 80,
-    "desk": "제외",
-    "one_liner": "LA 폭염 속 곳곳 정전...LADWP, 주민들에 절전 당부 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 25,
-    "rank": 81,
-    "desk": "제외",
-    "one_liner": "미주복음방송이 '엄마의 글방 에세이 공모전' 개최 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 29,
-    "rank": 82,
+    "rank": 54,
     "desk": "제외",
-    "one_liner": "오늘의 증권소식(9월 9일) - 라디오코리아 / 라디오코리아",
+    "one_liner": "코스모시 신곡 정식 발매, 팬들에게 달렸다…프로젝트 돌입 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 35,
-    "rank": 83,
+    "rank": 55,
     "desk": "제외",
-    "one_liner": "LAX 새벽 묵념·말리부엔 3천 개 깃발...남가주도 추모 물결 - 라디오코리아 / 라디오코리아",
+    "one_liner": "\"모레노 체제\" 축구대표팀 4연전 입장권 15일부터 순차 판매 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 39,
-    "rank": 84,
+    "id": 60,
+    "rank": 56,
     "desk": "제외",
-    "one_liner": "9·11, 이제 '기억' 아닌 '역사'...가르치는 세대도 달라졌다 - 라디오코리아 / 라디오코리아",
+    "one_liner": "雨で中止のプロ野球（１０日） - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 41,
-    "rank": 85,
+    "id": 61,
+    "rank": 57,
     "desk": "제외",
-    "one_liner": "9월 11일 모닝뉴스 헤드라인 - 라디오코리아 / 라디오코리아",
+    "one_liner": "ボイコットのチームに処分の可能性 アメフトXリーグの契約違反問題 - 朝日日刊インサイト / 朝日日刊インサイト",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 86,
-    "rank": 86,
+    "id": 67,
+    "rank": 58,
     "desk": "제외",
-    "one_liner": "밴조선 부동산 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "one_liner": "青学大の渡部らがプロ志望届 野球 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 68,
+    "rank": 59,
+    "desk": "제외",
+    "one_liner": "サッカーＪ２ １３日 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 69,
+    "rank": 60,
+    "desk": "제외",
+    "one_liner": "東京六大学野球 １４日 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 73,
+    "rank": 61,
+    "desk": "제외",
+    "one_liner": "１３日の結果 プロ野球セ・リーグ - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 74,
+    "rank": 62,
+    "desk": "제외",
+    "one_liner": "ドジャース・佐々木の復帰は１８日以降 大リーグ - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 79,
+    "rank": 63,
+    "desk": "제외",
+    "one_liner": "ベイ４番・佐野、いきなり満塁弾 ＤｅＮＡ５―０巨人 プロ野球 - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 1,
+    "rank": 64,
+    "desk": "제외",
+    "one_liner": "말리부 공공 모래 가져다 저택 보호..MLB 구단주 결국 ‘200만 달러 해변’ 내놓는다 - radiokor / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 4,
+    "rank": 65,
+    "desk": "제외",
+    "one_liner": "내년 건강보험료 또 오른다..직장보험·오바마케어·메디케어 모두 부담 커져 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 6,
+    "rank": 66,
+    "desk": "제외",
+    "one_liner": "OC서 전기자전거 반납하면 최대 1천 달러..하루 만에 1천대 몰렸다 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 9,
+    "rank": 67,
+    "desk": "제외",
+    "one_liner": "라디오코리아 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 10,
+    "rank": 68,
+    "desk": "제외",
+    "one_liner": "LA 한인타운서 아이스크림 팔던 노점상 ‘날벼락’..차량에 치여 중상 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 12,
+    "rank": 69,
+    "desk": "제외",
+    "one_liner": "일본프로야구 최다안타왕 장훈 별세…향년 86세(종합2보) - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 13,
+    "rank": 70,
+    "desk": "제외",
+    "one_liner": "9월 14일 모닝뉴스 헤드라인 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 15,
+    "rank": 71,
+    "desk": "제외",
+    "one_liner": "양상추 먹고 1만2천여 명 감염..대규모 기생충 사태 끝났다 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 17,
+    "rank": 72,
+    "desk": "제외",
+    "one_liner": "남가주 폭염 한풀 꺾여...이번주 비교적 선선 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 18,
+    "rank": 73,
+    "desk": "제외",
+    "one_liner": "미주복음방송이 '엄마의 글방 에세이 공모전' 개최 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 22,
+    "rank": 74,
+    "desk": "제외",
+    "one_liner": "기아, 신규 광고 캠페인을 통해 HEV SUV 라인업의 역동성 선보여 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 26,
+    "rank": 75,
+    "desk": "제외",
+    "one_liner": "LAX 새벽 묵념·말리부엔 3천 개 깃발...남가주도 추모 물결 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 27,
+    "rank": 76,
+    "desk": "제외",
+    "one_liner": "9·11, 이제 '기억' 아닌 '역사'...가르치는 세대도 달라졌다 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 28,
+    "rank": 77,
+    "desk": "제외",
+    "one_liner": "90도 폭염에 손부채 수업...토런스 교실 75% 에어컨 없어 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 30,
+    "rank": 78,
+    "desk": "제외",
+    "one_liner": "SM벡셀, 미국 완성차와 손잡고 차세대 리튬망간리치 배터리 개발 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 36,
+    "rank": 79,
+    "desk": "제외",
+    "one_liner": "제78회 에미상 오늘 LA서 개최...'더 피트' 2년 연속 작품상 도전 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 43,
+    "rank": 80,
+    "desk": "제외",
+    "one_liner": "LA 이번 주부터 저녁 7시 전에 해 진다..점점 빨라지는 일몰 - radiokorea.com / radiokorea.com",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 46,
+    "rank": 81,
+    "desk": "제외",
+    "one_liner": "오늘 밤부터 405번 Fwy 세풀베다 패스 일부 차선·램프 폐쇄 - radiokorea.com / radiokorea.com",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 88,
-    "rank": 87,
+    "rank": 82,
     "desk": "제외",
-    "one_liner": "1 베드룸 렌트[테드조 부동산 그룹] - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "one_liner": "Administrative Coordinator 구인 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 98,
+    "rank": 83,
+    "desk": "제외",
+    "one_liner": "The Korean Community Association in Central Luzon donated re / facebook.com",
     "caution": "",
     "bundle_idea": ""
   }
