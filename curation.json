@@ -1,102 +1,102 @@
 [
   {
-    "id": 60,
+    "id": 19,
     "rank": 1,
     "desk": "주목",
-    "one_liner": "辛容祥・元民団団長が死去 在日韓国人の権利向上に尽力 - 聯合ニュース / 聯合ニュース",
+    "one_liner": "LA한인타운 신규 노래방 허가 중단...불법 영업 단속 강화 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 63,
+    "id": 9,
     "rank": 1,
+    "desk": "리스트",
+    "one_liner": "“소음·교통 민원”...LA한인타운 노래방 신규 허가 중단·단속 추진 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 24,
+    "rank": 2,
+    "desk": "리스트",
+    "one_liner": "김경협 청장, 재외동포협력센터 해직자 논란에 \"우선채용 협의\" - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 61,
+    "rank": 3,
     "desk": "리스트",
     "one_liner": "在日コリアンが韓国で30勝の金字塔も球界追放、54歳で孤独な最期…元広島カープ・福士敬章の波乱の生涯を映画化 - ｄメニ / ｄメニューニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 12,
-    "rank": 2,
-    "desk": "리스트",
-    "one_liner": "[탐사리포트] 2편: 한인타운의 작은 은행들은 어떻게 큰 은행이 됐나 — 성장의 기록 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 59,
-    "rank": 3,
-    "desk": "리스트",
-    "one_liner": "日本に拍手を送った北朝鮮サポーターたち、Ｋ―ＰＯＰを聞く北朝鮮代表 祖母の願いで韓国代表を選んだ４世の金メダリストも【在 / Yahoo!ニュース",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 54,
+    "id": 51,
     "rank": 1,
-    "desk": "이관",
-    "one_liner": "在日朝鮮学生の50回記念画集が刊行 ルーツや葛藤向き合った作品も - 朝日新聞 / 朝日新聞",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 77,
-    "rank": 2,
-    "desk": "이관",
-    "one_liner": "AURELIAN BREAKS BARRIERS: AWARD-WINNING SIGNED KOREAN-AMERIC / EIN Presswire",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 14,
-    "rank": 3,
-    "desk": "이관",
-    "one_liner": "LA한인상공회의소, 한인타운 환경정화 활동 펼쳐 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 57,
-    "rank": 4,
     "desk": "이관",
     "one_liner": "在日朝鮮人の子どもたちが描いた絵を集めた本が出版されました - やさしい朝日新聞 / やさしい朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 62,
-    "rank": 5,
+    "id": 59,
+    "rank": 2,
     "desk": "이관",
-    "one_liner": "飲酒運転容疑で逮捕の韓国系女性、マグショットが米国で話題…「保釈金を払う」との声も - AFPBB News / AFPBB News",
+    "one_liner": "辛容祥・元民団団長が死去 在日韓国人の権利向上に尽力 - 聯合ニュース / 聯合ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 68,
+    "rank": 3,
+    "desk": "이관",
+    "one_liner": "［インタビュー］ 「米中間選挙で民主党が勝ってもトランプ大統領の圧力は続く」（1） - ｄメニューニュース / ｄメニューニュース",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 84,
+    "rank": 4,
+    "desk": "이관",
+    "one_liner": "AURELIAN BREAKS BARRIERS: AWARD-WINNING SIGNED KOREAN-AMERIC / EIN Presswire",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 8,
+    "rank": 5,
+    "desk": "이관",
+    "one_liner": "[탐사리포트] 2편: 한인타운의 작은 은행들은 어떻게 큰 은행이 됐나 — 성장의 기록 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 63,
     "rank": 6,
     "desk": "이관",
-    "one_liner": "[밴쿠버 조선일보]최병하, 66표 차 초박빙 승리··· 한인 주의원으로 의정 활동 이어간다 | 밴쿠버 뉴스  / 밴쿠버 조선일보",
+    "one_liner": "ヘイトの矛先は在日コリアンから埼玉クルドに移り、子どもまで狙われ…ヘイトスピーチ解消法１０年 なぜ差別が続くのか、何が必 / 山陽新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 70,
+    "id": 81,
     "rank": 7,
-    "desk": "이관",
-    "one_liner": "외국말로 옮기기 힘든 한국어 단어 15개 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 75,
-    "rank": 8,
     "desk": "이관",
     "one_liner": "Korean diaspora network targets export growth for regional b / The Korea Times",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 78,
+    "id": 82,
+    "rank": 8,
+    "desk": "이관",
+    "one_liner": "From H Mart to the Polls: Korean American Voters in Georgia  / American Community Media",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 86,
     "rank": 9,
     "desk": "이관",
     "one_liner": "Andrea Bang explores connection, understanding across langua / Hankyoreh : English Edition",
@@ -104,7 +104,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 79,
+    "id": 87,
     "rank": 10,
     "desk": "이관",
     "one_liner": "First-Ever Korean-American Rookie Born... \"I Dream of Becomi / SBS 뉴스",
@@ -112,7 +112,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 80,
+    "id": 90,
     "rank": 11,
     "desk": "이관",
     "one_liner": "Photos | Korean American Family Service Center holds 29th an / QNS.com",
@@ -120,7 +120,7 @@
     "bundle_idea": ""
   },
   {
-    "id": 81,
+    "id": 91,
     "rank": 12,
     "desk": "이관",
     "one_liner": "Korean-American setter Audrey Park earns No. 1 pick in KOVO  / Chosunbiz",
@@ -128,63 +128,63 @@
     "bundle_idea": ""
   },
   {
-    "id": 82,
+    "id": 92,
     "rank": 13,
-    "desk": "이관",
-    "one_liner": "GoFundMe fundraiser — Korean American Launches Campaign for  / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 83,
-    "rank": 14,
     "desk": "이관",
     "one_liner": "Korean-American Audrey Park Drafted First by Industrial Bank / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 84,
-    "rank": 15,
+    "id": 93,
+    "rank": 14,
     "desk": "이관",
-    "one_liner": "OCVibe — Korean-American Star Chefs Roy Choi and Debbie Lee  / The Korea Daily",
+    "one_liner": "Soaring living costs push first-time and returning Korean vo / The Korea Times",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 85,
-    "rank": 16,
+    "id": 94,
+    "rank": 15,
     "desk": "이관",
     "one_liner": "Art&Bridge and Korea Minhwa institute partner with U.S. Kore / Chosunbiz",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 86,
+    "id": 95,
+    "rank": 16,
+    "desk": "이관",
+    "one_liner": "Korean-American Banks 3rd Quarter Earnings — 6 Major Lenders / The Korea Daily",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 96,
     "rank": 17,
-    "desk": "이관",
-    "one_liner": "Domestic Violence Awareness — NYC Korean-American Community  / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 87,
-    "rank": 18,
-    "desk": "이관",
-    "one_liner": "Caleb Ethan Park — Remember the 21-Year-Old Korean American  / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 88,
-    "rank": 19,
     "desk": "이관",
     "one_liner": "Korean-American volleyball player Audrey Park (24, Korean na / 매일경제",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 89,
+    "id": 97,
+    "rank": 18,
+    "desk": "이관",
+    "one_liner": "OCVibe — Korean-American Star Chefs Roy Choi and Debbie Lee  / The Korea Daily",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 98,
+    "rank": 19,
+    "desk": "이관",
+    "one_liner": "Domestic Violence Awareness — NYC Korean-American Community  / The Korea Daily",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 99,
     "rank": 20,
     "desk": "이관",
     "one_liner": "Chicago Makgeolli Brewery — Korean American Entrepreneur Lau / The Korea Daily",
@@ -192,58 +192,10 @@
     "bundle_idea": ""
   },
   {
-    "id": 90,
-    "rank": 21,
-    "desk": "이관",
-    "one_liner": "electric bill refund — Korean-American Recovers $14K After 1 / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 91,
-    "rank": 22,
-    "desk": "이관",
-    "one_liner": "Southern California Korean-American Real Estate Association  / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 92,
-    "rank": 23,
-    "desk": "이관",
-    "one_liner": "Medicare benefits — 2026 Senior Retirement Expo Draws Huge K / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 93,
-    "rank": 24,
-    "desk": "이관",
-    "one_liner": "Virginia House Fire — Korean-American Family Loses Mother an / The Korea Daily",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 97,
-    "rank": 25,
-    "desk": "이관",
-    "one_liner": "송영식 전 주호 한국대사 별세 - 호주 톱뉴스 / 호주 톱뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 99,
-    "rank": 26,
-    "desk": "이관",
-    "one_liner": "[호주의 첫 한인들-1] 호주 땅을 처음 밟은 한국인 ‘존 코리아’ - 호주 톱뉴스 / 호주 톱뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 0,
     "rank": 1,
     "desk": "제외",
-    "one_liner": "LA 과속단속 카메라 오늘부터 가동...\"과속 벌금 최대 500달러\" - 라디오코리아 / 라디오코리아",
+    "one_liner": "“최악의 침수 피해 입어”… 남가주 해안가 레스토랑·바 업주들 울상 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -259,7 +211,7 @@
     "id": 2,
     "rank": 3,
     "desk": "제외",
-    "one_liner": "“집 내놔도 안 팔린다”…전국 주택 매물 5채 중 1채 가격 낮춰 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“품절 대란 스타벅스 곰돌이컵 돌아온다”…11월 10일부터 한정 판매 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -267,39 +219,39 @@
     "id": 3,
     "rank": 4,
     "desk": "제외",
-    "one_liner": "“자녀 4명 두고 라스베가스 출장”.. 50대 엄마 공항서 체포 - 라디오코리아 / 라디오코리아",
+    "one_liner": "[특별기고]일한 오마르 수사 후속 — 압수수색 한 달, 영장은 아직 봉인된 채 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 4,
+    "rank": 5,
+    "desk": "제외",
+    "one_liner": "\"지쳤나?\" 질문에 발끈한 트럼프, 기자에 \"역겹다\" \"몸 관리나 해라\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 5,
-    "rank": 5,
+    "rank": 6,
     "desk": "제외",
-    "one_liner": "“집값보다 무서운 숨은 비용?”…LA 집주인들 유지비 부담 급증 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“할로윈 남은 사탕, 군인에게 기부하세요”…LA서도 수거 행사 열려 눈길 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 6,
-    "rank": 6,
+    "rank": 7,
     "desk": "제외",
-    "one_liner": "“독감 벌써 확산?”…서부 지역 빠르게 번져, 전국 44개 주 증가세 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“해킹 한 번에 수도 공급 마비?”…남가주 15만 수도 이용자 단수 우려 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 7,
-    "rank": 7,
-    "desk": "제외",
-    "one_liner": "“기내 테러 위협에 긴급 회항”…승객 150명 탄 유나이티드항공 여객기 라스베가스로 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 8,
     "rank": 8,
     "desk": "제외",
-    "one_liner": "“품절 대란 스타벅스 곰돌이컵 돌아온다”…11월 10일부터 한정 판매 - 라디오코리아 / 라디오코리아",
+    "one_liner": "[탐사리포트] 1편: 예금은 반기고 대출은 망설이던 시절 — 한인 은행은 왜 태어났나 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -307,7 +259,7 @@
     "id": 10,
     "rank": 9,
     "desk": "제외",
-    "one_liner": "\"9층 높이서 탈출 마술\"...할리우드서 아찔한 도전 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“인스타그램도 유튜브처럼 바뀐다”.. 최대 90분 영상 도입 추진 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -315,39 +267,39 @@
     "id": 11,
     "rank": 10,
     "desk": "제외",
-    "one_liner": "[탐사리포트] 1편: 예금은 반기고 대출은 망설이던 시절 — 한인 은행은 왜 태어났나 - 라디오코리아 / 라디오코리아",
+    "one_liner": "LA카운티, 소형 아파트 노후화 + 재개발이 임대 주택 감소 가속화 시켜 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 13,
+    "id": 12,
     "rank": 11,
+    "desk": "제외",
+    "one_liner": "\"9층 높이서 탈출 마술\"...할리우드서 아찔한 도전 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 14,
+    "rank": 12,
+    "desk": "제외",
+    "one_liner": "사라 에르난데스 CA 상원의원 후보, 버몬트·미래 양로보건센터 방문 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 16,
+    "rank": 13,
     "desk": "제외",
     "one_liner": "[인터뷰]“10대부터 정치 활동” 코너 트라웃 부에나팍 시장, OC 수퍼바이저 4지구 도전 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 16,
-    "rank": 12,
-    "desk": "제외",
-    "one_liner": "“인스타그램도 유튜브처럼 바뀐다”.. 최대 90분 영상 도입 추진 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 17,
-    "rank": 13,
-    "desk": "제외",
-    "one_liner": "LA카운티, 소형 아파트 노후화 + 재개발이 임대 주택 감소 가속화 시켜 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 19,
     "rank": 14,
     "desk": "제외",
-    "one_liner": "사라 에르난데스 CA 상원의원 후보, 버몬트·미래 양로보건센터 방문 - 라디오코리아 / 라디오코리아",
+    "one_liner": "\"우리 동네를 그림으로\"...이웃케어 '2026 학생 미술대회' 개최 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -355,39 +307,39 @@
     "id": 20,
     "rank": 15,
     "desk": "제외",
-    "one_liner": "워너브러더스 합병 후 감원 본격화…LA서 일자리 4,500개 사라질 수도 - 라디오코리아 / 라디오코리아",
+    "one_liner": "LA시 “식당 개업부터 확장까지”...문턱 낮추고 운영비 지원 추진 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 22,
+    "id": 21,
     "rank": 16,
-    "desk": "제외",
-    "one_liner": "옥스나드 골목길 총격 살인범에 징역 110년 선고 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 23,
-    "rank": 17,
-    "desk": "제외",
-    "one_liner": "연준, 기준금리 3.9% 동결.. 물가 여전히 높아 추가 인상 가능성 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 25,
-    "rank": 18,
     "desk": "제외",
     "one_liner": "연세 남가주 동문회·YGCEO, 무료 건강 박람회 성황…600여 명 방문 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
+    "id": 25,
+    "rank": 17,
+    "desk": "제외",
+    "one_liner": "“주택가 자율주행 차량 출몰에 주민 불만 터져”… 커머스 시 순찰 강화 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
     "id": 26,
+    "rank": 18,
+    "desk": "제외",
+    "one_liner": "연준, 기준금리 3.9% 동결.. 물가 여전히 높아 추가 인상 가능성 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 28,
     "rank": 19,
     "desk": "제외",
-    "one_liner": "“시속 80마일 뺑소니에 16살 소년 참변”…LA서 20대 여성 체포 - 라디오코리아 / 라디오코리아",
+    "one_liner": "LA 과속 단속 카메라 가동…우리 동네 위치는 어디? - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -395,7 +347,7 @@
     "id": 29,
     "rank": 20,
     "desk": "제외",
-    "one_liner": "LA 과속 단속 카메라 가동…우리 동네 위치는 어디? - 라디오코리아 / 라디오코리아",
+    "one_liner": "LA 세븐일레븐 ATM 연쇄 강도...용의자 2명 기소 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -403,7 +355,7 @@
     "id": 30,
     "rank": 21,
     "desk": "제외",
-    "one_liner": "중간선거 앞두고 트럼프 관련 기업들 '긴장'…변호사 잇달아 영입 - 라디오코리아 / 라디오코리아",
+    "one_liner": "워너브러더스 합병 후 감원 본격화…LA서 일자리 4,500개 사라질 수도 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
@@ -411,157 +363,157 @@
     "id": 31,
     "rank": 22,
     "desk": "제외",
-    "one_liner": "LA시장 선거에 등장한 '가짜 라만'…AI 목소리에 윤리위 제소 - 라디오코리아 / 라디오코리아",
+    "one_liner": "“LA 맛집, 이제 틱톡에서 찾는다”.. 검색부터 예약까지 한 번에 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 33,
-    "rank": 27,
+    "rank": 23,
+    "desk": "제외",
+    "one_liner": "중간선거 앞두고 트럼프 관련 기업들 '긴장'…변호사 잇달아 영입 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 34,
+    "rank": 24,
+    "desk": "제외",
+    "one_liner": "LA시장 선거에 등장한 '가짜 라만'…AI 목소리에 윤리위 제소 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 35,
+    "rank": 21,
     "desk": "이관",
     "one_liner": "與 \"초광역특구법, 국회 특위서 입법 추진…野와 협상 나설 것\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 35,
-    "rank": 23,
-    "desk": "제외",
-    "one_liner": "[특별리포트] 블룸버그 생애 스토리 1편 — 주차장에서 학비를 벌던 공학도, 마이클 블룸버그의 시작 - 라디 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
     "id": 36,
-    "rank": 24,
+    "rank": 25,
     "desk": "제외",
-    "one_liner": "중수청장 \"한동훈 딸 진상규명 필요…한강버스 의혹 수사 검토\"(종합) - 라디오코리아 / 라디오코리아",
+    "one_liner": "\"선거 다음 날 나와라\"...법무부, LA 선거국 직원에 대배심 소환장 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 37,
-    "rank": 25,
+    "id": 39,
+    "rank": 26,
+    "desk": "제외",
+    "one_liner": "[특별리포트] 블룸버그 생애 스토리 2편 — 쫓겨난 자리에서 세운 제국 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 40,
+    "rank": 27,
     "desk": "제외",
     "one_liner": "韓총리, 상인연합회 만나 \"지역경제 기반…어려움 덜도록 노력\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 38,
-    "rank": 26,
+    "id": 41,
+    "rank": 28,
+    "desk": "제외",
+    "one_liner": "중수청장 \"한동훈 딸 진상규명 필요…한강버스 의혹 수사 검토\"(종합) - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 42,
+    "rank": 29,
     "desk": "제외",
     "one_liner": "韓총리 \"새만금, 임기내 최대한 진척…향후 10년이 미래 좌우\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 39,
-    "rank": 27,
+    "id": 43,
+    "rank": 30,
     "desk": "제외",
     "one_liner": "연방 상원 7대 격전지 5%p내 박빙…\"공화 '딥사우스 심장'도 접전\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 40,
-    "rank": 28,
+    "id": 44,
+    "rank": 31,
     "desk": "제외",
     "one_liner": "LG전자, 서랍형 냉동고·AI 기능 갖춘 \"스템\" 냉장고 출시 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 41,
-    "rank": 29,
+    "id": 45,
+    "rank": 22,
+    "desk": "이관",
+    "one_liner": "李대통령 \"장진호 전투, 혈맹의 역사…한미동맹 더 굳건히 강화\" - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 46,
+    "rank": 32,
     "desk": "제외",
     "one_liner": "원익로보틱스, 완주에 1천억원 투자…제조업 AI 전환 \"탄력\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 42,
-    "rank": 30,
-    "desk": "제외",
-    "one_liner": "“할로윈 남은 사탕, 군인에게 기부하세요”…LA서도 수거 행사 열려 눈길 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 43,
-    "rank": 31,
+    "id": 47,
+    "rank": 33,
     "desk": "제외",
     "one_liner": "[특징주] LIG D - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 44,
-    "rank": 32,
-    "desk": "제외",
-    "one_liner": "“매일 마시는 커피, 심장에 좋을까?”…전문의들이 추천한 커피는 따로 있다 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 45,
-    "rank": 33,
-    "desk": "제외",
-    "one_liner": "\"尹 관저이전\" 김오진 前국토차관에 징역5년 구형…내달 20일 선고(종합) - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 46,
+    "id": 48,
     "rank": 34,
     "desk": "제외",
-    "one_liner": "靑, 금융권 연쇄해킹 긴급 대응회의…\"보안 강화·2차피해 차단\"(종합) - 라디오코리아 / 라디오코리아",
+    "one_liner": "韓총리, 민생침해범죄 대응 주역들에 \"국민 지키는 방파제 되길\" - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 47,
+    "id": 49,
     "rank": 35,
     "desk": "제외",
-    "one_liner": "가주 총무처 “미리 투표하고 투표용지 처리 현황 확인하세요” - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 48,
-    "rank": 36,
-    "desk": "제외",
-    "one_liner": "전남광주시 \"17조\" 일반회계 금고 운영 기관에 NH농협은행 - 라디오코리아 / 라디오코리아",
+    "one_liner": "[특별기고] 블룸버그 생애 스토리 3편 — 시장(市長)이 된 기업가, 데이터로 세계를 읽다 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 50,
-    "rank": 37,
+    "rank": 36,
     "desk": "제외",
-    "one_liner": "韓国人高齢者を孤立させない 支援続ける東京・新大久保「福祉会」 [東京都] - 朝日新聞 / 朝日新聞",
+    "one_liner": "（書評）『ルポ 大阪・生野 人口２割が外国籍の街』 玉置太郎、大瀧哲彰〈著〉 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 51,
-    "rank": 38,
+    "id": 52,
+    "rank": 37,
     "desk": "제외",
     "one_liner": "イスラエル総選挙（2026） - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 52,
-    "rank": 39,
+    "id": 53,
+    "rank": 38,
     "desk": "제외",
     "one_liner": "民主社会主義 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 53,
-    "rank": 40,
+    "id": 54,
+    "rank": 39,
     "desk": "제외",
     "one_liner": "MMX 【朝ポキ】朝日新聞のポッドキャスト・インターネットラジオ配信 - 朝日新聞 / 朝日新聞",
     "caution": "",
@@ -569,6 +521,14 @@
   },
   {
     "id": 55,
+    "rank": 40,
+    "desk": "제외",
+    "one_liner": "性被害訴える女性、怒りあらわ 公判中断の2年「時間止まったまま」 [大阪府] - 朝日新聞 / 朝日新聞",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 56,
     "rank": 41,
     "desk": "제외",
     "one_liner": "万博工事費を自宅の改修に流用 竹中工務店元社員、起訴内容認める [大阪府] [大阪・関西万博2025] - 朝日新聞 / 朝日新聞",
@@ -576,10 +536,10 @@
     "bundle_idea": ""
   },
   {
-    "id": 56,
+    "id": 57,
     "rank": 42,
     "desk": "제외",
-    "one_liner": "性被害訴える女性、怒りあらわ 公判中断の2年「時間止まったまま」 [大阪府] - 朝日新聞 / 朝日新聞",
+    "one_liner": "旧姓どれくらい使える？ 法制化の狙いは、どうなる選択的夫婦別姓 - 朝日新聞 / 朝日新聞",
     "caution": "",
     "bundle_idea": ""
   },
@@ -587,20 +547,20 @@
     "id": 58,
     "rank": 43,
     "desk": "제외",
-    "one_liner": "旧姓どれくらい使える？ 法制化の狙いは、どうなる選択的夫婦別姓 - 朝日新聞 / 朝日新聞",
+    "one_liner": "俳優 リュ・スンリョンが大阪へ！ 「第12回 大阪韓国映画祭」、11月20日開幕 - 産経ニュース / 産経ニュース",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 61,
+    "id": 60,
     "rank": 44,
     "desk": "제외",
-    "one_liner": "韓国系電池大手3社の北米蓄電池受注が34.4GWhに迫る、中国勢のシェアは圧迫 - BigGo ファイナンス / BigGo ファイナンス",
+    "one_liner": "韓国系資金が3日間でCXMTを264万ドル純買い越し、半導体大手にも同時に買い増し - BigGo ファイナンス / BigGo ファイナンス",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 64,
+    "id": 62,
     "rank": 45,
     "desk": "제외",
     "one_liner": "ＧＯ - BS10 / BS10",
@@ -608,168 +568,208 @@
     "bundle_idea": ""
   },
   {
-    "id": 65,
+    "id": 64,
     "rank": 46,
+    "desk": "제외",
+    "one_liner": "IBK、女子バレーボール新人ドラフト1位に「在米韓国系」オードリー・パクを指名（総合） - 스포탈코리아 / 스포탈코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 65,
+    "rank": 47,
+    "desk": "제외",
+    "one_liner": "京都市南区で多文化交流の祭り「東九条マダン」11月1日開催へ 和太鼓と朝鮮半島の打楽器が共演 - 京都新聞デジタル / 京都新聞デジタル",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 66,
+    "rank": 48,
     "desk": "제외",
     "one_liner": "韓国系米国人オードリー・パク、全体1位でIBK企業銀行へ - 조선일보 / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 66,
-    "rank": 47,
+    "id": 67,
+    "rank": 49,
     "desk": "제외",
-    "one_liner": "［インタビュー］ 「米中間選挙で民主党が勝ってもトランプ大統領の圧力は続く」（1） - ｄメニューニュース / ｄメニューニュース",
+    "one_liner": "米国のタクシー事情が激変中！　ラスベガスが「セダン回帰」し「カムリ一強」へ向かう理由 - WEB CARTOP / WEB CARTOP",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 67,
-    "rank": 48,
+    "id": 69,
+    "rank": 50,
+    "desk": "제외",
+    "one_liner": "コスフォがシンガポールでK-ファウンダー交流拡大 - Chosunbiz / Chosunbiz",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 70,
+    "rank": 51,
+    "desk": "제외",
+    "one_liner": "米国が中国人向けビザ免除制度を停止　サイパン観光を支えた“中国ルート”に終止符 - Infoseek / Infoseek",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 71,
+    "rank": 52,
     "desk": "제외",
     "one_liner": "米・飲酒運転容疑の韓国系女性を逮捕 かわいすぎるマグショットに「保釈金は私が払う」とのコメントが殺到 - Switch  / Switch news",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 69,
-    "rank": 49,
+    "id": 72,
+    "rank": 53,
+    "desk": "제외",
+    "one_liner": "10월 27일 단체 및 봉사단체 소식 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 73,
+    "rank": 54,
+    "desk": "제외",
+    "one_liner": "[밴쿠버 조선일보]박물관 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 74,
+    "rank": 55,
+    "desk": "제외",
+    "one_liner": "자동차 매매 > 2024 Mazda CX-5 GS AWD - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 75,
+    "rank": 56,
     "desk": "제외",
     "one_liner": "‘66표 차 접전’ 최병하·시에, 최 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 71,
-    "rank": 50,
+    "id": 76,
+    "rank": 57,
+    "desk": "제외",
+    "one_liner": "[밴쿠버 조선일보]유언장으로 물려줄 수 있는 재산은 무엇일까? | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 77,
+    "rank": 58,
     "desk": "제외",
     "one_liner": "[밴쿠버 조선일보]치아·잇몸에 좋은 음식과 생활습관–1편 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 72,
-    "rank": 51,
+    "id": 78,
+    "rank": 59,
     "desk": "제외",
     "one_liner": "[밴쿠버 조선일보]칠리왁서 544kg 초대형 철갑상어 잡혀 | 밴쿠버 뉴스 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 73,
-    "rank": 52,
+    "id": 79,
+    "rank": 60,
     "desk": "제외",
-    "one_liner": "[밴쿠버 조선일보]11월 3일 Express Entry 대개편, 고임금 우대 속 드러난 5가지 핵심 쟁점 | / 밴쿠버 조선일보",
+    "one_liner": "고층빌딩 외벽 타는 ‘청년 로프공’··· 여행하듯 산다는 것 - 밴쿠버 조선일보 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 74,
-    "rank": 53,
+    "id": 80,
+    "rank": 61,
     "desk": "제외",
-    "one_liner": "자동차 매매 > 2008 Acura MDX - 밴쿠버 조선일보 / 밴쿠버 조선일보",
+    "one_liner": "[밴쿠버 조선일보]3년 만의 금리 인상, 이제 내 모기지에서 챙겨야 할 것들 | 밴쿠버 뉴스 - 밴쿠버 조선 / 밴쿠버 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 94,
-    "rank": 54,
+    "id": 85,
+    "rank": 62,
     "desk": "제외",
-    "one_liner": "호주 소규모 사업체 ‘첩첩산중’ - 호주 톱뉴스 / 호주 톱뉴스",
+    "one_liner": "Grandma Bob’s Spread Dough invites culinary visionaries to c / WDET 101.9 FM",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 95,
-    "rank": 55,
+    "id": 88,
+    "rank": 63,
     "desk": "제외",
-    "one_liner": "빌 크루스 목사 \"노숙자 위기 최악\" 경고 - 호주 톱뉴스 / 호주 톱뉴스",
+    "one_liner": "KAFSC Silent March speaks volumes - Queens Chronicle / Queens Chronicle",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 96,
-    "rank": 56,
+    "id": 89,
+    "rank": 64,
     "desk": "제외",
-    "one_liner": "[호주톺아보기] “호주에서 ‘집’이란 무엇일까” - 호주 톱뉴스 / 호주 톱뉴스",
+    "one_liner": "How a silent march through Queens reaches gender-based viole / Epicenter NYC",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 98,
-    "rank": 57,
-    "desk": "제외",
-    "one_liner": "호주의 제1호 한인 ‘존 코리아’ 묘비 제막 - 호주 톱뉴스 / 호주 톱뉴스",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 76,
-    "rank": 58,
+    "id": 83,
+    "rank": 65,
     "desk": "제외",
     "one_liner": "Korean-American Setter Audrey Park Becomes V-League's First  / 조선일보",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 4,
-    "rank": 59,
-    "desk": "제외",
-    "one_liner": "3천400만 달러 들인 LA학교에 학생은 '0명'...5년째 방치 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 9,
-    "rank": 60,
-    "desk": "제외",
-    "one_liner": "웨이모, LA 사우스베이까지 확대...토런스도 운행 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 15,
-    "rank": 61,
-    "desk": "제외",
-    "one_liner": "LA 가로등에 '번호판 추적 카메라' 설치?...오늘 시의회 표결 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 18,
-    "rank": 62,
-    "desk": "제외",
-    "one_liner": "유방암 환우 & 서바이버를 위한 ‘힐링 투게더’ 개최 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 21,
-    "rank": 63,
+    "id": 13,
+    "rank": 66,
     "desk": "제외",
     "one_liner": "CA 보험국장 선거 제인 김 후보, 다양한 커뮤니티 노동계 지지 얻어 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 24,
-    "rank": 64,
+    "id": 15,
+    "rank": 67,
     "desk": "제외",
-    "one_liner": "한인타운납골공원묘지 COMMUNITY FUNERAL SERVICE INC, - 라디오코리아 / 라디오코리아",
+    "one_liner": "유방암 환우 & 서바이버를 위한 ‘힐링 투게더’ 개최 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 18,
+    "rank": 68,
+    "desk": "제외",
+    "one_liner": "이지아, 초미니 원피스에 슬리퍼만 신어도 화보..누가 48세로 보겠어[핫피플] - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 22,
+    "rank": 69,
+    "desk": "제외",
+    "one_liner": "너 말고 다른 애인..서강준X안은진, 결국 이별하나 '켜켜이 쌓은 현실멜로 - 라디오코리아 / 라디오코리아",
+    "caution": "",
+    "bundle_idea": ""
+  },
+  {
+    "id": 23,
+    "rank": 70,
+    "desk": "제외",
+    "one_liner": "125마일 떨어진 의사가 뇌졸중 수술...원격 로봇수술 현실로 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
     "id": 27,
-    "rank": 65,
-    "desk": "제외",
-    "one_liner": "클레버 케어, 2027년 메디케어 별점 4.5점 획득…신규 플랜과 혜택 확대 - 라디오코리아 / 라디오코리아",
-    "caution": "",
-    "bundle_idea": ""
-  },
-  {
-    "id": 28,
-    "rank": 66,
+    "rank": 71,
     "desk": "제외",
     "one_liner": "BTS 공연 열기 이어간 아르헨…전통예술부터 K-뷰티·푸드까지 - 라디오코리아 / 라디오코리아",
     "caution": "",
@@ -777,25 +777,25 @@
   },
   {
     "id": 32,
-    "rank": 67,
+    "rank": 72,
     "desk": "제외",
     "one_liner": "라디오코리아 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 34,
-    "rank": 68,
+    "id": 37,
+    "rank": 73,
     "desk": "제외",
     "one_liner": "농심, LA 유명 셰프와 신라면 요리…미국서 40주년 마케팅 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   },
   {
-    "id": 49,
-    "rank": 69,
+    "id": 38,
+    "rank": 74,
     "desk": "제외",
-    "one_liner": "PCB뱅크, 3분기 순익 1,210만 달러…사상 최대 실적 - 라디오코리아 / 라디오코리아",
+    "one_liner": "한은, 11월 최대 7.5조원 규모 통화안정증권 발행 - 라디오코리아 / 라디오코리아",
     "caution": "",
     "bundle_idea": ""
   }
